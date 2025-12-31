@@ -1,0 +1,30 @@
+{
+  "chunk_id": "a0d39d758739571b",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    18,
+    18
+  ],
+  "page_nos": [
+    18
+  ],
+  "header_path": "Market Information > Asking and Effective Rent",
+  "section_label": "Asking and Effective Rent",
+  "element_type": "parent",
+  "raw_md_fragment": "### Asking and Effective Rent\n\nDuring February, asking rents relinquished a portion of January's increase, declining by 0.1% to $1,632.\n\nMean unit prices in the metro are as follows: studios $1,256, one bedrooms $1,422, two bedrooms $1,763, and three bedrooms $2,292. Over the past twelve months, asking rents have increased a total of 12.7%, up from $1,448. Since the beginning of Q1 2012, the metro as a whole has recorded an annual average increase of 4.2%.\n\nEffective rents, which exclude the value of concessions offered to prospective tenants, also fell by 0.1% during February. The identical rates of change suggest that, although rents drifted downward, landlords have avoided increasing the relative value of incentives packages used to attract new renters. During the past 12 months, positive movement in asking rent was recorded in all twenty-eight of the metro's submarkets.",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 18 | Section: Market Information > Asking and Effective Rent\n\n### Asking and Effective Rent\nDuring February, asking rents relinquished a portion of January's increase, declining by 0.1% to $1,632.\nMean unit prices in the metro are as follows: studios $1,256, one bedrooms $1,422, two bedrooms $1,763, and three bedrooms $2,292. Over the past twelve months, asking rents have increased a total of 12.7%, up from $1,448. Since the beginning of Q1 2012, the metro as a whole has recorded an annual average increase of 4.2%.\nEffective rents, which exclude the value of concessions offered to prospective tenants, also fell by 0.1% during February. The identical rates of change suggest that, although rents drifted downward, landlords have avoided increasing the relative value of incentives packages used to attract new renters. During the past 12 months, positive movement in asking rent was recorded in all twenty-eight of the metro's submarkets.",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Asking and Effective Rent"
+  },
+  "parent_id": null,
+  "token_count": 227,
+  "node_id": "de5c3300-25a6-4ff3-b9df-c1aaa94194e0",
+  "line_start": 610,
+  "line_end": 614,
+  "child_ids": [
+    "6f0136ffeff26ff8"
+  ],
+  "parent_type": "soft_section"
+}

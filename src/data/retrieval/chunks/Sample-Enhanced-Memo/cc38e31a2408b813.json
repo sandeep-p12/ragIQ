@@ -1,0 +1,32 @@
+{
+  "chunk_id": "cc38e31a2408b813",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    13,
+    13
+  ],
+  "page_nos": [
+    13
+  ],
+  "header_path": null,
+  "section_label": "Two images showing the exterior of a two-story bri",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Transactional Analysis\n\nThe subject loan request will be secured by a 1st mortgage lien on the subject property located at COLLATRAL ADDRESS. The subject property is a two-story multifamily building with a finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\n**Site Visit:** Loan officer performed a site visit on April 1, 2022 and noted the property is in good condition with no signs of deferred maintenance.\n\n[IMAGE]\nTwo images showing the exterior of a two-story brick multifamily building. The building has multiple windows and air conditioning units visible. There are cars parked on the street in front of the building.\n[/IMAGE]\n\n[IMAGE]\nTwo additional images showing different angles of the same two-story brick multifamily building. The building is situated on a corner with a street view. Cars are parked along the street.\n[/IMAGE]",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 13 | Section: Two images showing the exterior of a two-story bri\n\n[IMAGE]\nTwo images showing the exterior of a two-story brick multifamily building. The building has multiple windows and air conditioning units visible. There are cars parked on the street in front of the building.\n[/IMAGE]\n\nDocument: Sample-Enhanced-Memo | Page: 14 | Section: Two additional images showing different angles of\n\n[IMAGE]\nTwo additional images showing different angles of the same two-story brick multifamily building. The building is situated on a corner with a street view. Cars are parked along the street.\n[/IMAGE]",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "imageblockelement"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "7f650574dfd42af4",
+      "e0547a12acdcd599"
+    ]
+  },
+  "parent_id": "5548dab953acfce9",
+  "token_count": 136,
+  "node_id": "c2ccd20e-f786-495c-aff5-d044faba50a3",
+  "line_start": 526,
+  "line_end": 540
+}

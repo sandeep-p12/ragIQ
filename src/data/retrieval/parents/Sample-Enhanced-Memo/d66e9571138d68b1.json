@@ -1,0 +1,30 @@
+{
+  "chunk_id": "d66e9571138d68b1",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    2,
+    2
+  ],
+  "page_nos": [
+    2
+  ],
+  "header_path": "Collateral",
+  "section_label": "Collateral",
+  "element_type": "parent",
+  "raw_md_fragment": "## Collateral\n\n| Asset Type | Multifamily (5+ units) Property |\n| --- | --- |\n| Description | COLLATERAL ADDRESS |\n| Estimated Value | $735,000 |\n| Estimated LTV | 70% |\n| Purchase Price | $315,\n\n000 | | Estimated LTV | 70% | | Purchase Price | $315,000 | | Lien Position | ☑ 1st Lien Position | |  | ☐ 2nd Lien Position | | Security | ☑ Property search | |  | ☑ Title Insurance | |  | ☑ Assign.\n\nof Rents/Leases |",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 2 | Section: Collateral\n\n## Collateral\nTable Header: Asset Type | Multifamily (5+ units) Property\nRow: Description | COLLATERAL ADDRESS\nRow: Estimated Value | $735,000\nRow: Estimated LTV | 70%\nRow: Purchase Price | $315,\n000 | | Estimated LTV | 70% | | Purchase Price | $315,000 | | Lien Position | ☑ 1st Lien Position | |  | ☐ 2nd Lien Position | | Security | ☑ Property search | |  | ☑ Title Insurance | |  | ☑ Assign.\nof Rents/Leases |",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Collateral"
+  },
+  "parent_id": null,
+  "token_count": 151,
+  "node_id": "d03a2cf6-7e3c-4241-bc9e-dd6e79b7bde3",
+  "line_start": 44,
+  "line_end": 47,
+  "child_ids": [
+    "28fb33b5eb95ee50"
+  ],
+  "parent_type": "soft_section"
+}

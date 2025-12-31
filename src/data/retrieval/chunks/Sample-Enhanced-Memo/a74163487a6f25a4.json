@@ -1,0 +1,33 @@
+{
+  "chunk_id": "a74163487a6f25a4",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": "Products & Services Segmentation > SWOT > Strengths",
+  "section_label": "Strengths",
+  "element_type": "mixed",
+  "raw_md_fragment": "#### Strengths\n\nSector Average\n\n#### Weaknesses",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 11 | Section: Products & Services Segmentation > SWOT > Strengths\n\n#### Strengths\nSector Average\n\nDocument: Sample-Enhanced-Memo | Page: 11 | Section: Products & Services Segmentation > SWOT > Weaknesses\n\n#### Weaknesses",
+  "metadata": {
+    "element_count": 2,
+    "element_types": [
+      "heading",
+      "listelement"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "0836dd3e31a558b1",
+      "ca17bd27a57a5726"
+    ]
+  },
+  "parent_id": "d5ff0f9560521632",
+  "token_count": 68,
+  "node_id": "a3e5f262-c25d-4501-b377-9abc48e5e716",
+  "line_start": 451,
+  "line_end": 465
+}

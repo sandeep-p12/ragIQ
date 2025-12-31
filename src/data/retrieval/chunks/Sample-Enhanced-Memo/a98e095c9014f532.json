@@ -1,0 +1,31 @@
+{
+  "chunk_id": "a98e095c9014f532",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    8,
+    8
+  ],
+  "page_nos": [
+    8
+  ],
+  "header_path": "Business Financial Analysis for BORROWER > Rent Roll",
+  "section_label": "Rent Roll",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Rent Roll\n\nAccording to the borrower, the subject property is a two-story multifamily building that is fully leased.\n\nA copy of a rent roll was not provided, however, leases are on file and indicated all six units are leased on a month-to-month basis. The oldest leases date back to 2017 for three units while the other three units recently commenced in 2020. According to the provided lease agreements, the property generates $4,450 in monthly rental income or $53,400 in gross annual rents.\n\nThe entity anticipates a net operating income of $32,845, less a 5% vacancy factor, carryover of historical expenses, lease depreciation and interest expense, as well as, exclusion of distributions as future amounts are unknown and cannot be predicted.",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 8 | Section: Business Financial Analysis for BORROWER > Rent Roll\n\n## Rent Roll\nAccording to the borrower, the subject property is a two-story multifamily building that is fully leased.\nA copy of a rent roll was not provided, however, leases are on file and indicated all six units are leased on a month-to-month basis. The oldest leases date back to 2017 for three units while the other three units recently commenced in 2020. According to the provided lease agreements, the property generates $4,450 in monthly rental income or $53,400 in gross annual rents.\nThe entity anticipates a net operating income of $32,845, less a 5% vacancy factor, carryover of historical expenses, lease depreciation and interest expense, as well as, exclusion of distributions as future amounts are unknown and cannot be predicted.",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 0.5
+  },
+  "parent_id": "d926ccb77ba75f02",
+  "token_count": 185,
+  "node_id": "738c374a-c38d-425f-824f-6602fe3970f3",
+  "line_start": 287,
+  "line_end": 291
+}

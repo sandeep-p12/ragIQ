@@ -1,0 +1,30 @@
+{
+  "chunk_id": "903aff0bf7e06bfd",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": "Products & Services Segmentation > Major Players",
+  "section_label": "Major Players",
+  "element_type": "parent",
+  "raw_md_fragment": "### Major Players\n\n### SWOT",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 11 | Section: Products & Services Segmentation > Major Players\n\n### Major Players\n\nDocument: Sample-Enhanced-Memo | Page: 11 | Section: Products & Services Segmentation > SWOT\n\n### SWOT",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Major Players"
+  },
+  "parent_id": null,
+  "token_count": 57,
+  "node_id": "a3e5f262-c25d-4501-b377-9abc48e5e716",
+  "line_start": 451,
+  "line_end": 457,
+  "child_ids": [
+    "5cc1c55c7c2c8226"
+  ],
+  "parent_type": "soft_section"
+}

@@ -1,0 +1,30 @@
+{
+  "chunk_id": "5bd2251a209b77bd",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    3,
+    3
+  ],
+  "page_nos": [
+    3
+  ],
+  "header_path": "Background on Borrower, Guarantors, and Loan Request",
+  "section_label": "Background on Borrower, Guarantors, and Loan Request",
+  "element_type": "parent",
+  "raw_md_fragment": "## Background on Borrower, Guarantors, and Loan Request\n\nThe following was provided by the Relationship Manager at the CU:\n\nBORROWER is a real estate holding company that was established in 10/2016 for the sole purpose of acquiring and managing the subject property.\n\nLLC Member and guarantor, GUARANTOR 2, is and has been a Rabbi/Teacher for the past 15 years, currently working at The Mesivta High School of Greater Philadelphia office, located in Lansdowne, PA. Rabbi GUARANTOR 2 moved to Elkins Park, PA ten years ago to serve as Kollel Director of Eitz Chaim of Philadelphia. Rabbi GUARANTOR 2 as serves as the Director of Outreach and Education for the Young Israel of Elkins Park and is a member of the Bais Din of Philadelphia. After receiving semicha from Yeshivas Chofetz Chaim in Queens, Rabbi GUARANTOR 2 attended Yeshivas Bais Yosef-Novhorodok and received intensive Halachic training under noted author and posek, Rav Binyomin Forst. In addition, he holds a bachelor’s degree in psychology from Touro College.\n\nLLC Member and guarantor, GUARANTOR 1 is and has been the manager of labor advocacy for SEPTA transportation for the past 9 years. Prior to his role within the SEPTA organization Mr. GUARANTOR 1 practiced several different facets of law, but concentrated on labor issues.\n\nPurpose of Loan:\n\nPayoff and close an existing American Heritage loan #1-1-13281, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 3 | Section: Background on Borrower, Guarantors, and Loan Request\n\n## Background on Borrower, Guarantors, and Loan Request\nThe following was provided by the Relationship Manager at the CU:\nBORROWER is a real estate holding company that was established in 10/2016 for the sole purpose of acquiring and managing the subject property.\nLLC Member and guarantor, GUARANTOR 2, is and has been a Rabbi/Teacher for the past 15 years, currently working at The Mesivta High School of Greater Philadelphia office, located in Lansdowne, PA. Rabbi GUARANTOR 2 moved to Elkins Park, PA ten years ago to serve as Kollel Director of Eitz Chaim of Philadelphia. Rabbi GUARANTOR 2 as serves as the Director of Outreach and Education for the Young Israel of Elkins Park and is a member of the Bais Din of Philadelphia. After receiving semicha from Yeshivas Chofetz Chaim in Queens, Rabbi GUARANTOR 2 attended Yeshivas Bais Yosef-Novhorodok and received intensive Halachic training under noted author and posek, Rav Binyomin Forst. In addition, he holds a bachelor’s degree in psychology from Touro College.\nLLC Member and guarantor, GUARANTOR 1 is and has been the manager of labor advocacy for SEPTA transportation for the past 9 years. Prior to his role within the SEPTA organization Mr. GUARANTOR 1 practiced several different facets of law, but concentrated on labor issues.\nPurpose of Loan:\nPayoff and close an existing American Heritage loan #1-1-13281, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Background on Borrower, Guarantors, and Loan Request"
+  },
+  "parent_id": null,
+  "token_count": 387,
+  "node_id": "647c1cbd-ef21-4328-a81b-44e40f27e695",
+  "line_start": 89,
+  "line_end": 103,
+  "child_ids": [
+    "96e79eaff135ad89"
+  ],
+  "parent_type": "soft_section"
+}

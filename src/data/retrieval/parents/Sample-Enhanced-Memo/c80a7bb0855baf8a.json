@@ -1,0 +1,30 @@
+{
+  "chunk_id": "c80a7bb0855baf8a",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    15,
+    15
+  ],
+  "page_nos": [
+    15
+  ],
+  "header_path": null,
+  "section_label": "Three images showing various views of the property",
+  "element_type": "parent",
+  "raw_md_fragment": "[IMAGE]\nThree images showing various views of the property:\n1. Side view of the building showing a narrow alleyway and adjacent properties.\n1. Rear view showing a parking area with several cars.\n1. Close-up of the building's electrical meters mounted on the exterior wall.\n[/IMAGE]\n\n[IMAGE]\nImage showing a stairwell with brick walls and mailboxes on the right side. The stairwell has a carpeted floor and metal railings.\n[/IMAGE]\n\n[IMAGE]\nImage of a hallway with a wooden door and a painting on the wall. The floor is carpeted, and there is a metal railing on the stairs.\n[/IMAGE]\n\n[IMAGE]\nImage of a brick building exterior with a red awning over the entrance. The building has multiple windows with air conditioning units.\n[/IMAGE]",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 15 | Section: Three images showing various views of the property\n\n[IMAGE]\nThree images showing various views of the property:\n1. Side view of the building showing a narrow alleyway and adjacent properties.\n1. Rear view showing a parking area with several cars.\n1. Close-up of the building's electrical meters mounted on the exterior wall.\n[/IMAGE]\n\nDocument: Sample-Enhanced-Memo | Page: 16 | Section: Image showing a stairwell with brick walls and mai\n\n[IMAGE]\nImage showing a stairwell with brick walls and mailboxes on the right side. The stairwell has a carpeted floor and metal railings.\n[/IMAGE]",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Three images showing various views of the property"
+  },
+  "parent_id": null,
+  "token_count": 146,
+  "node_id": "f7dfbcaf-6b93-4d3f-8c1d-0b9ccc0a5a15",
+  "line_start": 544,
+  "line_end": 562,
+  "child_ids": [
+    "4f4cfcacfa437740"
+  ],
+  "parent_type": "soft_section"
+}

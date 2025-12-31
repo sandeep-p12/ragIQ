@@ -1,0 +1,30 @@
+{
+  "chunk_id": "2148c8e952de0036",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": "Products & Services Segmentation > SWOT > Opportunities",
+  "section_label": "Opportunities",
+  "element_type": "parent",
+  "raw_md_fragment": "#### Opportunities\n\n#### Threats",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 11 | Section: Products & Services Segmentation > SWOT > Opportunities\n\n#### Opportunities\n\nDocument: Sample-Enhanced-Memo | Page: 11 | Section: Products & Services Segmentation > SWOT > Threats\n\n#### Threats",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Opportunities"
+  },
+  "parent_id": null,
+  "token_count": 61,
+  "node_id": "0f02342e-5b5c-4eb9-88fb-4c3197a47c4f",
+  "line_start": 465,
+  "line_end": 465,
+  "child_ids": [
+    "6c9e029c8ad7c582"
+  ],
+  "parent_type": "soft_section"
+}

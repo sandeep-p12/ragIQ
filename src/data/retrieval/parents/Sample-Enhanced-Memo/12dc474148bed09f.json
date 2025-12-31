@@ -1,0 +1,30 @@
+{
+  "chunk_id": "12dc474148bed09f",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": "Industry at a Glance > Key Statistics",
+  "section_label": "Key Statistics",
+  "element_type": "parent",
+  "raw_md_fragment": "### Key Statistics\n\n[IMAGE]\n\n8%\n\n4%\n\n[/IMAGE]\n\n### Key External Drivers\n\n6pp**: National unemployment rate",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 10 | Section: Industry at a Glance > Key Statistics\n\n### Key Statistics\n[IMAGE]\n8%\n4%\n[/IMAGE]\n\nDocument: Sample-Enhanced-Memo | Page: 10 | Section: Industry at a Glance > Key External Drivers\n\n### Key External Drivers\n6pp**: National unemployment rate",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Key Statistics"
+  },
+  "parent_id": null,
+  "token_count": 76,
+  "node_id": "eda6ed91-6df8-4641-a2d1-d39943b1b0be",
+  "line_start": 332,
+  "line_end": 352,
+  "child_ids": [
+    "c2a099f6b25062a0"
+  ],
+  "parent_type": "soft_section"
+}
