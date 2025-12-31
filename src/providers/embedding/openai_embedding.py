@@ -3,15 +3,19 @@
 import time
 from typing import Dict, List
 
-from openai import APIError, OpenAI, RateLimitError
+from openai import APIError, OpenAI, RateLimitError, AzureOpenAI
+from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 
 from src.config.retrieval import EmbeddingConfig
 from src.core.interfaces import EmbeddingProvider
-from src.utils.env import get_openai_api_key
+from src.utils.env import get_openai_api_key, get_azure_openai_api_key, get_azure_openai_endpoint, get_azure_openai_api_version
 
 
 class OpenAIEmbeddingProvider(EmbeddingProvider):
-    """OpenAI embedding provider with batching and retry logic."""
+    """OpenAI embedding provider with batching and retry logic.
+    
+    Supports both OpenAI and Azure OpenAI.
+    """
     
     def __init__(self, config: EmbeddingConfig = None):
         """Initialize provider with config.
@@ -20,10 +24,54 @@ class OpenAIEmbeddingProvider(EmbeddingProvider):
             config: EmbeddingConfig (defaults to EmbeddingConfig.from_env())
         """
         self.config = config or EmbeddingConfig.from_env()
-        api_key = get_openai_api_key()
-        if not api_key:
-            raise ValueError("OPENAI_API_KEY not found in environment")
-        self.client = OpenAI(api_key=api_key)
+        
+        # Determine provider type
+        provider = self.config.provider or "openai"
+        
+        if provider == "azure_openai":
+            # Azure OpenAI configuration
+            endpoint = self.config.azure_endpoint or get_azure_openai_endpoint()
+            
+            if not endpoint:
+                raise ValueError("AZURE_OPENAI_ENDPOINT not found in environment")
+            if not self.config.azure_deployment_name:
+                raise ValueError("AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME not found in environment")
+            
+            api_version = self.config.azure_api_version or get_azure_openai_api_version()
+            
+            # Use Azure AD authentication if enabled (default), otherwise use API key
+            if self.config.use_azure_ad:
+                # Azure AD authentication using DefaultAzureCredential
+                token_provider = get_bearer_token_provider(
+                    DefaultAzureCredential(),
+                    "https://cognitiveservices.azure.com/.default"
+                )
+                self.client = AzureOpenAI(
+                    azure_endpoint=endpoint,
+                    azure_ad_token_provider=token_provider,
+                    api_version=api_version
+                )
+            else:
+                # API key authentication (fallback)
+                api_key = self.config.api_key or get_azure_openai_api_key()
+                if not api_key:
+                    raise ValueError("AZURE_OPENAI_API_KEY not found in environment. Set AZURE_OPENAI_USE_AZURE_AD=true to use Azure AD authentication.")
+                self.client = OpenAI(
+                    api_key=api_key,
+                    api_version=api_version,
+                    azure_endpoint=endpoint
+                )
+            
+            # For Azure OpenAI, use deployment name instead of model name
+            self.model_name = self.config.azure_deployment_name
+        else:
+            # Standard OpenAI configuration
+            api_key = self.config.api_key or get_openai_api_key()
+            if not api_key:
+                raise ValueError("OPENAI_API_KEY not found in environment")
+            self.client = OpenAI(api_key=api_key)
+            self.model_name = self.config.model
+        
         self._cache: Dict[str, List[float]] = {}
     
     def embed_texts(self, texts: List[str]) -> List[List[float]]:
@@ -44,7 +92,7 @@ class OpenAIEmbeddingProvider(EmbeddingProvider):
         cached_results = []
         
         for idx, text in enumerate(texts):
-            cache_key = f"{self.config.model}:{text}"
+            cache_key = f"{self.model_name}:{text}"
             if cache_key in self._cache:
                 cached_results.append((idx, self._cache[cache_key]))
             else:
@@ -62,7 +110,7 @@ class OpenAIEmbeddingProvider(EmbeddingProvider):
                 
                 # Cache results
                 for text, embedding in zip(batch, embeddings):
-                    cache_key = f"{self.config.model}:{text}"
+                    cache_key = f"{self.model_name}:{text}"
                     self._cache[cache_key] = embedding
                 
                 all_embeddings.extend((idx, emb) for idx, emb in zip(batch_indices, embeddings))
@@ -84,7 +132,7 @@ class OpenAIEmbeddingProvider(EmbeddingProvider):
         Returns:
             Embedding vector
         """
-        cache_key = f"{self.config.model}:{query}"
+        cache_key = f"{self.model_name}:{query}"
         if cache_key in self._cache:
             return self._cache[cache_key]
         
@@ -105,7 +153,7 @@ class OpenAIEmbeddingProvider(EmbeddingProvider):
         for attempt in range(self.config.max_retries):
             try:
                 response = self.client.embeddings.create(
-                    model=self.config.model,
+                    model=self.model_name,
                     input=texts
                 )
                 return [item.embedding for item in response.data]

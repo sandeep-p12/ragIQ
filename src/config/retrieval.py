@@ -1,6 +1,7 @@
 """Configuration dataclasses for retrieval subsystem."""
 
 from dataclasses import dataclass
+from typing import Optional
 
 from src.utils.env import load_env
 
@@ -11,11 +12,38 @@ class EmbeddingConfig:
     model: str = "text-embedding-3-small"
     batch_size: int = 100
     max_retries: int = 3
+    # Azure OpenAI settings (optional)
+    provider: str = "openai"  # "openai" or "azure_openai"
+    api_key: Optional[str] = None
+    azure_endpoint: Optional[str] = None
+    azure_api_version: str = "2025-01-01-preview"
+    azure_deployment_name: Optional[str] = None
+    use_azure_ad: bool = True  # Use Azure AD authentication (DefaultAzureCredential) instead of API key
     
     @classmethod
     def from_env(cls, **overrides):
         """Create config from environment variables with optional overrides."""
-        return cls(**overrides)
+        env = load_env()
+        config = cls(**overrides)
+        # Load provider preference
+        if config.provider == "openai" and not overrides.get("provider"):
+            config.provider = env.get("EMBEDDING_PROVIDER", "openai")
+        # Load API key
+        if not config.api_key:
+            config.api_key = env.get("OPENAI_API_KEY") or env.get("AZURE_OPENAI_API_KEY")
+        # Load Azure-specific settings if using Azure
+        if config.provider == "azure_openai":
+            if not config.azure_endpoint:
+                config.azure_endpoint = env.get("AZURE_OPENAI_ENDPOINT")
+            if not config.azure_deployment_name:
+                config.azure_deployment_name = env.get("AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME") or env.get("AZURE_OPENAI_DEPLOYMENT_NAME")
+            if not config.azure_api_version:
+                config.azure_api_version = env.get("AZURE_OPENAI_API_VERSION", "2025-01-01-preview")
+            # Check if Azure AD should be used (default True, can be overridden with env var)
+            use_azure_ad_env = env.get("AZURE_OPENAI_USE_AZURE_AD", "true").lower()
+            if use_azure_ad_env not in overrides:
+                config.use_azure_ad = use_azure_ad_env in ("true", "1", "yes")
+        return config
 
 
 @dataclass

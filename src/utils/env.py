@@ -25,3 +25,33 @@ def get_openai_api_key() -> Optional[str]:
     load_dotenv()
     return os.getenv("OPENAI_API_KEY")
 
+
+def get_azure_openai_api_key() -> Optional[str]:
+    """Get AZURE_OPENAI_API_KEY from .env.
+    
+    Returns:
+        Optional[str]: Azure OpenAI API key if found, None otherwise
+    """
+    load_dotenv()
+    return os.getenv("AZURE_OPENAI_API_KEY")
+
+
+def get_azure_openai_endpoint() -> Optional[str]:
+    """Get AZURE_OPENAI_ENDPOINT from .env.
+    
+    Returns:
+        Optional[str]: Azure OpenAI endpoint if found, None otherwise
+    """
+    load_dotenv()
+    return os.getenv("AZURE_OPENAI_ENDPOINT")
+
+
+def get_azure_openai_api_version() -> str:
+    """Get AZURE_OPENAI_API_VERSION from .env.
+    
+    Returns:
+        str: Azure OpenAI API version (defaults to "2025-01-01-preview")
+    """
+    load_dotenv()
+    return os.getenv("AZURE_OPENAI_API_VERSION", "2025-01-01-preview")
+

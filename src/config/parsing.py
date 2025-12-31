@@ -10,9 +10,14 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class LLMConfig(BaseSettings):
     """LLM configuration."""
 
-    provider: Literal["openai", "none"] = "openai"
+    provider: Literal["openai", "azure_openai", "none"] = "openai"
     model: str = "gpt-4o"
     api_key: Optional[str] = None
+    # Azure OpenAI settings (optional)
+    azure_endpoint: Optional[str] = None
+    azure_api_version: str = "2025-01-01-preview"
+    azure_deployment_name: Optional[str] = None
+    use_azure_ad: bool = True  # Use Azure AD authentication (DefaultAzureCredential) instead of API key
 
     model_config = SettingsConfigDict(env_prefix="PARSEFORGE_LLM_", extra="ignore")
 
@@ -66,10 +71,15 @@ class ParseForgeConfig(BaseSettings):
     doctr_reco_arch: str = "crnn_vgg16_bn"
 
     # LLM
-    llm_provider: Literal["openai", "none"] = "openai"
+    llm_provider: Literal["openai", "azure_openai", "none"] = "openai"
     llm_model: str = "gpt-4o"
     llm_api_key: Optional[str] = None
     llm_max_tokens: int = 1000
+    # Azure OpenAI settings (optional)
+    llm_azure_endpoint: Optional[str] = None
+    llm_azure_api_version: str = "2025-01-01-preview"
+    llm_azure_deployment_name: Optional[str] = None
+    llm_use_azure_ad: bool = True  # Use Azure AD authentication (DefaultAzureCredential) instead of API key
 
     # Streamlit
     streamlit_port: int = 8501
@@ -89,6 +99,10 @@ class ParseForgeConfig(BaseSettings):
             provider=self.llm_provider,
             model=self.llm_model,
             api_key=self.llm_api_key,
+            azure_endpoint=self.llm_azure_endpoint,
+            azure_api_version=self.llm_azure_api_version,
+            azure_deployment_name=self.llm_azure_deployment_name,
+            use_azure_ad=self.llm_use_azure_ad,
         )
 
     def get_strategy_config(self) -> StrategyConfig:

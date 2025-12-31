@@ -138,9 +138,21 @@ def render_parse_tab():
         
         # LLM Settings
         with st.expander("LLM Settings", expanded=False):
-            llm_provider = st.selectbox("LLM Provider", ["openai", "none"], index=0)
-            llm_model = st.text_input("LLM Model", value="gpt-4o", help="OpenAI model name")
+            llm_provider = st.selectbox("LLM Provider", ["openai", "azure_openai", "none"], index=0)
+            llm_model = st.text_input("LLM Model", value="gpt-4o", help="OpenAI model name or Azure deployment name")
             llm_max_tokens = st.number_input("Max Tokens", min_value=100, max_value=10000, value=1000, step=100)
+            
+            # Azure OpenAI specific settings
+            if llm_provider == "azure_openai":
+                llm_azure_endpoint = st.text_input("Azure Endpoint", value="", help="Azure OpenAI endpoint URL (e.g., https://your-resource.openai.azure.com/)")
+                llm_azure_api_version = st.text_input("API Version", value="2025-01-01-preview", help="Azure OpenAI API version")
+                llm_azure_deployment_name = st.text_input("Deployment Name", value="", help="Azure OpenAI deployment name (optional, uses model name if not provided)")
+                llm_use_azure_ad = st.checkbox("Use Azure AD Authentication", value=True, help="Use Azure AD (DefaultAzureCredential) instead of API key")
+            else:
+                llm_azure_endpoint = None
+                llm_azure_api_version = "2025-01-01-preview"
+                llm_azure_deployment_name = None
+                llm_use_azure_ad = True
         
         # Page Range
         with st.expander("Page Range", expanded=False):
@@ -175,6 +187,10 @@ def render_parse_tab():
             llm_provider=llm_provider,
             llm_model=llm_model,
             llm_max_tokens=llm_max_tokens,
+            llm_azure_endpoint=llm_azure_endpoint if llm_provider == "azure_openai" else None,
+            llm_azure_api_version=llm_azure_api_version if llm_provider == "azure_openai" else "2025-01-01-preview",
+            llm_azure_deployment_name=llm_azure_deployment_name if llm_provider == "azure_openai" else None,
+            llm_use_azure_ad=llm_use_azure_ad if llm_provider == "azure_openai" else True,
             auto_resume=auto_resume,
         )
         
@@ -882,10 +898,11 @@ def render_index_tab():
         
         # Embedding config
         with st.expander("Embedding Settings", expanded=True):
+            embedding_provider = st.selectbox("Embedding Provider", ["openai", "azure_openai"], index=0)
             embedding_model = st.text_input(
                 "Embedding Model",
                 value="text-embedding-3-small",
-                help="OpenAI embedding model name"
+                help="OpenAI model name or Azure deployment name"
             )
             embedding_batch_size = st.slider(
                 "Embedding Batch Size",
@@ -902,6 +919,38 @@ def render_index_tab():
                 value=3,
                 step=1
             )
+            
+            # Azure OpenAI specific settings for embeddings
+            if embedding_provider == "azure_openai":
+                embedding_azure_endpoint = st.text_input(
+                    "Azure Endpoint",
+                    value="",
+                    help="Azure OpenAI endpoint URL (e.g., https://your-resource.openai.azure.com/)",
+                    key="embedding_azure_endpoint"
+                )
+                embedding_azure_api_version = st.text_input(
+                    "API Version",
+                    value="2025-01-01-preview",
+                    help="Azure OpenAI API version",
+                    key="embedding_azure_api_version"
+                )
+                embedding_azure_deployment_name = st.text_input(
+                    "Deployment Name",
+                    value="",
+                    help="Azure OpenAI embedding deployment name",
+                    key="embedding_azure_deployment_name"
+                )
+                embedding_use_azure_ad = st.checkbox(
+                    "Use Azure AD Authentication",
+                    value=True,
+                    help="Use Azure AD (DefaultAzureCredential) instead of API key",
+                    key="embedding_use_azure_ad"
+                )
+            else:
+                embedding_azure_endpoint = None
+                embedding_azure_api_version = "2025-01-01-preview"
+                embedding_azure_deployment_name = None
+                embedding_use_azure_ad = True
         
         # Pinecone config
         with st.expander("Pinecone Settings", expanded=False):
@@ -942,9 +991,14 @@ def render_index_tab():
             # Create config from UI settings
             from src.config.retrieval import EmbeddingConfig, PineconeConfig
             embedding_config = EmbeddingConfig(
+                provider=embedding_provider,
                 model=embedding_model,
                 batch_size=embedding_batch_size,
                 max_retries=embedding_max_retries,
+                azure_endpoint=embedding_azure_endpoint if embedding_provider == "azure_openai" else None,
+                azure_api_version=embedding_azure_api_version if embedding_provider == "azure_openai" else "2025-01-01-preview",
+                azure_deployment_name=embedding_azure_deployment_name if embedding_provider == "azure_openai" else None,
+                use_azure_ad=embedding_use_azure_ad if embedding_provider == "azure_openai" else True,
             )
             pinecone_config = PineconeConfig.from_env(
                 namespace=namespace,
@@ -1031,11 +1085,50 @@ def render_retrieve_tab():
         
         # Embedding config
         with st.expander("Embedding Settings", expanded=False):
+            embedding_provider = st.selectbox(
+                "Embedding Provider",
+                ["openai", "azure_openai"],
+                index=0,
+                key="retrieve_embedding_provider"
+            )
             embedding_model = st.text_input(
                 "Embedding Model",
                 value="text-embedding-3-small",
-                key="retrieve_embedding_model"
+                key="retrieve_embedding_model",
+                help="OpenAI model name or Azure deployment name"
             )
+            
+            # Azure OpenAI specific settings for embeddings
+            if embedding_provider == "azure_openai":
+                embedding_azure_endpoint = st.text_input(
+                    "Azure Endpoint",
+                    value="",
+                    help="Azure OpenAI endpoint URL (e.g., https://your-resource.openai.azure.com/)",
+                    key="retrieve_embedding_azure_endpoint"
+                )
+                embedding_azure_api_version = st.text_input(
+                    "API Version",
+                    value="2025-01-01-preview",
+                    help="Azure OpenAI API version",
+                    key="retrieve_embedding_azure_api_version"
+                )
+                embedding_azure_deployment_name = st.text_input(
+                    "Deployment Name",
+                    value="",
+                    help="Azure OpenAI embedding deployment name",
+                    key="retrieve_embedding_azure_deployment_name"
+                )
+                embedding_use_azure_ad = st.checkbox(
+                    "Use Azure AD Authentication",
+                    value=True,
+                    help="Use Azure AD (DefaultAzureCredential) instead of API key",
+                    key="retrieve_embedding_use_azure_ad"
+                )
+            else:
+                embedding_azure_endpoint = None
+                embedding_azure_api_version = "2025-01-01-preview"
+                embedding_azure_deployment_name = None
+                embedding_use_azure_ad = True
         
         # Reranking config
         with st.expander("Reranking Settings", expanded=True):
@@ -1142,7 +1235,14 @@ def render_retrieve_tab():
         try:
             # Create config from UI settings
             from src.config.retrieval import EmbeddingConfig, PineconeConfig, RerankConfig
-            embedding_config = EmbeddingConfig(model=embedding_model)
+            embedding_config = EmbeddingConfig(
+                provider=embedding_provider,
+                model=embedding_model,
+                azure_endpoint=embedding_azure_endpoint if embedding_provider == "azure_openai" else None,
+                azure_api_version=embedding_azure_api_version if embedding_provider == "azure_openai" else "2025-01-01-preview",
+                azure_deployment_name=embedding_azure_deployment_name if embedding_provider == "azure_openai" else None,
+                use_azure_ad=embedding_use_azure_ad if embedding_provider == "azure_openai" else True,
+            )
             rerank_config = RerankConfig(
                 model=rerank_model,
                 max_candidates_to_rerank=max_candidates,

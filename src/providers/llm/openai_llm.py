@@ -5,18 +5,27 @@ import logging
 from io import BytesIO
 from typing import Optional
 
-from openai import APIError, OpenAI, RateLimitError
+from openai import APIError, OpenAI, RateLimitError, AzureOpenAI
+from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 from PIL import Image
 
 from src.config.parsing import ParseForgeConfig
 from src.core.interfaces import LLMProvider
-from src.utils.env import get_openai_api_key
+from src.utils.env import (
+    get_openai_api_key,
+    get_azure_openai_api_key,
+    get_azure_openai_endpoint,
+    get_azure_openai_api_version,
+)
 
 logger = logging.getLogger(__name__)
 
 
 class OpenAILLMProvider(LLMProvider):
-    """OpenAI LLM provider implementation."""
+    """OpenAI LLM provider implementation.
+    
+    Supports both OpenAI and Azure OpenAI.
+    """
     
     def __init__(self, config: Optional[ParseForgeConfig] = None):
         """Initialize OpenAI LLM provider.
@@ -26,15 +35,55 @@ class OpenAILLMProvider(LLMProvider):
         """
         self.config = config or ParseForgeConfig()
         self.client = None
+        self.model_name = None
         
         if self.config.llm_provider == "openai":
             api_key = self.config.llm_api_key or get_openai_api_key()
             if api_key:
                 self.client = OpenAI(api_key=api_key)
+                self.model_name = self.config.llm_model
             else:
                 logger.warning("OpenAI API key not found. LLM operations will be disabled.")
+        elif self.config.llm_provider == "azure_openai":
+            endpoint = self.config.llm_azure_endpoint or get_azure_openai_endpoint()
+            
+            if not endpoint:
+                logger.warning("Azure OpenAI endpoint not found. LLM operations will be disabled.")
+            else:
+                # Use deployment name if provided, otherwise use model name
+                deployment_name = self.config.llm_azure_deployment_name or self.config.llm_model
+                api_version = self.config.llm_azure_api_version or get_azure_openai_api_version()
+                
+                # Use Azure AD authentication if enabled (default), otherwise use API key
+                if self.config.llm_use_azure_ad:
+                    # Azure AD authentication using DefaultAzureCredential
+                    token_provider = get_bearer_token_provider(
+                        DefaultAzureCredential(),
+                        "https://cognitiveservices.azure.com/.default"
+                    )
+                    self.client = AzureOpenAI(
+                        azure_endpoint=endpoint,
+                        azure_ad_token_provider=token_provider,
+                        api_version=api_version
+                    )
+                else:
+                    # API key authentication (fallback)
+                    api_key = self.config.llm_api_key or get_azure_openai_api_key()
+                    if not api_key:
+                        logger.warning("Azure OpenAI API key not found. Set AZURE_OPENAI_USE_AZURE_AD=true to use Azure AD authentication. LLM operations will be disabled.")
+                    else:
+                        self.client = OpenAI(
+                            api_key=api_key,
+                            api_version=api_version,
+                            azure_endpoint=endpoint
+                        )
+                
+                if self.client:
+                    self.model_name = deployment_name
+        elif self.config.llm_provider == "none":
+            logger.info("LLM provider set to 'none'. LLM operations will be disabled.")
         else:
-            logger.warning(f"LLM provider '{self.config.llm_provider}' not supported. Only 'openai' is supported.")
+            logger.warning(f"LLM provider '{self.config.llm_provider}' not supported. Supported providers: 'openai', 'azure_openai', 'none'.")
     
     def generate(
         self,
@@ -61,7 +110,7 @@ class OpenAILLMProvider(LLMProvider):
         if self.client is None:
             raise ValueError("LLM client not initialized. Check API key configuration.")
         
-        model = model or self.config.llm_model
+        model = model or self.model_name or self.config.llm_model
         max_tokens = max_tokens or self.config.llm_max_tokens
         
         try:
@@ -102,7 +151,7 @@ class OpenAILLMProvider(LLMProvider):
         if self.client is None:
             raise ValueError("LLM client not initialized. Check API key configuration.")
         
-        model = model or self.config.llm_model
+        model = model or self.model_name or self.config.llm_model
         max_tokens = max_tokens or self.config.llm_max_tokens
         
         # Convert images to format expected by OpenAI
