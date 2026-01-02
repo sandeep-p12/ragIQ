@@ -26,11 +26,65 @@ from src.pipelines.parsing.parseforge import ParseForge
 from src.pipelines.retrieval.retrieval import ingest_from_chunking_outputs, retrieve
 from src.schema.chunk import Chunk, ParentChunk
 from src.schema.document import Document
-from src.utils.env import get_openai_api_key, load_env
+from src.utils.env import get_openai_api_key, get_azure_openai_endpoint, get_azure_openai_api_version, load_env
 from src.utils.io import format_citation, load_jsonl, save_jsonl
 from src.utils.ui import format_stage_output
 
 logger = logging.getLogger(__name__)
+
+
+def display_azure_openai_config(config: ParseForgeConfig):
+    """Display Azure OpenAI configuration details."""
+    if config.llm_provider != "azure_openai":
+        return
+    
+    st.markdown("---")
+    st.markdown("**🔷 Azure OpenAI Configuration**")
+    
+    # Get values from config or environment
+    endpoint = config.llm_azure_endpoint or get_azure_openai_endpoint()
+    api_version = config.llm_azure_api_version or get_azure_openai_api_version()
+    deployment_name = config.llm_azure_deployment_name or config.llm_model
+    use_azure_ad = config.llm_use_azure_ad
+    
+    config_col1, config_col2 = st.columns(2)
+    
+    with config_col1:
+        st.text_input(
+            "Endpoint",
+            value=endpoint or "Not set",
+            disabled=True,
+            help="Azure OpenAI endpoint URL"
+        )
+        st.text_input(
+            "API Version",
+            value=api_version or "Not set",
+            disabled=True,
+            help="Azure OpenAI API version"
+        )
+    
+    with config_col2:
+        st.text_input(
+            "Deployment Name",
+            value=deployment_name or "Not set",
+            disabled=True,
+            help="Azure OpenAI deployment name"
+        )
+        auth_method = "Azure AD (DefaultAzureCredential)" if use_azure_ad else "API Key"
+        st.text_input(
+            "Authentication",
+            value=auth_method,
+            disabled=True,
+            help="Authentication method used"
+        )
+    
+    # Show model name
+    st.text_input(
+        "Model",
+        value=config.llm_model or "Not set",
+        disabled=True,
+        help="LLM model name"
+    )
 
 # Configure page
 st.set_page_config(
@@ -151,6 +205,12 @@ def render_parse_tab():
                 index=default_index,
                 help="Select provider. All other settings (endpoint, API key, etc.) are read from .env file"
             )
+            
+            # Show Azure OpenAI config if selected
+            if llm_provider == "azure_openai":
+                # Create config with selected provider to show current settings
+                display_config = ParseForgeConfig(llm_provider=llm_provider)
+                display_azure_openai_config(display_config)
         
         # Page Range
         with st.expander("Page Range", expanded=False):
@@ -254,6 +314,11 @@ def render_parse_tab():
                 time.sleep(0.5)  # Brief pause to show completion
                 progress_bar.empty()
                 status_text.empty()
+                
+                # Display Azure OpenAI config if used
+                if config.llm_provider == "azure_openai":
+                    with st.expander("🔷 Azure OpenAI Configuration Used", expanded=False):
+                        display_azure_openai_config(config)
                 
                 # Display results
                 col1, col2 = st.columns(2)
@@ -1053,6 +1118,15 @@ def render_retrieve_tab():
                 help="LLM model or Azure deployment name for reranking (from .env: RERANK_MODEL or PARSEFORGE_LLM_MODEL)",
                 key="rerank_model"
             )
+            
+            # Show Azure OpenAI config if selected
+            if rerank_provider == "azure_openai":
+                # Create config with selected provider and model to show current settings
+                display_config = ParseForgeConfig(
+                    llm_provider=rerank_provider,
+                    llm_model=rerank_model
+                )
+                display_azure_openai_config(display_config)
             max_candidates = st.slider(
                 "Max Candidates to Rerank",
                 min_value=10,
@@ -1194,6 +1268,15 @@ def render_retrieve_tab():
             
             # Store result in session state for persistence
             st.session_state.retrieval_result = result
+            
+            # Display Azure OpenAI config if used for reranking
+            if rerank_provider == "azure_openai":
+                with st.expander("🔷 Azure OpenAI Configuration Used (Reranking)", expanded=False):
+                    display_config = ParseForgeConfig(
+                        llm_provider=rerank_provider,
+                        llm_model=rerank_model
+                    )
+                    display_azure_openai_config(display_config)
             
             # Display retrieval status
             st.subheader("📊 Retrieval Status")
