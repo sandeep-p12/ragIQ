@@ -1217,7 +1217,7 @@ def render_retrieve_tab():
             cfg.min_primary_hits_to_keep = min_primary_hits
             
             # Create LLM config for reranker from .env, only override provider from UI
-            from src.config.parsing import ParseForgeConfig
+            # ParseForgeConfig is already imported at the top of the file
             rerank_llm_config = ParseForgeConfig(
                 llm_provider=rerank_provider,  # Only override provider from UI, rest from .env
                 llm_model=rerank_model,  # Allow model override from UI

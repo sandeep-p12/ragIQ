@@ -39,7 +39,7 @@ doclayout-yolo>=0.0.4
 opencv-python-headless>=4.8.0
 huggingface-hub>=0.20.0
 onnxruntime>=1.16.0
-onnxtr[cpu]>=0.6.0
+onnxtr[cpu]>=0.5.0
 
 # =============================================================================
 # Optional Dependencies (uncomment as needed)
