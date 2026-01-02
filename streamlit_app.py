@@ -322,7 +322,7 @@ def render_parse_tab():
                 
                 # Display Azure OpenAI config if used
                 if config.llm_provider == "azure_openai":
-                    with st.expander("🔷 Azure OpenAI Configuration Used", expanded=False, key="parse_result_azure_config"):
+                    with st.expander("🔷 Azure OpenAI Configuration Used", expanded=False):
                         display_azure_openai_config(config, key_prefix="parse_result_azure")
                 
                 # Display results
@@ -665,7 +665,7 @@ def render_chunk_tab():
                 with preview_tabs[0]:
                     st.write(f"**Total Children Chunks: {len(children)}**")
                     for i, chunk in enumerate(children[:10], 1):  # Show first 10
-                        with st.expander(f"Chunk {i}: {chunk.chunk_id[:30]}...", expanded=(i <= 3), key=f"chunk_preview_child_{i}_{chunk.chunk_id[:20]}"):
+                        with st.expander(f"Chunk {i}: {chunk.chunk_id[:30]}...", expanded=(i <= 3)):
                             col1, col2 = st.columns(2)
                             with col1:
                                 st.write("**Metadata:**")
@@ -686,7 +686,7 @@ def render_chunk_tab():
                 with preview_tabs[1]:
                     st.write(f"**Total Parent Chunks: {len(parents)}**")
                     for i, parent in enumerate(parents[:10], 1):  # Show first 10
-                        with st.expander(f"Parent {i}: {parent.chunk_id[:30]}...", expanded=(i <= 3), key=f"chunk_preview_parent_{i}_{parent.chunk_id[:20]}"):
+                        with st.expander(f"Parent {i}: {parent.chunk_id[:30]}...", expanded=(i <= 3)):
                             col1, col2 = st.columns(2)
                             with col1:
                                 st.write("**Metadata:**")
@@ -834,7 +834,7 @@ def render_chunk_tab():
         with preview_tabs[0]:
             st.write(f"**Total Children Chunks: {len(filtered_children)}**")
             for i, chunk in enumerate(filtered_children[:20], 1):  # Show first 20 filtered
-                with st.expander(f"Chunk {i}: {chunk.chunk_id[:30]}...", expanded=(i <= 3), key=f"chunk_filtered_child_{i}_{chunk.chunk_id[:20]}"):
+                with st.expander(f"Chunk {i}: {chunk.chunk_id[:30]}...", expanded=(i <= 3)):
                     col1, col2 = st.columns(2)
                     with col1:
                         st.write("**Metadata:**")
@@ -856,7 +856,7 @@ def render_chunk_tab():
         with preview_tabs[1]:
             st.write(f"**Total Parent Chunks: {len(filtered_parents)}**")
             for i, parent in enumerate(filtered_parents[:20], 1):  # Show first 20
-                with st.expander(f"Parent {i}: {parent.chunk_id[:30]}...", expanded=(i <= 3), key=f"chunk_filtered_parent_{i}_{parent.chunk_id[:20]}"):
+                with st.expander(f"Parent {i}: {parent.chunk_id[:30]}...", expanded=(i <= 3)):
                     col1, col2 = st.columns(2)
                     with col1:
                         st.write("**Metadata:**")
@@ -1054,7 +1054,7 @@ def render_index_tab():
                 if st.session_state.chunks_children:
                     preview_count = st.slider("Number of chunks to preview", 1, min(20, len(st.session_state.chunks_children)), 5, key="index_preview_count")
                     for i, chunk in enumerate(st.session_state.chunks_children[:preview_count], 1):
-                        with st.expander(f"Chunk {i}: {chunk.chunk_id[:40]}...", expanded=(i <= 2), key=f"index_chunk_{i}_{chunk.chunk_id[:20]}"):
+                        with st.expander(f"Chunk {i}: {chunk.chunk_id[:40]}...", expanded=(i <= 2)):
                             st.write("**Chunk ID:**", chunk.chunk_id)
                             st.write("**Element Type:**", chunk.element_type if hasattr(chunk, 'element_type') else 'unknown')
                             st.write("**Pages:**", chunk.page_nos if hasattr(chunk, 'page_nos') else [])
@@ -1276,7 +1276,7 @@ def render_retrieve_tab():
             
             # Display Azure OpenAI config if used for reranking
             if rerank_provider == "azure_openai":
-                with st.expander("🔷 Azure OpenAI Configuration Used (Reranking)", expanded=False, key="retrieve_result_azure_config"):
+                with st.expander("🔷 Azure OpenAI Configuration Used (Reranking)", expanded=False):
                     display_config = ParseForgeConfig(
                         llm_provider=rerank_provider,
                         llm_model=rerank_model
@@ -1379,7 +1379,7 @@ def render_retrieve_tab():
                         title += f" (Relevance: {relevance_score})"
                     
                     chunk_id = chunk.get("chunk_id", "unknown")
-                    with st.expander(title, expanded=(i <= 3), key=f"retrieve_chunk_{i}_{chunk_id[:20]}"):
+                    with st.expander(title, expanded=(i <= 3)):
                         col1, col2 = st.columns(2)
                         with col1:
                             st.write("**Metadata:**")
