@@ -323,44 +323,6 @@ def render_parse_tab():
                 
                 st.subheader("Block Type Distribution")
                 st.bar_chart(block_types)
-    
-    # Show markdown preview if available (persists across tab switches)
-    if st.session_state.parsed_markdown and st.session_state.parsed_file_name:
-        st.divider()
-        st.subheader("📝 Markdown Preview")
-        preview_tabs = st.tabs(["Preview", "Raw Markdown", "Statistics"])
-        
-        markdown = st.session_state.parsed_markdown
-        document = st.session_state.document
-        
-        with preview_tabs[0]:
-            st.markdown(markdown)
-        
-        with preview_tabs[1]:
-            st.code(markdown, language="markdown")
-        
-        with preview_tabs[2]:
-            col1, col2, col3, col4 = st.columns(4)
-            with col1:
-                st.metric("Total Characters", f"{len(markdown):,}")
-            with col2:
-                st.metric("Total Lines", f"{len(markdown.splitlines()):,}")
-            with col3:
-                st.metric("Pages", len(document.pages) if document else 0)
-            with col4:
-                total_blocks = sum(len(page.blocks) for page in document.pages) if document else 0
-                st.metric("Total Blocks", total_blocks)
-            
-            if document:
-                # Block type distribution
-                block_types = {}
-                for page in document.pages:
-                    for block in page.blocks:
-                        block_type = block.block_type.value if hasattr(block.block_type, 'value') else str(block.block_type)
-                        block_types[block_type] = block_types.get(block_type, 0) + 1
-                
-                st.subheader("Block Type Distribution")
-                st.bar_chart(block_types)
 
 
 def render_chunk_tab():
