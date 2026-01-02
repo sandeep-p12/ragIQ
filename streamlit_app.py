@@ -33,7 +33,7 @@ from src.utils.ui import format_stage_output
 logger = logging.getLogger(__name__)
 
 
-def display_azure_openai_config(config: ParseForgeConfig):
+def display_azure_openai_config(config: ParseForgeConfig, key_prefix: str = "azure_config"):
     """Display Azure OpenAI configuration details."""
     if config.llm_provider != "azure_openai":
         return
@@ -54,13 +54,15 @@ def display_azure_openai_config(config: ParseForgeConfig):
             "Endpoint",
             value=endpoint or "Not set",
             disabled=True,
-            help="Azure OpenAI endpoint URL"
+            help="Azure OpenAI endpoint URL",
+            key=f"{key_prefix}_endpoint"
         )
         st.text_input(
             "API Version",
             value=api_version or "Not set",
             disabled=True,
-            help="Azure OpenAI API version"
+            help="Azure OpenAI API version",
+            key=f"{key_prefix}_api_version"
         )
     
     with config_col2:
@@ -68,14 +70,16 @@ def display_azure_openai_config(config: ParseForgeConfig):
             "Deployment Name",
             value=deployment_name or "Not set",
             disabled=True,
-            help="Azure OpenAI deployment name"
+            help="Azure OpenAI deployment name",
+            key=f"{key_prefix}_deployment"
         )
         auth_method = "Azure AD (DefaultAzureCredential)" if use_azure_ad else "API Key"
         st.text_input(
             "Authentication",
             value=auth_method,
             disabled=True,
-            help="Authentication method used"
+            help="Authentication method used",
+            key=f"{key_prefix}_auth"
         )
     
     # Show model name
@@ -83,7 +87,8 @@ def display_azure_openai_config(config: ParseForgeConfig):
         "Model",
         value=config.llm_model or "Not set",
         disabled=True,
-        help="LLM model name"
+        help="LLM model name",
+        key=f"{key_prefix}_model"
     )
 
 # Configure page
@@ -210,7 +215,7 @@ def render_parse_tab():
             if llm_provider == "azure_openai":
                 # Create config with selected provider to show current settings
                 display_config = ParseForgeConfig(llm_provider=llm_provider)
-                display_azure_openai_config(display_config)
+                display_azure_openai_config(display_config, key_prefix="parse_azure_config")
         
         # Page Range
         with st.expander("Page Range", expanded=False):
@@ -317,8 +322,8 @@ def render_parse_tab():
                 
                 # Display Azure OpenAI config if used
                 if config.llm_provider == "azure_openai":
-                    with st.expander("🔷 Azure OpenAI Configuration Used", expanded=False):
-                        display_azure_openai_config(config)
+                    with st.expander("🔷 Azure OpenAI Configuration Used", expanded=False, key="parse_result_azure_config"):
+                        display_azure_openai_config(config, key_prefix="parse_result_azure")
                 
                 # Display results
                 col1, col2 = st.columns(2)
@@ -660,7 +665,7 @@ def render_chunk_tab():
                 with preview_tabs[0]:
                     st.write(f"**Total Children Chunks: {len(children)}**")
                     for i, chunk in enumerate(children[:10], 1):  # Show first 10
-                        with st.expander(f"Chunk {i}: {chunk.chunk_id[:30]}...", expanded=(i <= 3)):
+                        with st.expander(f"Chunk {i}: {chunk.chunk_id[:30]}...", expanded=(i <= 3), key=f"chunk_preview_child_{i}_{chunk.chunk_id[:20]}"):
                             col1, col2 = st.columns(2)
                             with col1:
                                 st.write("**Metadata:**")
@@ -674,14 +679,14 @@ def render_chunk_tab():
                                 })
                             with col2:
                                 st.write("**Text for Embedding:**")
-                                st.text_area("", chunk.text_for_embedding[:500] if chunk.text_for_embedding else "", height=200, key=f"child_text_{i}", disabled=True)
+                                st.text_area("", chunk.text_for_embedding[:500] if chunk.text_for_embedding else "", height=200, key=f"chunk_preview_child_text_{i}_{chunk.chunk_id[:20]}", disabled=True)
                     if len(children) > 10:
                         st.info(f"Showing first 10 of {len(children)} children chunks")
                 
                 with preview_tabs[1]:
                     st.write(f"**Total Parent Chunks: {len(parents)}**")
                     for i, parent in enumerate(parents[:10], 1):  # Show first 10
-                        with st.expander(f"Parent {i}: {parent.chunk_id[:30]}...", expanded=(i <= 3)):
+                        with st.expander(f"Parent {i}: {parent.chunk_id[:30]}...", expanded=(i <= 3), key=f"chunk_preview_parent_{i}_{parent.chunk_id[:20]}"):
                             col1, col2 = st.columns(2)
                             with col1:
                                 st.write("**Metadata:**")
@@ -695,7 +700,7 @@ def render_chunk_tab():
                                 })
                             with col2:
                                 st.write("**Text for Embedding:**")
-                                st.text_area("", parent.text_for_embedding[:500] if parent.text_for_embedding else "", height=200, key=f"parent_text_{i}", disabled=True)
+                                st.text_area("", parent.text_for_embedding[:500] if parent.text_for_embedding else "", height=200, key=f"chunk_preview_parent_text_{i}_{parent.chunk_id[:20]}", disabled=True)
                     if len(parents) > 10:
                         st.info(f"Showing first 10 of {len(parents)} parent chunks")
                 
@@ -829,7 +834,7 @@ def render_chunk_tab():
         with preview_tabs[0]:
             st.write(f"**Total Children Chunks: {len(filtered_children)}**")
             for i, chunk in enumerate(filtered_children[:20], 1):  # Show first 20 filtered
-                with st.expander(f"Chunk {i}: {chunk.chunk_id[:30]}...", expanded=(i <= 3)):
+                with st.expander(f"Chunk {i}: {chunk.chunk_id[:30]}...", expanded=(i <= 3), key=f"chunk_filtered_child_{i}_{chunk.chunk_id[:20]}"):
                     col1, col2 = st.columns(2)
                     with col1:
                         st.write("**Metadata:**")
@@ -844,14 +849,14 @@ def render_chunk_tab():
                     with col2:
                         st.write("**Text for Embedding:**")
                         st.text_area("", chunk.text_for_embedding[:500] if chunk.text_for_embedding else "", 
-                                   height=200, key=f"child_text_filtered_{i}", disabled=True)
+                                   height=200, key=f"chunk_filtered_child_text_{i}_{chunk.chunk_id[:20]}", disabled=True)
             if len(filtered_children) > 20:
                 st.info(f"Showing first 20 of {len(filtered_children)} filtered children chunks")
         
         with preview_tabs[1]:
             st.write(f"**Total Parent Chunks: {len(filtered_parents)}**")
             for i, parent in enumerate(filtered_parents[:20], 1):  # Show first 20
-                with st.expander(f"Parent {i}: {parent.chunk_id[:30]}...", expanded=(i <= 3)):
+                with st.expander(f"Parent {i}: {parent.chunk_id[:30]}...", expanded=(i <= 3), key=f"chunk_filtered_parent_{i}_{parent.chunk_id[:20]}"):
                     col1, col2 = st.columns(2)
                     with col1:
                         st.write("**Metadata:**")
@@ -866,7 +871,7 @@ def render_chunk_tab():
                     with col2:
                         st.write("**Text for Embedding:**")
                         st.text_area("", parent.text_for_embedding[:500] if parent.text_for_embedding else "", 
-                                   height=200, key=f"parent_text_filtered_{i}", disabled=True)
+                                   height=200, key=f"chunk_filtered_parent_text_{i}_{parent.chunk_id[:20]}", disabled=True)
             if len(filtered_parents) > 20:
                 st.info(f"Showing first 20 of {len(filtered_parents)} parent chunks")
         
@@ -1047,9 +1052,9 @@ def render_index_tab():
                 # Show indexed chunks preview
                 st.subheader("📝 Indexed Chunks Preview")
                 if st.session_state.chunks_children:
-                    preview_count = st.slider("Number of chunks to preview", 1, min(20, len(st.session_state.chunks_children)), 5)
+                    preview_count = st.slider("Number of chunks to preview", 1, min(20, len(st.session_state.chunks_children)), 5, key="index_preview_count")
                     for i, chunk in enumerate(st.session_state.chunks_children[:preview_count], 1):
-                        with st.expander(f"Chunk {i}: {chunk.chunk_id[:40]}...", expanded=(i <= 2)):
+                        with st.expander(f"Chunk {i}: {chunk.chunk_id[:40]}...", expanded=(i <= 2), key=f"index_chunk_{i}_{chunk.chunk_id[:20]}"):
                             st.write("**Chunk ID:**", chunk.chunk_id)
                             st.write("**Element Type:**", chunk.element_type if hasattr(chunk, 'element_type') else 'unknown')
                             st.write("**Pages:**", chunk.page_nos if hasattr(chunk, 'page_nos') else [])
@@ -1126,7 +1131,7 @@ def render_retrieve_tab():
                     llm_provider=rerank_provider,
                     llm_model=rerank_model
                 )
-                display_azure_openai_config(display_config)
+                display_azure_openai_config(display_config, key_prefix="retrieve_rerank_azure_config")
             max_candidates = st.slider(
                 "Max Candidates to Rerank",
                 min_value=10,
@@ -1271,12 +1276,12 @@ def render_retrieve_tab():
             
             # Display Azure OpenAI config if used for reranking
             if rerank_provider == "azure_openai":
-                with st.expander("🔷 Azure OpenAI Configuration Used (Reranking)", expanded=False):
+                with st.expander("🔷 Azure OpenAI Configuration Used (Reranking)", expanded=False, key="retrieve_result_azure_config"):
                     display_config = ParseForgeConfig(
                         llm_provider=rerank_provider,
                         llm_model=rerank_model
                     )
-                    display_azure_openai_config(display_config)
+                    display_azure_openai_config(display_config, key_prefix="retrieve_result_azure")
             
             # Display retrieval status
             st.subheader("📊 Retrieval Status")
@@ -1373,12 +1378,13 @@ def render_retrieve_tab():
                     if relevance_score is not None:
                         title += f" (Relevance: {relevance_score})"
                     
-                    with st.expander(title, expanded=(i <= 3)):
+                    chunk_id = chunk.get("chunk_id", "unknown")
+                    with st.expander(title, expanded=(i <= 3), key=f"retrieve_chunk_{i}_{chunk_id[:20]}"):
                         col1, col2 = st.columns(2)
                         with col1:
                             st.write("**Metadata:**")
                             metadata = {
-                                "chunk_id": chunk.get("chunk_id", "unknown"),
+                                "chunk_id": chunk_id,
                                 "doc_id": chunk.get("doc_id", "unknown"),
                                 "element_type": chunk.get("element_type", "unknown"),
                                 "page_nos": chunk.get("page_nos", []),
@@ -1394,7 +1400,7 @@ def render_retrieve_tab():
                             st.write("**Content:**")
                             content = chunk.get(view_mode, chunk.get("text_for_embedding", ""))
                             st.text_area("", content[:2000] + ("..." if len(content) > 2000 else ""), 
-                                       height=300, key=f"retrieve_content_{i}", disabled=True)
+                                       height=300, key=f"retrieve_content_{i}_{chunk_id[:20]}", disabled=True)
             
             with result_tabs[1]:
                 if hasattr(result, 'context_pack') and result.context_pack:
