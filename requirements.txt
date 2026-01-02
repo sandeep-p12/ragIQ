@@ -1,0 +1,74 @@
+# RAG IQ - Production-grade RAG system with parsing, chunking, and retrieval
+# Python >= 3.10 required
+
+# Core dependencies
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+tiktoken>=0.5.0
+
+# Document parsing
+pillow>=10.0.0
+pypdfium2>=4.30.0
+beautifulsoup4>=4.12.0
+python-docx>=1.1.0
+python-pptx>=0.6.23
+openpyxl>=3.1.0
+pandas>=2.0.0
+
+# Chunking
+llama-index-core>=0.10.0
+llama-index-readers-file>=0.1.0
+langchain>=0.1.0
+langchain-community>=0.0.20
+markdown-it-py>=3.0.0
+
+# Embedding and LLM
+openai>=1.0.0
+azure-identity>=1.15.0
+
+# Vector store
+pinecone>=3.0.0
+
+# UI
+streamlit>=1.28.0
+
+# Layout detection
+doclayout-yolo>=0.0.4
+opencv-python-headless>=4.8.0
+huggingface-hub>=0.20.0
+onnxruntime>=1.16.0
+onnxtr[cpu]>=0.6.0
+
+# =============================================================================
+# Optional Dependencies (uncomment as needed)
+# =============================================================================
+
+# Development dependencies
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.0.0
+# ruff>=0.1.0
+
+# ONNX runtime (platform specific - uncomment for your platform)
+# For x86_64:
+# onnxruntime>=1.16.0
+# onnxruntime-gpu>=1.16.0  # For GPU support
+
+# Doctr OCR (platform specific - uncomment for your platform)
+# For x86_64 with GPU:
+# onnxtr[gpu-headless]>=0.6.0
+# For other platforms or CPU:
+# onnxtr[cpu]>=0.6.0
+
+# PyTorch for YOLO models (optional)
+# torch>=2.0.0
+
+# Transformers for reading order (optional)
+# transformers>=4.30.0
+
+# Visualization (optional)
+# plotly>=5.17.0
+# matplotlib>=3.7.0
+

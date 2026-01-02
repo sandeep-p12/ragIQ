@@ -116,9 +116,11 @@ class ImageVisionLLMFormatter:
             return ""  # Return empty to skip in markdown
 
         try:
-            if self.config.llm_provider == "openai":
+            # Check if LLM provider supports vision (OpenAI or Azure OpenAI)
+            if self.config.llm_provider in ["openai", "azure_openai"] and self.llm_provider.client is not None:
                 return self._describe_with_openai(image, image_block)
             else:
+                logger.warning(f"LLM provider '{self.config.llm_provider}' does not support vision or client not available")
                 return image_block.alt_text or image_block.caption or "Image"
         except Exception as e:
             logger.error(f"Failed to generate image description: {e}")

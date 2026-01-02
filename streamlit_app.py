@@ -138,21 +138,19 @@ def render_parse_tab():
         
         # LLM Settings
         with st.expander("LLM Settings", expanded=False):
-            llm_provider = st.selectbox("LLM Provider", ["openai", "azure_openai", "none"], index=0)
-            llm_model = st.text_input("LLM Model", value="gpt-4o", help="OpenAI model name or Azure deployment name")
-            llm_max_tokens = st.number_input("Max Tokens", min_value=100, max_value=10000, value=1000, step=100)
+            # Load default from .env
+            default_config = ParseForgeConfig()
+            default_provider = default_config.llm_provider
             
-            # Azure OpenAI specific settings
-            if llm_provider == "azure_openai":
-                llm_azure_endpoint = st.text_input("Azure Endpoint", value="", help="Azure OpenAI endpoint URL (e.g., https://your-resource.openai.azure.com/)")
-                llm_azure_api_version = st.text_input("API Version", value="2025-01-01-preview", help="Azure OpenAI API version")
-                llm_azure_deployment_name = st.text_input("Deployment Name", value="", help="Azure OpenAI deployment name (optional, uses model name if not provided)")
-                llm_use_azure_ad = st.checkbox("Use Azure AD Authentication", value=True, help="Use Azure AD (DefaultAzureCredential) instead of API key")
-            else:
-                llm_azure_endpoint = None
-                llm_azure_api_version = "2025-01-01-preview"
-                llm_azure_deployment_name = None
-                llm_use_azure_ad = True
+            # Provider dropdown - only UI control, all other settings from .env
+            provider_options = ["openai", "azure_openai", "none"]
+            default_index = provider_options.index(default_provider) if default_provider in provider_options else 0
+            llm_provider = st.selectbox(
+                "LLM Provider", 
+                provider_options, 
+                index=default_index,
+                help="Select provider. All other settings (endpoint, API key, etc.) are read from .env file"
+            )
         
         # Page Range
         with st.expander("Page Range", expanded=False):
@@ -175,7 +173,7 @@ def render_parse_tab():
             tmp_file.write(uploaded_file.getvalue())
             tmp_path = tmp_file.name
         
-        # Create config from UI settings
+        # Create config from .env, only override provider from UI
         config = ParseForgeConfig(
             device=device,
             batch_size=batch_size,
@@ -184,13 +182,7 @@ def render_parse_tab():
             finance_mode=finance_mode,
             finance_page_threshold=finance_page_threshold if finance_mode else 0.7,
             finance_document_threshold=finance_document_threshold if finance_mode else 0.15,
-            llm_provider=llm_provider,
-            llm_model=llm_model,
-            llm_max_tokens=llm_max_tokens,
-            llm_azure_endpoint=llm_azure_endpoint if llm_provider == "azure_openai" else None,
-            llm_azure_api_version=llm_azure_api_version if llm_provider == "azure_openai" else "2025-01-01-preview",
-            llm_azure_deployment_name=llm_azure_deployment_name if llm_provider == "azure_openai" else None,
-            llm_use_azure_ad=llm_use_azure_ad if llm_provider == "azure_openai" else True,
+            llm_provider=llm_provider,  # Only override provider from UI, rest from .env
             auto_resume=auto_resume,
         )
         
@@ -898,17 +890,26 @@ def render_index_tab():
         
         # Embedding config
         with st.expander("Embedding Settings", expanded=True):
-            embedding_provider = st.selectbox("Embedding Provider", ["openai", "azure_openai"], index=0)
-            embedding_model = st.text_input(
-                "Embedding Model",
-                value="text-embedding-3-small",
-                help="OpenAI model name or Azure deployment name"
+            # Load default from .env
+            from src.config.retrieval import EmbeddingConfig
+            default_embedding_config = EmbeddingConfig.from_env()
+            default_embedding_provider = default_embedding_config.provider
+            
+            # Provider dropdown - only UI control, all other settings from .env
+            embedding_provider_options = ["openai", "azure_openai"]
+            default_embedding_index = embedding_provider_options.index(default_embedding_provider) if default_embedding_provider in embedding_provider_options else 0
+            embedding_provider = st.selectbox(
+                "Embedding Provider", 
+                embedding_provider_options, 
+                index=default_embedding_index,
+                help="Select provider. All other settings (endpoint, API key, deployment name, etc.) are read from .env file"
             )
+            
             embedding_batch_size = st.slider(
                 "Embedding Batch Size",
                 min_value=10,
                 max_value=500,
-                value=100,
+                value=default_embedding_config.batch_size,
                 step=10,
                 help="Number of texts to embed in parallel"
             )
@@ -916,41 +917,9 @@ def render_index_tab():
                 "Max Retries",
                 min_value=1,
                 max_value=10,
-                value=3,
+                value=default_embedding_config.max_retries,
                 step=1
             )
-            
-            # Azure OpenAI specific settings for embeddings
-            if embedding_provider == "azure_openai":
-                embedding_azure_endpoint = st.text_input(
-                    "Azure Endpoint",
-                    value="",
-                    help="Azure OpenAI endpoint URL (e.g., https://your-resource.openai.azure.com/)",
-                    key="embedding_azure_endpoint"
-                )
-                embedding_azure_api_version = st.text_input(
-                    "API Version",
-                    value="2025-01-01-preview",
-                    help="Azure OpenAI API version",
-                    key="embedding_azure_api_version"
-                )
-                embedding_azure_deployment_name = st.text_input(
-                    "Deployment Name",
-                    value="",
-                    help="Azure OpenAI embedding deployment name",
-                    key="embedding_azure_deployment_name"
-                )
-                embedding_use_azure_ad = st.checkbox(
-                    "Use Azure AD Authentication",
-                    value=True,
-                    help="Use Azure AD (DefaultAzureCredential) instead of API key",
-                    key="embedding_use_azure_ad"
-                )
-            else:
-                embedding_azure_endpoint = None
-                embedding_azure_api_version = "2025-01-01-preview"
-                embedding_azure_deployment_name = None
-                embedding_use_azure_ad = True
         
         # Pinecone config
         with st.expander("Pinecone Settings", expanded=False):
@@ -988,17 +957,12 @@ def render_index_tab():
                     parents_file.write(json.dumps(chunk.__dict__) + "\n")
                 parents_path = parents_file.name
             
-            # Create config from UI settings
+            # Create config from .env, only override provider and batch settings from UI
             from src.config.retrieval import EmbeddingConfig, PineconeConfig
-            embedding_config = EmbeddingConfig(
-                provider=embedding_provider,
-                model=embedding_model,
+            embedding_config = EmbeddingConfig.from_env(
+                provider=embedding_provider,  # Only override provider from UI, rest from .env
                 batch_size=embedding_batch_size,
                 max_retries=embedding_max_retries,
-                azure_endpoint=embedding_azure_endpoint if embedding_provider == "azure_openai" else None,
-                azure_api_version=embedding_azure_api_version if embedding_provider == "azure_openai" else "2025-01-01-preview",
-                azure_deployment_name=embedding_azure_deployment_name if embedding_provider == "azure_openai" else None,
-                use_azure_ad=embedding_use_azure_ad if embedding_provider == "azure_openai" else True,
             )
             pinecone_config = PineconeConfig.from_env(
                 namespace=namespace,
@@ -1085,57 +1049,47 @@ def render_retrieve_tab():
         
         # Embedding config
         with st.expander("Embedding Settings", expanded=False):
+            # Load default from .env
+            from src.config.retrieval import EmbeddingConfig
+            default_embedding_config = EmbeddingConfig.from_env()
+            default_embedding_provider = default_embedding_config.provider
+            
+            # Provider dropdown - only UI control, all other settings from .env
+            embedding_provider_options = ["openai", "azure_openai"]
+            default_embedding_index = embedding_provider_options.index(default_embedding_provider) if default_embedding_provider in embedding_provider_options else 0
             embedding_provider = st.selectbox(
                 "Embedding Provider",
-                ["openai", "azure_openai"],
-                index=0,
-                key="retrieve_embedding_provider"
+                embedding_provider_options,
+                index=default_embedding_index,
+                key="retrieve_embedding_provider",
+                help="Select provider. All other settings (endpoint, API key, deployment name, etc.) are read from .env file"
             )
-            embedding_model = st.text_input(
-                "Embedding Model",
-                value="text-embedding-3-small",
-                key="retrieve_embedding_model",
-                help="OpenAI model name or Azure deployment name"
-            )
-            
-            # Azure OpenAI specific settings for embeddings
-            if embedding_provider == "azure_openai":
-                embedding_azure_endpoint = st.text_input(
-                    "Azure Endpoint",
-                    value="",
-                    help="Azure OpenAI endpoint URL (e.g., https://your-resource.openai.azure.com/)",
-                    key="retrieve_embedding_azure_endpoint"
-                )
-                embedding_azure_api_version = st.text_input(
-                    "API Version",
-                    value="2025-01-01-preview",
-                    help="Azure OpenAI API version",
-                    key="retrieve_embedding_azure_api_version"
-                )
-                embedding_azure_deployment_name = st.text_input(
-                    "Deployment Name",
-                    value="",
-                    help="Azure OpenAI embedding deployment name",
-                    key="retrieve_embedding_azure_deployment_name"
-                )
-                embedding_use_azure_ad = st.checkbox(
-                    "Use Azure AD Authentication",
-                    value=True,
-                    help="Use Azure AD (DefaultAzureCredential) instead of API key",
-                    key="retrieve_embedding_use_azure_ad"
-                )
-            else:
-                embedding_azure_endpoint = None
-                embedding_azure_api_version = "2025-01-01-preview"
-                embedding_azure_deployment_name = None
-                embedding_use_azure_ad = True
         
         # Reranking config
         with st.expander("Reranking Settings", expanded=True):
+            # Load default from .env
+            default_rerank_config = ParseForgeConfig()
+            default_rerank_provider = default_rerank_config.llm_provider
+            
+            # Provider dropdown - only UI control, all other settings from .env
+            rerank_provider_options = ["openai", "azure_openai"]
+            default_rerank_index = rerank_provider_options.index(default_rerank_provider) if default_rerank_provider in rerank_provider_options else 0
+            rerank_provider = st.selectbox(
+                "Rerank LLM Provider",
+                rerank_provider_options,
+                index=default_rerank_index,
+                help="Select provider. All other settings (endpoint, API key, deployment name, model, etc.) are read from .env file",
+                key="rerank_provider"
+            )
+            
+            # Load rerank config from .env
+            from src.config.retrieval import RerankConfig
+            default_rerank_cfg = RerankConfig.from_env()
             rerank_model = st.text_input(
                 "Rerank Model",
-                value="gpt-4o",
-                help="LLM model for reranking"
+                value=default_rerank_cfg.model,
+                help="LLM model or Azure deployment name for reranking (from .env: RERANK_MODEL or PARSEFORGE_LLM_MODEL)",
+                key="rerank_model"
             )
             max_candidates = st.slider(
                 "Max Candidates to Rerank",
@@ -1233,18 +1187,13 @@ def render_retrieve_tab():
     
     if st.button("Retrieve", type="primary"):
         try:
-            # Create config from UI settings
+            # Create config from .env, only override provider from UI
             from src.config.retrieval import EmbeddingConfig, PineconeConfig, RerankConfig
-            embedding_config = EmbeddingConfig(
-                provider=embedding_provider,
-                model=embedding_model,
-                azure_endpoint=embedding_azure_endpoint if embedding_provider == "azure_openai" else None,
-                azure_api_version=embedding_azure_api_version if embedding_provider == "azure_openai" else "2025-01-01-preview",
-                azure_deployment_name=embedding_azure_deployment_name if embedding_provider == "azure_openai" else None,
-                use_azure_ad=embedding_use_azure_ad if embedding_provider == "azure_openai" else True,
+            embedding_config = EmbeddingConfig.from_env(
+                provider=embedding_provider,  # Only override provider from UI, rest from .env
             )
-            rerank_config = RerankConfig(
-                model=rerank_model,
+            rerank_config = RerankConfig.from_env(
+                model=rerank_model,  # Allow model override from UI
                 max_candidates_to_rerank=max_candidates,
                 return_top_n=return_top_n,
                 max_text_chars_per_candidate=max_text_chars,
@@ -1267,10 +1216,17 @@ def render_retrieve_tab():
             cfg.final_max_tokens = final_max_tokens
             cfg.min_primary_hits_to_keep = min_primary_hits
             
+            # Create LLM config for reranker from .env, only override provider from UI
+            from src.config.parsing import ParseForgeConfig
+            rerank_llm_config = ParseForgeConfig(
+                llm_provider=rerank_provider,  # Only override provider from UI, rest from .env
+                llm_model=rerank_model,  # Allow model override from UI
+            )
+            
             all_chunks = [chunk.__dict__ for chunk in st.session_state.chunks_children]
             
             with st.spinner("Retrieving..."):
-                result = retrieve(query, {}, cfg, all_chunks)
+                result = retrieve(query, {}, cfg, all_chunks, llm_config=rerank_llm_config)
             
             st.success("Retrieval complete!")
             

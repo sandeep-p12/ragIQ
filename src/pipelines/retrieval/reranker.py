@@ -2,16 +2,16 @@
 
 import json
 import time
-from typing import Dict, List
+from typing import Dict, List, Optional
 
-from openai import OpenAI
 from openai import RateLimitError, APIError
 from pydantic import BaseModel, Field, field_validator
 
 from src.config.retrieval import RerankConfig
+from src.config.parsing import ParseForgeConfig
 from src.core.dataclasses import CandidateText, RerankResult
 from src.core.interfaces import Reranker
-from src.utils.env import get_openai_api_key
+from src.providers.llm.openai_llm import OpenAILLMProvider
 
 
 class RerankItem(BaseModel):
@@ -36,19 +36,33 @@ class RerankResponse(BaseModel):
 
 
 class OpenAIReranker(Reranker):
-    """OpenAI LLM reranker with strict JSON output."""
+    """OpenAI LLM reranker with strict JSON output.
     
-    def __init__(self, config: RerankConfig = None):
+    Supports both OpenAI and Azure OpenAI via LLMProvider.
+    """
+    
+    def __init__(self, config: RerankConfig = None, llm_config: Optional[ParseForgeConfig] = None):
         """Initialize reranker.
         
         Args:
             config: RerankConfig (defaults to RerankConfig.from_env())
+            llm_config: Optional ParseForgeConfig for LLM provider settings.
+                       If None, will try to infer from environment.
         """
         self.config = config or RerankConfig.from_env()
-        api_key = get_openai_api_key()
-        if not api_key:
-            raise ValueError("OPENAI_API_KEY not found in environment")
-        self.client = OpenAI(api_key=api_key)
+        
+        # Initialize LLM provider - use provided config or create from environment
+        if llm_config:
+            self.llm_provider = OpenAILLMProvider(config=llm_config)
+        else:
+            # Create ParseForgeConfig from environment for LLM settings
+            llm_config = ParseForgeConfig()
+            self.llm_provider = OpenAILLMProvider(config=llm_config)
+        
+        # Check if LLM client is available
+        if self.llm_provider.client is None:
+            raise ValueError("LLM client not initialized. Check API key or Azure AD configuration.")
+        
         self._cache: Dict[str, List[RerankResult]] = {}
     
     def rerank(
@@ -184,18 +198,23 @@ Output ONLY valid JSON in this exact format:
         max_retries = 3
         last_error = None
         
+        # Build full prompt with system message
+        full_prompt = f"""You are a relevance rater. Output only valid JSON.
+
+{prompt}"""
+        
         for attempt in range(max_retries):
             try:
-                response = self.client.chat.completions.create(
+                # Use LLM provider's generate method
+                # Note: response_format is not directly supported in generate(),
+                # but we'll request JSON in the prompt and parse it
+                response = self.llm_provider.generate(
+                    prompt=full_prompt,
                     model=self.config.model,
-                    messages=[
-                        {"role": "system", "content": "You are a relevance rater. Output only valid JSON."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    response_format={"type": "json_object"},
-                    temperature=0.0
+                    temperature=0.0,
+                    max_tokens=4000
                 )
-                return response.choices[0].message.content
+                return response
             except RateLimitError as e:
                 last_error = e
                 if attempt < max_retries - 1:
@@ -204,6 +223,13 @@ Output ONLY valid JSON in this exact format:
                 else:
                     raise
             except APIError as e:
+                last_error = e
+                if attempt < max_retries - 1:
+                    wait_time = 2 ** attempt
+                    time.sleep(wait_time)
+                else:
+                    raise
+            except Exception as e:
                 last_error = e
                 if attempt < max_retries - 1:
                     wait_time = 2 ** attempt

@@ -232,13 +232,14 @@ def _extract_table_with_vision_llm(
     if not hasattr(config, 'llm_provider') or config.llm_provider == "none":
         return None
     
-    if not hasattr(config, 'llm_api_key') or not config.llm_api_key:
-        return None
-    
     try:
-        from openai import OpenAI
+        from src.providers.llm.openai_llm import OpenAILLMProvider
         
-        client = OpenAI(api_key=config.llm_api_key)
+        llm_provider = OpenAILLMProvider(config=config)
+        
+        if llm_provider.client is None:
+            logger.warning("LLM client not available for table extraction")
+            return None
         
         # Convert table image to base64
         buffered = BytesIO()
@@ -256,28 +257,14 @@ def _extract_table_with_vision_llm(
             else:
                 model = "gpt-4o"
         
-        # Call OpenAI vision API
-        response = client.chat.completions.create(
+        # Call LLM provider's vision API
+        markdown_table = llm_provider.generate_vision(
+            prompt=prompt,
+            images=[table_image],
             model=model,
-            messages=[
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "text", "text": prompt},
-                        {
-                            "type": "image_url",
-                            "image_url": {
-                                "url": f"data:image/png;base64,{img_str}",
-                            },
-                        },
-                    ],
-                }
-            ],
-            max_tokens=2000,
             temperature=0.1,
-        )
-        
-        markdown_table = response.choices[0].message.content.strip()
+            max_tokens=2000,
+        ).strip()
         
         # Extract just the table (remove any explanation text)
         import re

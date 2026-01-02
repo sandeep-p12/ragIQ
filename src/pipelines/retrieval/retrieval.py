@@ -4,6 +4,7 @@ import time
 from typing import Any, Dict, List, Optional
 
 from src.config.retrieval import RetrievalConfig
+from src.config.parsing import ParseForgeConfig
 from src.core.dataclasses import CandidateText, ContextPack, VectorRecord
 from src.core.interfaces import ContextAssembler
 from src.providers.embedding.openai_embedding import OpenAIEmbeddingProvider
@@ -138,7 +139,8 @@ def retrieve(
     query: str,
     filters: Optional[Dict[str, Any]] = None,
     cfg: RetrievalConfig = None,
-    all_chunks: Optional[List[Dict[str, Any]]] = None
+    all_chunks: Optional[List[Dict[str, Any]]] = None,
+    llm_config: Optional[ParseForgeConfig] = None
 ) -> ContextPack:
     """Retrieve and assemble context for a query.
     
@@ -147,6 +149,8 @@ def retrieve(
         filters: Optional filters (e.g., {"doc_id": "doc1", "element_type": "table"})
         cfg: RetrievalConfig (defaults to RetrievalConfig.from_env())
         all_chunks: Optional list of all chunks for neighbor expansion (if None, will be loaded from store)
+        llm_config: Optional ParseForgeConfig for LLM provider settings (for reranker).
+                   If None, will be created from environment.
         
     Returns:
         ContextPack with selected chunks, citations, and trace
@@ -157,10 +161,14 @@ def retrieve(
     if filters is None:
         filters = {}
     
+    # Initialize LLM config if not provided
+    if llm_config is None:
+        llm_config = ParseForgeConfig()
+    
     # Initialize components
     embedding_provider = OpenAIEmbeddingProvider(cfg.embedding_config)
     vector_store = PineconeVectorStore(cfg.pinecone_config)
-    reranker = OpenAIReranker(cfg.rerank_config)
+    reranker = OpenAIReranker(cfg.rerank_config, llm_config=llm_config)
     chunk_store = LocalChunkStore()
     context_assembler = DefaultContextAssembler(chunk_store)
     
