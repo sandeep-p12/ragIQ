@@ -1,0 +1,32 @@
+{
+  "chunk_id": "f12bc0e1341a2f04",
+  "doc_id": "tmp7spl7no6",
+  "page_span": [
+    14,
+    14
+  ],
+  "page_nos": [
+    14
+  ],
+  "header_path": null,
+  "section_label": "``\n\n\n14\n``",
+  "element_type": "mixed",
+  "raw_md_fragment": "```\n\n\n14\n```\n\n```\n\n\n15\n```",
+  "text_for_embedding": "Document: tmp7spl7no6 | Page: 14 | Section: ``\n\n\n14\n``\n\n```\n\n\n14\n```\n\nDocument: tmp7spl7no6 | Page: 15 | Section: ``\n\n\n15\n``\n\n```\n\n\n15\n```",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "paragraph"
+    ],
+    "structure_confidence": 1.0,
+    "merged_from": [
+      "bc750f956ebe9e41",
+      "aa013ab2e1111417"
+    ]
+  },
+  "parent_id": "d2f80ec3e350b6c7",
+  "token_count": 55,
+  "node_id": "e07b74f4-38f3-40af-8393-aa6acdad2bd0",
+  "line_start": 411,
+  "line_end": 423
+}

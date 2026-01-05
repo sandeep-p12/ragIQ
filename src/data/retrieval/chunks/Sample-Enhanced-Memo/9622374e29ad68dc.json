@@ -1,0 +1,30 @@
+{
+  "chunk_id": "9622374e29ad68dc",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": null,
+  "section_label": "Industry at a Glance",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Industry at a Glance\n\n### Key Statistics\n\n[IMAGE]\n\n- **Revenue**: $193.9bn\n\n  - Annual Growth 2016–2021: 2.7%\n\n  - Annual Growth 2021–2026: -4.3%\n\n- **Profit Margin**: 36.8%\n\n  - Annual Growth 2016–2021: 3.4pp\n\n- **Employment**: 852k\n\n  - Annual Growth 2016–2021: 1.4%\n\n  - Annual Growth 2021–2026: -2.9%\n\n- **Wages**: $22.7bn\n\n  - Annual Growth 2016–2021: 3.0%\n\n  - Annual Growth 2021–2026: -3.2%\n\n- **Businesses**: 550k\n\n  - Annual Growth 2016–2021: 1.6%\n\n  - Annual Growth 2021–2026: -1.2%\n\n[/IMAGE]\n\n### Key External Drivers\n\n- **0.6pp**: National unemployment rate\n\n- **2.1pp**: Homeownership rate\n\n- **0.8%**: Urban population\n\n- **-0.4pp**: Yield on 10-year Treasury note\n\n- **-0.3pp**: Rental vacancy rates\n\n### Industry Structure\n\n- **Positive Impact**:\n\n  - Revenue Volatility: Low\n\n  - Concentration: Low\n\n  - Industry Globalization: Low / Increasing\n\n- **Mixed Impact**:\n\n  - Life Cycle: Mature\n\n  - Barriers to Entry: Medium / Steady\n\n- **Negative Impact**:\n\n  - Capital Intensity: High\n\n  - Competition: High / Increasing\n\n### Key Trends\n\n- The industry is expected to suffer a wave of evictions as unemployment remains high.\n\n- Slow declines in rental vacancy have contributed to a small softening in industry profit.\n\n- 2020 is considered a turning point for the real estate sector overall and the Apartment Rental industry specifically.\n\n- Increases in rental vacancy will diminish landlords' effective pricing power.\n\n- As evictions rise amid recessionary conditions, the number of available units will also rise.\n\n- Expanding young adult and baby-boomer groups are forecast to drive demand.\n\n- Since the subprime mortgage crisis, the industry has undergone structural change.\n\n## Industry at a Glance\n\n### Key Statistics\n\n[IMAGE]\n\n- **Revenue**: $193.9bn\n\n  - Annual Growth 2016–2021: 2.7%\n\n  - Annual Growth 2021–2026: -4.3%\n\n- **Profit Margin**: 36.8%\n\n  - Annual Growth 2016–2021: 3.4pp\n\n- **Employment**: 852k\n\n  - Annual Growth 2016–2021: 1.4%\n\n  - Annual Growth 2021–2026: -2.9%\n\n- **Wages**: $22.7bn\n\n  - Annual Growth 2016–2021: 3.0%\n\n  - Annual Growth 2021–2026: -3.2%\n\n- **Businesses**: 550k\n\n  - Annual Growth 2016–2021: 1.6%\n\n  - Annual Growth 2021–2026: -1.2%\n\n[/IMAGE]\n\n### Key External Drivers\n\n- **0.6pp**: National unemployment rate\n\n- **2.1pp**: Homeownership rate\n\n- **0.8%**: Urban population\n\n- **-0.4pp**: Yield on 10-year Treasury note\n\n- **-0.3pp**: Rental vacancy rates\n\n### Industry Structure\n\n- **Positive Impact**:\n\n  - Revenue Volatility: Low\n\n  - Concentration: Low\n\n  - Industry Globalization: Low / Increasing\n\n- **Mixed Impact**:\n\n  - Life Cycle: Mature\n\n  - Barriers to Entry: Medium / Steady\n\n- **Negative Impact**:\n\n  - Capital Intensity: High\n\n  - Competition: High / Increasing\n\n### Key Trends\n\n- The industry is expected to suffer a wave of evictions as unemployment remains high.\n\n- Slow declines in rental vacancy have contributed to a small softening in industry profit.\n\n- 2020 is considered a turning point for the real estate sector overall and the Apartment Rental industry specifically.\n\n- Increases in rental vacancy will diminish landlords' effective pricing power.\n\n- As evictions rise amid recessionary conditions, the number of available units will also rise.\n\n- Expanding young adult and baby-boomer groups are forecast to drive demand.\n\n- Since the subprime mortgage crisis, the industry has undergone structural change.\n\n## Industry at a Glance",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 10 | Section: Industry at a Glance\n\n[IMAGE]\n- **Revenue**: $193.9bn\n\n  - Annual Growth 2016–2021: 2.7%\n\n  - Annual Growth 2021–2026: -4.3%\n\n- **Profit Margin**: 36.8%\n\n  - Annual Growth 2016–2021: 3.4pp\n\n- **Employment**: 852k\n\n  - Annual Growth 2016–2021: 1.4%\n\n  - Annual Growth 2021–2026: -2.9%\n\n- **Wages**: $22.7bn\n\n  - Annual Growth 2016–2021: 3.0%\n\n  - Annual Growth 2021–2026: -3.2%\n\n- **Businesses**: 550k\n\n  - Annual Growth 2016–2021: 1.6%\n\n  - Annual Growth 2021–2026: -1.2%\n[/IMAGE]\n[IMAGE]\n- **Revenue**: $193.9bn\n\n  - Annual Growth 2016–2021: 2.7%\n\n  - Annual Growth 2021–2026: -4.3%\n\n- **Profit Margin**: 36.8%\n\n  - Annual Growth 2016–2021: 3.4pp\n\n- **Employment**: 852k\n\n  - Annual Growth 2016–2021: 1.4%\n\n  - Annual Growth 2021–2026: -2.9%\n\n- **Wages**: $22.7bn\n\n  - Annual Growth 2016–2021: 3.0%\n\n  - Annual Growth 2021–2026: -3.2%\n\n- **Businesses**: 550k\n\n  - Annual Growth 2016–2021: 1.6%\n\n  - Annual Growth 2021–2026: -1.2%\n[/IMAGE]\n## Industry at a Glance",
+  "metadata": {
+    "element_count": 3,
+    "element_types": [
+      "imageblockelement",
+      "imageblockelement",
+      "heading"
+    ],
+    "structure_confidence": 0.9
+  },
+  "parent_id": "e2c1e39e5390a3e0",
+  "token_count": 428,
+  "node_id": "d07c6a6f-d460-4796-bd9f-fb259cfd78d9",
+  "line_start": 339,
+  "line_end": 423
+}

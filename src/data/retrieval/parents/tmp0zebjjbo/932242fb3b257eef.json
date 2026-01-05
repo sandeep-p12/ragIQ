@@ -1,0 +1,30 @@
+{
+  "chunk_id": "932242fb3b257eef",
+  "doc_id": "tmp0zebjjbo",
+  "page_span": [
+    15,
+    15
+  ],
+  "page_nos": [
+    15
+  ],
+  "header_path": null,
+  "section_label": "Three images showing different perspectives of the",
+  "element_type": "parent",
+  "raw_md_fragment": "[IMAGE]\nThree images showing different perspectives of the property:\n1. Side view of the building with a narrow alleyway and adjacent residential structures.\n1. Rear view showing a parking area with several vehicles.\n1. Close-up of the building's utility meters and electrical panel on the exterior wall.\n[/IMAGE]\n\n[IMAGE]\nImage of a stairwell with a brick wall and mailboxes labeled \"EXIT.\"\n[/IMAGE]\n\n[IMAGE]\nImage of a hallway with a door and a painting on the wall.\n[/IMAGE]\n\n[IMAGE]\nImage of a building exterior with a red awning and a pathway leading to the entrance.\n[/IMAGE]\n\n[IMAGE]\nImage of a stairwell with a painting on the wall.\n[/IMAGE]",
+  "text_for_embedding": "Document: tmp0zebjjbo | Page: 15 | Section: Three images showing different perspectives of the\n\n[IMAGE]\nThree images showing different perspectives of the property:\n1. Side view of the building with a narrow alleyway and adjacent residential structures.\n1. Rear view showing a parking area with several vehicles.\n1. Close-up of the building's utility meters and electrical panel on the exterior wall.\n[/IMAGE]\n\nDocument: tmp0zebjjbo | Page: 16 | Section: Image of a stairwell with a brick wall and mailbox\n\n[IMAGE]\nImage of a stairwell with a brick wall and mailboxes labeled \"EXIT.\"\n[/IMAGE]",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Three images showing different perspectives of the"
+  },
+  "parent_id": null,
+  "token_count": 136,
+  "node_id": "fd435a66-3754-40d6-b274-c3d2e9728c4d",
+  "line_start": 554,
+  "line_end": 576,
+  "child_ids": [
+    "c0c042fff5fce3c5"
+  ],
+  "parent_type": "soft_section"
+}

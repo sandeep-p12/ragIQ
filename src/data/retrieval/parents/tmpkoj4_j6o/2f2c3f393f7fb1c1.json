@@ -1,0 +1,30 @@
+{
+  "chunk_id": "2f2c3f393f7fb1c1",
+  "doc_id": "tmpkoj4_j6o",
+  "page_span": [
+    19,
+    19
+  ],
+  "page_nos": [
+    19
+  ],
+  "header_path": null,
+  "section_label": "Strengths | Weaknesses",
+  "element_type": "parent",
+  "raw_md_fragment": "| Strengths | Weaknesses |\n| --- | --- |\n| Existing members of CU and the relationship is handled as agreed | Personal guarantors appear to be highly leveraged |\n| Experience of personal guarantors as real estate investors | Transactional DSCR is below CU recommended minimum |\n| Good credit scores of personal guarantors | Leases are all considered month-to-month |\n| Good global DSCR, historically and on a pro-forma basis | Inherent risks associated with investment real estate |\n\n**Analyst Notes**\n\n**Recommended Risk Rating:** 4-Pass\n**Notes on Risk Rating:** Additional risk factor was added as risk rating is based on pro-forma cash flow\n☐ Policy Exceptions\n\n**MBFS Analyst Notes**\nBorrower is seeking a mortgage secured by a 1st mortgage lien on the fully leased two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units located at COLLATERAL ADDRESS. Funds will be used to pay off and close an existing CU LOAN #XXXX, as well as, recapture equity that will be reinvested into future real estate investment projects. The personal guarantors demonstrate good credit scores, personal cash flow and have experience owning investment real estate. The global DSCR is sufficient historically and on a pro-forma basis. Based on the strengths/weaknesses, the analyst agrees with the given risk rating.\n\nThe CU should:\n\n- **Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.**\n\nAnalyst Notes\n\nRecommended Risk Rating:  4-Pass  Notes on Risk Rating:  Additional risk factor was added as risk rating is based on pro-forma cash flow ☐ Policy Exceptions\n\nMBFS Analyst Notes  Borrower is seeking a mortgage secured by a 1st mortgage lien on the fully leased two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units located at COLLATERAL ADDRESS. Funds will be used to pay off and close an existing CU LOAN #XXXX, as well as, recapture equity that will be reinvested into future real estate investment projects. The personal guarantors demonstrate good credit scores, personal cash flow and have experience owning investment real estate. The global DSCR is sufficient historically and on a pro-forma basis. Based on the strengths/weaknesses, the analyst agrees with the given risk rating.\n\nThe CU should:",
+  "text_for_embedding": "Document: tmpkoj4_j6o | Page: 19 | Section: Strengths | Weaknesses\n\nTable Header: Strengths | Weaknesses\nRow: Existing members of CU and the relationship is handled as agreed | Personal guarantors appear to be highly leveraged\nRow: Experience of personal guarantors as real estate investors | Transactional DSCR is below CU recommended minimum\nRow: Good credit scores of personal guarantors | Leases are all considered month-to-month\nRow: Good global DSCR, historically and on a pro-forma basis | Inherent risks associated with investment real estate\nAnalyst Notes\nRecommended Risk Rating:  4-Pass  Notes on Risk Rating:  Additional risk factor was added as risk rating is based on pro-forma cash flow ☐ Policy Exceptions\nMBFS Analyst Notes  Borrower is seeking a mortgage secured by a 1st mortgage lien on the fully leased two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units located at COLLATERAL ADDRESS. Funds will be used to pay off and close an existing CU LOAN #XXXX, as well as, recapture equity that will be reinvested into future real estate investment projects. The personal guarantors demonstrate good credit scores, personal cash flow and have experience owning investment real estate. The global DSCR is sufficient historically and on a pro-forma basis. Based on the strengths/weaknesses, the analyst agrees with the given risk rating.\nThe CU should:",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Strengths | Weaknesses"
+  },
+  "parent_id": null,
+  "token_count": 319,
+  "node_id": "39c0682b-a480-4ad6-b277-ce0014a4c8a7",
+  "line_start": 663,
+  "line_end": 681,
+  "child_ids": [
+    "dda132ac9bf766a6"
+  ],
+  "parent_type": "soft_section"
+}

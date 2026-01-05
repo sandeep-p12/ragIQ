@@ -1,0 +1,39 @@
+{
+  "chunk_id": "9b1412416843abdd",
+  "doc_id": "tmp7spl7no6",
+  "page_span": [
+    4,
+    4
+  ],
+  "page_nos": [
+    4
+  ],
+  "header_path": "FINANCIAL ANALYSIS",
+  "section_label": "FINANCIAL ANALYSIS",
+  "element_type": "mixed",
+  "raw_md_fragment": "# FINANCIAL ANALYSIS\n\nPersonal Financial Analysis for GUARANTOR 1:\n\n# Net Worth\n\nIt should be noted that jointly held assets with a spouse, who is not a party in the transaction, may influence the capital capacity. Per the personal financial statement dated December 26, 2021, GUARANTOR 1 has a stated net worth of $3,689,440 based upon assets of $4,760,177 and liabilities of $1,070,737. When excluding closely held business interest valued at $425,000, GUARANTOR 1 has an adjusted net worth of $3,264,440. Liquid assets total $370,150 and consist solely of cash. The stated cash on hand can cover 12 months of personal debt service. Account statements were provided and verified the liquidity. GUARANTOR 1 indicated $659,527 in retirement accounts that were not added into the liquidity calculation as they are not readily available and carry significant penalties and taxes if withdrawn prematurely. Other assets consisted of automobiles/personal property valued at $5,500. Long-term assets consisted of primary real estate valued at $650,000 which secures $127,061 in mortgage debt and investment real estate valued at $2,650,000 which secures mortgage debt of $927,976. In addition to the already mentioned mortgage debt, GUARANTOR 1 disclosed revolving debt of $15,700.\n\nDebt to Outside Net Worth: 0.33 or 33%, which indicates a low level of outstanding debt owed, as compared to the total value of personal assets (less all liabilities).\n\nPer the credit report dated March 26, 2022, GUARANTOR 1 has a credit score of 734 with 22% open revolving availability. The credit report indicates all trades have been paid as agreed.\n\n# FINANCIAL ANALYSIS\n\nPersonal Financial Analysis for GUARANTOR 1:\n\n# Net Worth\n\nIt should be noted that jointly held assets with a spouse, who is not a party in the transaction, may influence the capital capacity. Per the personal financial statement dated December 26, 2021, GUARANTOR 1 has a stated net worth of $3,689,440 based upon assets of $4,760,177 and liabilities of $1,070,737. When excluding closely held business interest valued at $425,000, GUARANTOR 1 has an adjusted net worth of $3,264,440. Liquid assets total $370,150 and consist solely of cash. The stated cash on hand can cover 12 months of personal debt service. Account statements were provided and verified the liquidity. GUARANTOR 1 indicated $659,527 in retirement accounts that were not added into the liquidity calculation as they are not readily available and carry significant penalties and taxes if withdrawn prematurely. Other assets consisted of automobiles/personal property valued at $5,500. Long-term assets consisted of primary real estate valued at $650,000 which secures $127,061 in mortgage debt and investment real estate valued at $2,650,000 which secures mortgage debt of $927,976. In addition to the already mentioned mortgage debt, GUARANTOR 1 disclosed revolving debt of $15,700.\n\nDebt to Outside Net Worth: 0.33 or 33%, which indicates a low level of outstanding debt owed, as compared to the total value of personal assets (less all liabilities).\n\nPer the credit report dated March 26, 2022, GUARANTOR 1 has a credit score of 734 with 22% open revolving availability. The credit report indicates all trades have been paid as agreed.\n\n| Sources | Amount |\n| ------------------------ | ---------- |\n| Borrower Sub |  |\n| Data 1 |  |\n| Data 4 |  |\n| Data 7 |  |\n| Aggregate Relationship | $514,500 |\n| Estimated LTV | 70% |",
+  "text_for_embedding": "Document: tmp7spl7no6 | Page: 4 | Section: FINANCIAL ANALYSIS\n\n# FINANCIAL ANALYSIS\nPersonal Financial Analysis for GUARANTOR 1:\n\nDocument: tmp7spl7no6 | Page: 4 | Section: Net Worth\n\n# Net Worth\nIt should be noted that jointly held assets with a spouse, who is not a party in the transaction, may influence the capital capacity. Per the personal financial statement dated December 26, 2021, GUARANTOR 1 has a stated net worth of $3,689,440 based upon assets of $4,760,177 and liabilities of $1,070,737. When excluding closely held business interest valued at $425,000, GUARANTOR 1 has an adjusted net worth of $3,264,440. Liquid assets total $370,150 and consist solely of cash. The stated cash on hand can cover 12 months of personal debt service. Account statements were provided and verified the liquidity. GUARANTOR 1 indicated $659,527 in retirement accounts that were not added into the liquidity calculation as they are not readily available and carry significant penalties and taxes if withdrawn prematurely. Other assets consisted of automobiles/personal property valued at $5,500. Long-term assets consisted of primary real estate valued at $650,000 which secures $127,061 in mortgage debt and investment real estate valued at $2,650,000 which secures mortgage debt of $927,976. In addition to the already mentioned mortgage debt, GUARANTOR 1 disclosed revolving debt of $15,700.\nDebt to Outside Net Worth: 0.33 or 33%, which indicates a low level of outstanding debt owed, as compared to the total value of personal assets (less all liabilities).\nPer the credit report dated March 26, 2022, GUARANTOR 1 has a credit score of 734 with 22% open revolving availability. The credit report indicates all trades have been paid as agreed.\nTable Header: Sources | Amount\nRow: Borrower Sub | \nRow: Data 1 | \nRow: Data 4 | \nRow: Data 7 | \nRow: Aggregate Relationship | $514,500\nRow: Estimated LTV | 70%",
+  "metadata": {
+    "element_count": 5,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "table"
+    ],
+    "structure_confidence": 1.0,
+    "table_signature": "table_1x6",
+    "table_rows": 6,
+    "table_header": "Sources | Amount",
+    "merged_from": [
+      "9980c09ba1145f03",
+      "a01b53232e978e77"
+    ]
+  },
+  "parent_id": "d2f80ec3e350b6c7",
+  "token_count": 474,
+  "node_id": "286b35c8-e159-44e7-928c-4e6083789b8c",
+  "line_start": 118,
+  "line_end": 137
+}

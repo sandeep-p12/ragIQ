@@ -1,0 +1,32 @@
+{
+  "chunk_id": "44e356297ebd484a",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    8,
+    9
+  ],
+  "page_nos": [
+    8,
+    9
+  ],
+  "header_path": "Business Financial Analysis for BORROWER > Debt Service Ability",
+  "section_label": "Debt Service Ability",
+  "element_type": "parent",
+  "raw_md_fragment": "## Debt Service Ability\n\nIn 2021, the entity demonstrated cash available for debt service of $12,862 compared to $27,599 in 2020 and $29,231 in 2019.\n\nThe 2021 CAFDS was based upon the net income of $8,968 plus the add-back of depreciation of $13,596 and interest expense of $11,098, less distributions of $20,800 paid to the owners.\n\nDebt service totals $15,780, indicating a DSCR of 0.82x in 2021 compared to 1.75x in 2020 and 1.85x in 2019. It should be mentioned that the 2021 DSCR is below the CU recommended minimum and appears to be impacted by the distributions of $20,800 paid to the owners.\n\nOn a pro-forma basis (when considering the provided leases) cash available for debt service is $32,845 when based upon gross rents of $53,400, less a 5% vacancy factor and carryover of 2021 historical operating expenses. Debt service totals $32,208 after the existing CU mortgage is refinanced with the proposed mortgage, indicating a pro-forma DSCR of 1.02x.\n\n# Industry Information\n\nThe following industry information has been derived from IBISWorld.com for NAICS – 531110; Apartment Rentals in the US:\n\nOperators in this industry act as lessors of buildings used as residences or dwellings. Industry participants are owner-lessors of residential buildings and establishments that rent real estate and then act as lessors by subleasing it to others. In addition to apartments, the industry also rents single-family homes and town houses.",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 8 | Section: Business Financial Analysis for BORROWER > Debt Service Ability\n\n## Debt Service Ability\nIn 2021, the entity demonstrated cash available for debt service of $12,862 compared to $27,599 in 2020 and $29,231 in 2019.\nThe 2021 CAFDS was based upon the net income of $8,968 plus the add-back of depreciation of $13,596 and interest expense of $11,098, less distributions of $20,800 paid to the owners.\nDebt service totals $15,780, indicating a DSCR of 0.82x in 2021 compared to 1.75x in 2020 and 1.85x in 2019. It should be mentioned that the 2021 DSCR is below the CU recommended minimum and appears to be impacted by the distributions of $20,800 paid to the owners.\nOn a pro-forma basis (when considering the provided leases) cash available for debt service is $32,845 when based upon gross rents of $53,400, less a 5% vacancy factor and carryover of 2021 historical operating expenses. Debt service totals $32,208 after the existing CU mortgage is refinanced with the proposed mortgage, indicating a pro-forma DSCR of 1.02x.\n\nDocument: Sample-Enhanced-Memo | Page: 9 | Section: Industry Information\n\n# Industry Information\nThe following industry information has been derived from IBISWorld.com for NAICS – 531110; Apartment Rentals in the US:\nOperators in this industry act as lessors of buildings used as residences or dwellings. Industry participants are owner-lessors of residential buildings and establishments that rent real estate and then act as lessors by subleasing it to others. In addition to apartments, the industry also rents single-family homes and town houses.",
+  "metadata": {
+    "child_count": 2,
+    "parent_type": "heading_based",
+    "section_label": "Debt Service Ability"
+  },
+  "parent_id": null,
+  "token_count": 398,
+  "node_id": "aec872b6-3ba3-4bf4-b6a5-4af1c3b51ed4",
+  "line_start": 294,
+  "line_end": 336,
+  "child_ids": [
+    "c9a8aa2c059219be",
+    "0a3abd4d003f9183"
+  ],
+  "parent_type": "heading_based"
+}

@@ -1,0 +1,108 @@
+{
+  "template_path": "/var/folders/gl/h3lnt2y93897rw1qzlt4l3v80000gn/T/tmp39nzp3mq.pdf",
+  "template_format": "pdf",
+  "sections": [
+    {
+      "title": "Credit Memo",
+      "level": 1,
+      "fields": []
+    }
+  ],
+  "field_definitions": {
+    "field_0": {
+      "field_id": "field_0",
+      "name": "Date Presented",
+      "type": "date",
+      "required": true,
+      "description": "Field with label 'Date Presented'",
+      "location": {
+        "type": "markdown_text",
+        "match_start": 195,
+        "match_end": 239
+      },
+      "field_type": "underscore_line",
+      "context": "Date Presented",
+      "placeholder_text": " Date Presented: ___________________________"
+    },
+    "field_1": {
+      "field_id": "field_1",
+      "name": "Loan Rating",
+      "type": "currency",
+      "required": true,
+      "description": "Field with label 'Loan Rating'",
+      "location": {
+        "type": "markdown_text",
+        "match_start": 241,
+        "match_end": 282
+      },
+      "field_type": "underscore_line",
+      "context": "Loan Rating",
+      "placeholder_text": " Loan Rating: ___________________________"
+    },
+    "field_2": {
+      "field_id": "field_2",
+      "name": "Lending Staff",
+      "type": "text",
+      "required": true,
+      "description": "Field with label 'Lending Staff'",
+      "location": {
+        "type": "markdown_text",
+        "match_start": 309,
+        "match_end": 352
+      },
+      "field_type": "underscore_line",
+      "context": "Lending Staff",
+      "placeholder_text": " Lending Staff: ___________________________"
+    },
+    "field_3": {
+      "field_id": "field_3",
+      "name": "Referral Source",
+      "type": "text",
+      "required": true,
+      "description": "Field with label 'Referral Source'",
+      "location": {
+        "type": "markdown_text",
+        "match_start": 354,
+        "match_end": 394
+      },
+      "field_type": "underscore_line",
+      "context": "Referral Source",
+      "placeholder_text": " Referral Source: ______________________"
+    },
+    "field_4": {
+      "field_id": "field_4",
+      "name": "Name",
+      "type": "text",
+      "required": true,
+      "description": "Field with label 'Name'",
+      "location": {
+        "type": "markdown_text",
+        "match_start": 663,
+        "match_end": 697
+      },
+      "field_type": "underscore_line",
+      "context": "Name",
+      "placeholder_text": " Name: ___________________________"
+    },
+    "field_5": {
+      "field_id": "field_5",
+      "name": "Address",
+      "type": "text",
+      "required": true,
+      "description": "Field with label 'Address'",
+      "location": {
+        "type": "markdown_text",
+        "match_start": 699,
+        "match_end": 736
+      },
+      "field_type": "underscore_line",
+      "context": "Address",
+      "placeholder_text": " Address: ___________________________"
+    }
+  },
+  "structure_map": {
+    "markdown": "\n\n--- Page 1 ---\n\n[HEADER]\nExhibit B. Credit Memo Template\n[/HEADER]\n\n--- Page 1 ---\n\nThe following Credit Memo form will be printed on MHTF’s letterhead.\n\n# Credit Memo\n\n\n| 1. MHTF INFORMATION | Date Presented: ___________________________ | Loan Rating: ___________________________ |\n| --- | --- | --- |\n|  | Lending Staff: ___________________________ | Referral Source: ______________________ |\n| 2. APPLICANT INFORMATION |  |  |\n| Applicant Name: |  |  |\n| Contact Name And Title: |  |  |\n| Street Address: |  |  |\n| City And State: |  |  |\n| Zip Code: |  |  |\n| Telephone Number: |  |  |\n| Fax Number: |  |  |\n| Email Address: |  |  |\n| Officers/Principals: | Name: ___________________________ | Address: ___________________________ |\n| Applicant Status: | □ Non-Profit □ For Profit □ Government Entity □ Joint Venture □ Limited Dividend Entity □ Other _____ |  |\n| 3. PROJECT INFORMATION |  |  |\n| Project Name: |  |  |\n| Street Address: |  |  |\n| City and State: |  |  |\n| Zip Code: |  |  |\n| County: |  |  |\n| Anticipated Construction Start Date: |  |  |\n| Anticipated Occupancy Date: |  |  |\n| 4. ACTIVITY TYPE |  |  |\n| Select All that Apply: | □ Acquisition □ Predevelopment □ Infrastructure □ Construction □ Rehab □ Mortgage Buy down |  |\n| 5. UNIT TYPE |  |  |\n| Select All that Apply: | □ Homeownership □ Rental □ Mixed Use (includes commercial) □ Single Family □ Multi Family □ Transitional |  |\n\n--- Page 2 ---\n\n\n| 6. HOUSING UNITS |  |  |  |\n| --- | --- | --- | --- |\n| The Recipient shall create (number) __________ housing units, |  |  |  |\n| of which (number) __________ will be affordable to very low income households, (50% of median and below) |  |  |  |\n| (number) __________ will be affordable to low income households, (51% to 80% of median) |  |  |  |\n| (number) __________ will be affordable to moderate income households, (81% to 120% of median) |  |  |  |\n| and (number) __________ will be market rate. (121% and above) |  |  |  |\n| 7. MHTF FINANCED HOUSING UNITS |  |  |  |\n| MHTF will finance (number) __________ very-low income units, (50% of median and below) |  |  |  |\n| (number) __________ low-income units, (51% to 80% of median) |  |  |  |\n| (number) __________ moderate-income units, (81% to 120% of median) |  |  |  |\n| 8. LOAN DESCRIPTION |  |  |  |\n| Loan Type: |  |  |  |\n| Loan Amount: |  |  |  |\n| Interest Rate: |  |  |  |\n| Fees: |  |  |  |\n| Other Charges: |  |  |  |\n| Note: | Amortization Schedule Attached □ YES □ NO |  |  |\n|  | Debt Service Coverage Ratio: |  |  |\n|  | Source of Repayment: |  |  |\n|  | Secondary Source: |  |  |\n| 9. SOURCE OF FUNDS |  |  |  |\n| Source(s) of Funds | Amount $ | Committed □ | Anticipated □ |\n| Source | Amount $ | Committed □ | Anticipated □ |\n| Source | Amount $ | Committed □ | Anticipated □ |\n| Source | Amount $ | Committed □ | Anticipated □ |\n|  | Total Sources: $ |  |  |\n| 10. USES OF FUNDS |  |  |  |\n| Use(s) of Funds | Amount $ |  |  |\n| Use | Amount $ |  |  |\n| Use | Amount $ |  |  |\n| Use | Amount $ |  |  |\n|  | Total Uses: $ |  |  |\n| 11. COLLATERAL |  |  |  |\n| Description and Lien Position | Valuation | Less: Priors Lien(s) | Discounted Value |\n| (1) |  |  |  |\n| (2) |  |  |  |\n| (3) |  |  |  |\n| (4) |  |  |  |\n| 12. GUARANTORS |  |  |  |\n| Name | Address | Amount and Comments |  |\n| 13. PROJECTED IMPACT |  |  |  |\n| Leveraged Funds |  |  |  |\n| Other Social Impacts |  |  |  |\n| 14. STRENGTHS |  |  |  |\n\n--- Page 3 ---\n\n\n| 1. |  |  |\n| --- | --- | --- |\n| 2. |  |  |\n| 3. |  |  |\n| 4. |  |  |\n| 15. WEAKNESSES |  |  |\n| 1. |  |  |\n| 2. |  |  |\n| 3. |  |  |\n| 4. |  |  |\n| 16. CREDIT POLICY EXCEPTIONS |  |  |\n| 1. |  |  |\n| 2. |  |  |\n| 3. |  |  |\n| 4. |  |  |\n| 17. RECOMMENDED CONDITIONS TO CLOSING |  |  |\n| 1. |  |  |\n| 2. |  |  |\n| 3. |  |  |\n| 4. |  |  |\n| 18. ADDITIONAL TERMS AND CONDITIONS |  |  |\n| IF LOAN COMMITTEE APPROVAL IS REQUIRED |  |  |\n| Members Voting | □ Approve □ Deny |  |\n| IF BOARD OF DIRECTORS APPROVAL IS REQUIRED |  |  |\n| Members Voting | □ Approve □ Deny |  |\n| REQUIRED SIGNATURES |  |  |\n| Signature | Title | Date |\n\n",
+    "tables": [],
+    "sections": []
+  }
+}

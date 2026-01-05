@@ -1,0 +1,35 @@
+{
+  "chunk_id": "426f45a9890ad2de",
+  "doc_id": "tmp7spl7no6",
+  "page_span": [
+    19,
+    19
+  ],
+  "page_nos": [
+    19
+  ],
+  "header_path": "MBFS Analyst Notes",
+  "section_label": "MBFS Analyst Notes",
+  "element_type": "mixed",
+  "raw_md_fragment": "# MBFS Analyst Notes\n\n• Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.\n\n| Sources | Amount |\n| ------------------------ | ---------- |\n| Borrower Sub |  |\n| Data 1 |  |\n| Data 4 |  |\n| Data 7 |  |\n| Aggregate Relationship | $514,500 |\n| Estimated LTV | 70% |",
+  "text_for_embedding": "Document: tmp7spl7no6 | Page: 19 | Section: MBFS Analyst Notes\n\n# MBFS Analyst Notes\n• Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.\n\nDocument: tmp7spl7no6 | Page: 20 | Section: Sources | Amount\n\nTable Header: Sources | Amount\nRow: Borrower Sub | \nRow: Data 1 | \nRow: Data 4 | \nRow: Data 7 | \nRow: Aggregate Relationship | $514,500\nRow: Estimated LTV | 70%",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "table"
+    ],
+    "structure_confidence": 1.0,
+    "table_signature": "table_1x6",
+    "table_rows": 6,
+    "table_header": "Sources | Amount",
+    "merged_from": [
+      "78a0fd5ac0592cef",
+      "8372f6cfd88fb4b8"
+    ]
+  },
+  "parent_id": "d2f80ec3e350b6c7",
+  "token_count": 135,
+  "node_id": "6b3c767b-f217-4143-8c0b-97ed584131e8",
+  "line_start": 493,
+  "line_end": 530
+}

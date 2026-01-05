@@ -1,0 +1,30 @@
+{
+  "chunk_id": "8cd0fea4622655a8",
+  "doc_id": "tmpkoj4_j6o",
+  "page_span": [
+    2,
+    2
+  ],
+  "page_nos": [
+    2
+  ],
+  "header_path": "Collateral > Analysis",
+  "section_label": "Analysis",
+  "element_type": "parent",
+  "raw_md_fragment": "### Analysis\n\nThe subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied.\n\nIt is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\nTotal annual rents equal $4,450/month or $53,400 in gross rents.",
+  "text_for_embedding": "Document: tmpkoj4_j6o | Page: 2 | Section: Collateral > Analysis\n\n### Analysis\nThe subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied.\nIt is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\nTotal annual rents equal $4,450/month or $53,400 in gross rents.",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Analysis"
+  },
+  "parent_id": null,
+  "token_count": 210,
+  "node_id": "015cbe0e-f163-4bb0-8cd3-539f89038e0c",
+  "line_start": 45,
+  "line_end": 53,
+  "child_ids": [
+    "742326ba02ab1ab2"
+  ],
+  "parent_type": "soft_section"
+}

@@ -1,0 +1,32 @@
+{
+  "chunk_id": "6f64d0c5601abf02",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    13,
+    13
+  ],
+  "page_nos": [
+    13
+  ],
+  "header_path": null,
+  "section_label": "Two images showing the front view of a two-story b",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Transactional Analysis\n\nThe subject loan request will be secured by a 1st mortgage lien on the subject property located at COLLATERAL ADDRESS. The subject property is a two-story multifamily building with a finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\n**Site Visit:** Loan officer performed a site visit on April 1, 2022 and noted the property is in good condition with no signs of deferred maintenance.\n\n[IMAGE]\nTwo images showing the front view of a two-story brick multifamily building. The building has multiple windows with air conditioning units installed. There are cars parked on the street in front of the building. The surrounding area appears to be a residential neighborhood.\n[/IMAGE]\n\n[IMAGE]\nTwo images showing the front and side views of the same multifamily building. The building is situated on a corner lot with a sidewalk and street in front. There are cars parked along the street and in a small parking area adjacent to the building.\n[/IMAGE]",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 13 | Section: Two images showing the front view of a two-story b\n\n[IMAGE]\nTwo images showing the front view of a two-story brick multifamily building. The building has multiple windows with air conditioning units installed. There are cars parked on the street in front of the building. The surrounding area appears to be a residential neighborhood.\n[/IMAGE]\n\nDocument: Sample-Enhanced-Memo | Page: 14 | Section: Two images showing the front and side views of the\n\n[IMAGE]\nTwo images showing the front and side views of the same multifamily building. The building is situated on a corner lot with a sidewalk and street in front. There are cars parked along the street and in a small parking area adjacent to the building.\n[/IMAGE]",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "imageblockelement"
+    ],
+    "structure_confidence": 0.9,
+    "merged_from": [
+      "98902d83b9db584f",
+      "b40e3daee53989b1"
+    ]
+  },
+  "parent_id": "ed73c09dcf0ff49e",
+  "token_count": 165,
+  "node_id": "ccb5da7c-8109-4b15-9c35-d44f151ae825",
+  "line_start": 523,
+  "line_end": 537
+}

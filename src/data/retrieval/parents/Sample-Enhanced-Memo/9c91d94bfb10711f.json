@@ -1,0 +1,31 @@
+{
+  "chunk_id": "9c91d94bfb10711f",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    18,
+    18
+  ],
+  "page_nos": [
+    18
+  ],
+  "header_path": "Market Information > Outlook",
+  "section_label": "Outlook",
+  "element_type": "parent",
+  "raw_md_fragment": "### Outlook\n\nDuring 2022 and 2023, 7,148 additional units are projected to be introduced to the metro inventory. Net new household formations at the metro level over the same period are anticipated to average 0.7% annually, enough to facilitate an absorption rate averaging 3,155 units per year. Because this amount does not exceed the forecasted new construction, the market vacancy rate will rise by 20 basis points to finish 2023 at 4.4%. On an annualized basis, asking and effective rents are expected to advance at a rate of 4.3% through year end 2023, reaching average rates of $1,743 and $1,675 per unit, respectively.\n\n## Market Information\n\nThe following market information has been derived from REIS.com for the Philadelphia market area:\n\n### Market Overview\n\nThe Philadelphia apartment market is comprised of 237,347 units in twenty-eight geographic concentrations ranging in size from the 26,254 unit Center City submarket to the Olney/Oak Lane submarket, which amounts to 2,870 units.\n\nIn the nine-year period beginning with Q1 2012, the Center City submarket has experienced the greatest introduction of new inventory, 10,901 units, amounting to 29.0% of all new market rate rentals added to the market.",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 18 | Section: Market Information > Outlook\n\n### Outlook\nDuring 2022 and 2023, 7,148 additional units are projected to be introduced to the metro inventory. Net new household formations at the metro level over the same period are anticipated to average 0.7% annually, enough to facilitate an absorption rate averaging 3,155 units per year. Because this amount does not exceed the forecasted new construction, the market vacancy rate will rise by 20 basis points to finish 2023 at 4.4%. On an annualized basis, asking and effective rents are expected to advance at a rate of 4.3% through year end 2023, reaching average rates of $1,743 and $1,675 per unit, respectively.\n\nDocument: Sample-Enhanced-Memo | Page: 18 | Section: Market Information\n\n## Market Information\nThe following market information has been derived from REIS.com for the Philadelphia market area:\n\nDocument: Sample-Enhanced-Memo | Page: 18 | Section: Market Information > Market Overview\n\n### Market Overview\nThe Philadelphia apartment market is comprised of 237,347 units in twenty-eight geographic concentrations ranging in size from the 26,254 unit Center City submarket to the Olney/Oak Lane submarket, which amounts to 2,870 units.\nIn the nine-year period beginning with Q1 2012, the Center City submarket has experienced the greatest introduction of new inventory, 10,901 units, amounting to 29.0% of all new market rate rentals added to the market.",
+  "metadata": {
+    "child_count": 2,
+    "parent_type": "heading_based",
+    "section_label": "Outlook"
+  },
+  "parent_id": null,
+  "token_count": 337,
+  "node_id": "40baa2cf-3880-4caa-b441-b2ba691ef85a",
+  "line_start": 563,
+  "line_end": 569,
+  "child_ids": [
+    "ad679a478ffa09d3",
+    "fe57c1c7296211c8"
+  ],
+  "parent_type": "heading_based"
+}

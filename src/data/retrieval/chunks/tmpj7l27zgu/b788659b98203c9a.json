@@ -1,0 +1,33 @@
+{
+  "chunk_id": "b788659b98203c9a",
+  "doc_id": "tmpj7l27zgu",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": "Products & Services Segmentation > SWOT > Opportunities",
+  "section_label": "Opportunities",
+  "element_type": "mixed",
+  "raw_md_fragment": "#### Opportunities\n\n#### Threats",
+  "text_for_embedding": "Document: tmpj7l27zgu | Page: 11 | Section: Products & Services Segmentation > SWOT > Opportunities\n\n#### Opportunities\n\nDocument: tmpj7l27zgu | Page: 11 | Section: Products & Services Segmentation > SWOT > Threats\n\n#### Threats",
+  "metadata": {
+    "element_count": 2,
+    "element_types": [
+      "heading",
+      "listelement"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "b55a6be96be1d69f",
+      "9360aac4cb8e64f2"
+    ]
+  },
+  "parent_id": "53741c99b5d82d11",
+  "token_count": 63,
+  "node_id": "284ee124-2393-4ee7-bb5a-1331a7075dfd",
+  "line_start": 467,
+  "line_end": 467
+}

@@ -1,0 +1,34 @@
+{
+  "chunk_id": "eea473eaf40bd89e",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": "Industry at a Glance > Key External Drivers",
+  "section_label": "Key External Drivers",
+  "element_type": "mixed",
+  "raw_md_fragment": "### Key External Drivers\n\n### Industry Structure",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 10 | Section: Industry at a Glance > Key External Drivers\n\n### Key External Drivers\n\nDocument: Sample-Enhanced-Memo | Page: 10 | Section: Industry at a Glance > Industry Structure\n\n### Industry Structure",
+  "metadata": {
+    "element_count": 3,
+    "element_types": [
+      "heading",
+      "listelement",
+      "listelement"
+    ],
+    "structure_confidence": 0.9,
+    "merged_from": [
+      "7776e4541733b742",
+      "63ddb7b42ca848c5"
+    ]
+  },
+  "parent_id": "43088768020ee34d",
+  "token_count": 59,
+  "node_id": "7651e02f-450e-46b6-a749-82627698da70",
+  "line_start": 359,
+  "line_end": 363
+}

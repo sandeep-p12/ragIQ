@@ -1,0 +1,112 @@
+{
+  "template_path": "/Users/sandeep/Documents/projects/ragIQ/Exhibit-B.-Credit-Memo-Template.pdf",
+  "template_format": "pdf",
+  "sections": [
+    {
+      "title": "Credit Memo",
+      "level": 1,
+      "fields": []
+    },
+    {
+      "title": "1. MHTF INFORMATION",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "2. APPLICANT INFORMATION",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "3. PROJECT INFORMATION",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "4. ACTIVITY TYPE",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "5. UNIT TYPE",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "6. HOUSING UNITS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "7. MHTF FINANCED HOUSING UNITS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "8. LOAN DESCRIPTION",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "9. SOURCE OF FUNDS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "10. USES OF FUNDS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "11. COLLATERAL",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "12. GUARANTORS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "13. PROJECTED IMPACT",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "14. STRENGTHS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "15. WEAKNESSES",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "16. CREDIT POLICY EXCEPTIONS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "17. RECOMMENDED CONDITIONS TO CLOSING",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "18. ADDITIONAL TERMS AND CONDITIONS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "REQUIRED SIGNATURES",
+      "level": 2,
+      "fields": []
+    }
+  ],
+  "field_definitions": {},
+  "structure_map": {
+    "markdown": "\n\n--- Page 1 ---\n\n[HEADER]\nExhibit B. Credit Memo Template\n[/HEADER]\n\n--- Page 1 ---\n\nThe following Credit Memo form will be printed on MHTF’s letterhead.\n\n# Credit Memo\n\n## 1. MHTF INFORMATION\n\n\n| Date Presented: | Loan Rating: |\n| --- | --- |\n| Lending Staff: | Referral Source: |\n\n## 2. APPLICANT INFORMATION\n\n\n| Applicant Name: |  |  |\n| --- | --- | --- |\n| Contact Name And Title: |  |  |\n| Street Address: |  |  |\n| City And State: |  |  |\n| Zip Code: |  |  |\n| Telephone Number: |  |  |\n| Fax Number: |  |  |\n| Email Address: |  |  |\n| Officers/Principals: | Name | Address |\n| Applicant Status: | Non-Profit ☐ For Profit ☐ Government Entity ☐ Joint Venture ☐ Limited Dividend Entity ☐ Other ☐ |  |\n\n## 3. PROJECT INFORMATION\n\n\n| Project Name: |  |\n| --- | --- |\n| Street Address: |  |\n| City and State: |  |\n| Zip Code: |  |\n| County: |  |\n| Anticipated Construction Start Date |  |\n| Anticipated Occupancy Date |  |\n\n## 4. ACTIVITY TYPE\n\n\n| Select All that Apply: | Acquisition ☐ | Predevelopment ☐ | Infrastructure ☐ |\n| --- | --- | --- | --- |\n|  | Construction ☐ | Rehab ☐ | Mortgage Buy down ☐ |\n\n## 5. UNIT TYPE\n\n\n| Select All that Apply: | Homeownership ☐ | Rental ☐ | Mixed Use (includes commercial) ☐ |\n| --- | --- | --- | --- |\n|  | Single Family ☐ | Multi Family ☐ | Transitional ☐ |\n\n--- Page 2 ---\n\n## 6. HOUSING UNITS\n\n\n| The Recipient shall create (number) | housing units, |\n| --- | --- |\n| of which (number) | will be affordable to very low income households, (50% of median and below) |\n| (number) | will be affordable to low income households, (51% to 80% of median) |\n| (number) | will be affordable to moderate income households, (81% to 120% of median) |\n| and (number) | will be market rate. (121% and above) |\n\n## 7. MHTF FINANCED HOUSING UNITS\n\n\n| MHTF will finance (number) | very-low income units, (50% of median and below) |\n| --- | --- |\n| (number) | low-income units, (51% to 80% of median) |\n| (number) | moderate-income units, (81% to 120% of median) |\n\n## 8. LOAN DESCRIPTION\n\n\n| Loan Type: |  |\n| --- | --- |\n| Loan Amount: | Amortization Schedule Attached ☐ YES ☐ NO |\n| Interest Rate: | Debt Service Coverage Ratio: |\n| Fees: | Source of Repayment: |\n| Other Charges: | Secondary Source: |\n\n## 9. SOURCE OF FUNDS\n\n\n| Source(s) of Funds | Amount $ | Committed ☐ | Anticipated ☐ |\n| --- | --- | --- | --- |\n| Source | Amount $ | Committed ☐ | Anticipated ☐ |\n| Source | Amount $ | Committed ☐ | Anticipated ☐ |\n| Source | Amount $ | Committed ☐ | Anticipated ☐ |\n| Source | Amount $ | Committed ☐ | Anticipated ☐ |\n|  | Total Sources: $ |  |  |\n\n## 10. USES OF FUNDS\n\n\n| Use(s) of Funds | Amount $ |\n| --- | --- |\n| Use | Amount $ |\n| Use | Amount $ |\n| Use | Amount $ |\n| Use | Amount $ |\n|  | Total Uses: $ |\n\n## 11. COLLATERAL\n\n\n| Description and Lien Position | Valuation | Less: Priors Lien(s) | Discounted Value |\n| --- | --- | --- | --- |\n| (1) |  |  |  |\n| (2) |  |  |  |\n| (3) |  |  |  |\n| (4) |  |  |  |\n\n## 12. GUARANTORS\n\n\n| Name | Address | Amount and Comments |\n| --- | --- | --- |\n\n## 13. PROJECTED IMPACT\n\n\n| Leveraged Funds |  |\n| --- | --- |\n| Other Social Impacts |  |\n\n## 14. STRENGTHS\n\n1.\n2.\n3.\n4.\n\n--- Page 3 ---\n\n## 15. WEAKNESSES\n\n1.\n2.\n3.\n4.\n\n## 16. CREDIT POLICY EXCEPTIONS\n\n1.\n2.\n3.\n4.\n\n## 17. RECOMMENDED CONDITIONS TO CLOSING\n\n1.\n2.\n3.\n4.\n\n## 18. ADDITIONAL TERMS AND CONDITIONS\n\n\n| IF LOAN COMMITTEE APPROVAL IS REQUIRED |  |\n| --- | --- |\n| Members Voting | ☐ Approve ☐ Deny |\n| IF BOARD OF DIRECTORS APPROVAL IS REQUIRED |  |\n| Members Voting | ☐ Approve ☐ Deny |\n\n## REQUIRED SIGNATURES\n\n\n| Signature | Title | Date |\n| --- | --- | --- |\n\n",
+    "tables": [],
+    "sections": []
+  }
+}

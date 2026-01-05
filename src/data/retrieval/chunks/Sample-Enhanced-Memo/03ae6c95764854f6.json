@@ -22,15 +22,15 @@
       "paragraph",
       "paragraph"
     ],
-    "structure_confidence": 0.5,
+    "structure_confidence": 0.9,
     "merged_from": [
       "d1a21c2e4a3185ae",
       "028badcf3c3f530e"
     ]
   },
-  "parent_id": "c08aa31096d21048",
+  "parent_id": "bfcfa9b39cc7ec27",
   "token_count": 577,
-  "node_id": "5f66b8c5-886e-4a12-a114-2b570dd488d0",
-  "line_start": 309,
-  "line_end": 327
+  "node_id": "10661cc2-c35f-4722-ba16-fed95ec310ae",
+  "line_start": 317,
+  "line_end": 335
 }

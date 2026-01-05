@@ -1,0 +1,32 @@
+{
+  "chunk_id": "3cd41b1980aed767",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    13,
+    13
+  ],
+  "page_nos": [
+    13
+  ],
+  "header_path": null,
+  "section_label": "Two images of the subject property showing the ext",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Transactional Analysis\n\nThe subject loan request will be secured by a 1st mortgage lien on the subject property located at COLLATRAL ADDRESS. The subject property is a two-story multifamily building with a finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\n**Site Visit:** Loan officer performed a site visit on April 1, 2022 and noted the property is in good condition with no signs of deferred maintenance.\n\n[IMAGE]\nTwo images of the subject property showing the exterior view from the street. The building is a two-story brick structure with multiple windows and a central entrance. Several cars are parked on the street in front of the building.\n[/IMAGE]\n\n[IMAGE]\nTwo additional images of the subject property from different angles. The first image shows the front view of the building with a car parked in front. The second image shows a side view of the building, highlighting the surrounding area and additional parked cars.\n[/IMAGE]",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 13 | Section: Two images of the subject property showing the ext\n\n[IMAGE]\nTwo images of the subject property showing the exterior view from the street. The building is a two-story brick structure with multiple windows and a central entrance. Several cars are parked on the street in front of the building.\n[/IMAGE]\n\nDocument: Sample-Enhanced-Memo | Page: 14 | Section: Two additional images of the subject property from\n\n[IMAGE]\nTwo additional images of the subject property from different angles. The first image shows the front view of the building with a car parked in front. The second image shows a side view of the building, highlighting the surrounding area and additional parked cars.\n[/IMAGE]",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "imageblockelement"
+    ],
+    "structure_confidence": 0.9,
+    "merged_from": [
+      "139732c516d4e556",
+      "ac075f24081407f3"
+    ]
+  },
+  "parent_id": "eb69be99d53b3645",
+  "token_count": 154,
+  "node_id": "05e780dd-822d-40ca-9d76-85876283276c",
+  "line_start": 477,
+  "line_end": 491
+}

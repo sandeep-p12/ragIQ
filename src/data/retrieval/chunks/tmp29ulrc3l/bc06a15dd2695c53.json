@@ -1,0 +1,50 @@
+{
+  "chunk_id": "bc06a15dd2695c53",
+  "doc_id": "tmp29ulrc3l",
+  "page_span": [
+    15,
+    15
+  ],
+  "page_nos": [
+    15
+  ],
+  "header_path": null,
+  "section_label": "Three images showing different views of the proper",
+  "element_type": "mixed",
+  "raw_md_fragment": "[IMAGE]\nThree images showing different views of the property:\n1. A side view of the building showing a narrow alleyway and adjacent residential properties.\n1. A rear view showing a parking area with several vehicles.\n1. A close-up of the building's utility meters mounted on the exterior wall.\n[/IMAGE]\n\n[IMAGE]\nImage of a stairwell with brick walls and mailboxes on the right side. The stairwell has a carpeted floor and metal railings.\n[/IMAGE]\n\n[IMAGE]\nImage of a hallway with a wooden door and a painting on the wall. The hallway has a carpeted floor and metal railings.\n[/IMAGE]\n\n[IMAGE]\nImage of a brick apartment building exterior with a red awning over the entrance. The building has multiple windows with air conditioning units.\n[/IMAGE]\n\n[IMAGE]\nImage of a stairwell with a painting on the wall and carpeted steps. The stairwell has metal railings and brick walls.\n[/IMAGE]",
+  "text_for_embedding": "Document: tmp29ulrc3l | Page: 15 | Section: Three images showing different views of the proper\n\n[IMAGE]\nThree images showing different views of the property:\n1. A side view of the building showing a narrow alleyway and adjacent residential properties.\n1. A rear view showing a parking area with several vehicles.\n1. A close-up of the building's utility meters mounted on the exterior wall.\n[/IMAGE]\n\nDocument: tmp29ulrc3l | Page: 16 | Section: Image of a stairwell with brick walls and mailboxe\n\n[IMAGE]\nImage of a stairwell with brick walls and mailboxes on the right side. The stairwell has a carpeted floor and metal railings.\n[/IMAGE]",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "imageblockelement"
+    ],
+    "structure_confidence": 0.5,
+    "repair_applied": [
+      {
+        "repair_type": "list_repair",
+        "location": [
+          553,
+          553
+        ],
+        "reason": "Inconsistent list marker, normalized to '1.'"
+      },
+      {
+        "repair_type": "list_repair",
+        "location": [
+          554,
+          554
+        ],
+        "reason": "Inconsistent list marker, normalized to '1.'"
+      }
+    ],
+    "merged_from": [
+      "cf4b96d508d33aa8",
+      "911ebed3ebaa3cbe"
+    ]
+  },
+  "parent_id": "74fc953fef906f92",
+  "token_count": 151,
+  "node_id": "38d1ad68-a658-4810-b318-cc914e72ca47",
+  "line_start": 549,
+  "line_end": 571
+}

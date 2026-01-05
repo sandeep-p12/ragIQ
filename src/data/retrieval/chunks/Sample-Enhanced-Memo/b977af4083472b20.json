@@ -1,0 +1,32 @@
+{
+  "chunk_id": "b977af4083472b20",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    2,
+    2
+  ],
+  "page_nos": [
+    2
+  ],
+  "header_path": "Collateral > Analysis",
+  "section_label": "Analysis",
+  "element_type": "mixed",
+  "raw_md_fragment": "### Analysis\n\nThe subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units.\n\nThe gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied.\n\nIt is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\nTotal annual rents equal $4,450/month or $53,400 in gross rents.",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 2 | Section: Collateral > Analysis\n\n### Analysis\nThe subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units.\nThe gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied.\nIt is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\nTotal annual rents equal $4,450/month or $53,400 in gross rents.",
+  "metadata": {
+    "element_count": 5,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 0.9
+  },
+  "parent_id": "430d90fb55117205",
+  "token_count": 209,
+  "node_id": "29c7756d-5955-4038-a6aa-455fde572454",
+  "line_start": 45,
+  "line_end": 54
+}

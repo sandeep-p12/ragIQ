@@ -1,0 +1,29 @@
+{
+  "chunk_id": "35d2875b291163ff",
+  "doc_id": "tmp7spl7no6",
+  "page_span": [
+    8,
+    8
+  ],
+  "page_nos": [
+    8
+  ],
+  "header_path": "Rent Roll",
+  "section_label": "Rent Roll",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Rent Roll\n\nAccording to the borrower, the subject property is a two-story multifamily building that is fully leased. A copy of a rent roll was not provided, however, leases are on file and indicated all six units are leased on a month-to-month basis. The oldest leases date back to 2017 for three units while the other three units recently commenced in 2020. According to the provided lease agreements, the property generates $4,450 in monthly rental income or $53,400 in gross annual rents. The entity anticipates a net operating income of $32,845, less a 5% vacancy factor, carryover of historical operating expenses, less depreciation and interest expense, as well as, exlsuion of distributions as future amounts are unknown and cannot be predicted.",
+  "text_for_embedding": "Document: tmp7spl7no6 | Page: 8 | Section: Rent Roll\n\n# Rent Roll\nAccording to the borrower, the subject property is a two-story multifamily building that is fully leased. A copy of a rent roll was not provided, however, leases are on file and indicated all six units are leased on a month-to-month basis. The oldest leases date back to 2017 for three units while the other three units recently commenced in 2020. According to the provided lease agreements, the property generates $4,450 in monthly rental income or $53,400 in gross annual rents. The entity anticipates a net operating income of $32,845, less a 5% vacancy factor, carryover of historical operating expenses, less depreciation and interest expense, as well as, exlsuion of distributions as future amounts are unknown and cannot be predicted.",
+  "metadata": {
+    "element_count": 2,
+    "element_types": [
+      "heading",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0
+  },
+  "parent_id": "d2f80ec3e350b6c7",
+  "token_count": 180,
+  "node_id": "b3820755-57f4-44f4-a922-1c2ebd2d7c21",
+  "line_start": 218,
+  "line_end": 236
+}

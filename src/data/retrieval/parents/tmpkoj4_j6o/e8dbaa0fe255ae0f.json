@@ -1,0 +1,30 @@
+{
+  "chunk_id": "e8dbaa0fe255ae0f",
+  "doc_id": "tmpkoj4_j6o",
+  "page_span": [
+    15,
+    15
+  ],
+  "page_nos": [
+    15
+  ],
+  "header_path": null,
+  "section_label": "Three images showing various perspectives of the s",
+  "element_type": "parent",
+  "raw_md_fragment": "[IMAGE]\nThree images showing various perspectives of the subject property:\n1. Side view of the building with a driveway and adjacent residential properties.\n1. Rear view of the building with a parking area and additional residential buildings in the background.\n1. Close-up of the building's utility meters and electrical panel on the exterior wall.\n[/IMAGE]\n\n[IMAGE]\nImage showing a stairwell with brick walls and mailboxes on the right side. The stairwell is carpeted and leads to an exit door.\n[/IMAGE]\n\n[IMAGE]\nImage of a hallway with a wooden door and a painting on the wall. The hallway is narrow and carpeted.\n[/IMAGE]\n\n[IMAGE]\nImage of a brick apartment building exterior with a red awning over the entrance. The building has multiple windows and a pathway leading to the entrance.\n[/IMAGE]\n\n[IMAGE]\nImage of a stairwell with a painting on the wall. The stairwell is carpeted and has a railing on the left side.\n[/IMAGE]",
+  "text_for_embedding": "Document: tmpkoj4_j6o | Page: 15 | Section: Three images showing various perspectives of the s\n\n[IMAGE]\nThree images showing various perspectives of the subject property:\n1. Side view of the building with a driveway and adjacent residential properties.\n1. Rear view of the building with a parking area and additional residential buildings in the background.\n1. Close-up of the building's utility meters and electrical panel on the exterior wall.\n[/IMAGE]\n\nDocument: tmpkoj4_j6o | Page: 16 | Section: Image showing a stairwell with brick walls and mai\n\n[IMAGE]\nImage showing a stairwell with brick walls and mailboxes on the right side. The stairwell is carpeted and leads to an exit door.\n[/IMAGE]",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Three images showing various perspectives of the s"
+  },
+  "parent_id": null,
+  "token_count": 157,
+  "node_id": "96c51dd5-bb7d-48a8-b298-686a53d2034a",
+  "line_start": 571,
+  "line_end": 593,
+  "child_ids": [
+    "fb5d1428266e0766"
+  ],
+  "parent_type": "soft_section"
+}

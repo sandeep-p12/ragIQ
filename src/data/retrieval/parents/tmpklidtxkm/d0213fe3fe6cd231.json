@@ -1,0 +1,30 @@
+{
+  "chunk_id": "d0213fe3fe6cd231",
+  "doc_id": "tmpklidtxkm",
+  "page_span": [
+    3,
+    3
+  ],
+  "page_nos": [
+    3
+  ],
+  "header_path": "Financial Statements",
+  "section_label": "Financial Statements",
+  "element_type": "parent",
+  "raw_md_fragment": "## Financial Statements\n\n## Background on Borrower, Guarantors, and Loan Request\n\nThe following was provided by the Relationship Manager at the CU:\n\nBORROWER is a real estate holding company that was established in 10/2016 for the sole purpose of acquiring and managing the subject property.\n\nLLC Member and guarantor, GUARANTOR 2, is and has been a Rabbi/Teacher for the past 15 years, currently working at The Mesivta High School of Greater Philadelphia office, located in Lansdowne, PA. Rabbi GUARANTOR 2 moved to Elkins Park, PA ten years ago to serve as Kollel Director of Eitz Chaim of Philadelphia. Rabbi GUARANTOR 2 as serves as the Director of Outreach and Education for the Young Israel of Elkins Park and is a member of the Bais Din of Philadelphia. After receiving semicha from Yeshivas Chofetz Chaim in Queens, Rabbi GUARANTOR 2 attended Yeshivas Bais Yosef-Novhorodok and received intensive Halachic training under noted author and posek, Rav Binyomin Forst. In addition, he holds a bachelor’s degree in psychology from Touro College.\n\nLLC Member and guarantor, GUARANTOR 1 is and has been the manager of labor advocacy for SEPTA transportation for the past 9 years. Prior to his role within the SEPTA organization Mr. GUARANTOR 1 practiced several different facets of law, but concentrated on labor issues.\n\n**Purpose of Loan:**\n\nPayoff and close an existing American Heritage loan #1-1-13281, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.\n\n## Financial Statements\n\n\n| Borrower(s): | BORROWER |\n| --- | --- |\n|  | - 2018-2021 Business tax returns |\n|  | - Lease agreements |\n|  | - Site visit dated 4/1/2022 |\n| Guarantors(s): | GUARANTOR 1: |\n|  | - 2018-2020 personal tax returns; 2021 W2 |\n|  | - Personal financial statement dated 12/26/2021 |\n|  | - Schedule of Real Estate |\n|  | - Personal credit report dated 3/26/2022 |\n|  | GUARANTOR 2: |\n|  | - 2018-2021 personal tax returns; |\n|  | - 2020-2021 K-1’s for related entity |\n|  | - Personal financial statement dated 12/28/2021 |\n|  | - Personal credit report dated 3/26/2022 |",
+  "text_for_embedding": "Document: tmpklidtxkm | Page: 3 | Section: Financial Statements\n\n## Financial Statements\nTable Header: Borrower(s): | BORROWER\nRow:  | - 2018-2021 Business tax returns\nRow:  | - Lease agreements\nRow:  | - Site visit dated 4/1/2022\nRow: Guarantors(s): | GUARANTOR 1:\nRow:  | - 2018-2020 personal tax returns; 2021 W2\nRow:  | - Personal financial statement dated 12/26/2021\nRow:  | - Schedule of Real Estate\nRow:  | - Personal credit report dated 3/26/2022\nRow:  | GUARANTOR 2:\nRow:  | - 2018-2021 personal tax returns;\nRow:  | - 2020-2021 K-1’s for related entity\nRow:  | - Personal financial statement dated 12/28/2021\nRow:  | - Personal credit report dated 3/26/2022",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Financial Statements"
+  },
+  "parent_id": null,
+  "token_count": 232,
+  "node_id": "9bd3bbb7-22fd-4ccd-9618-717bf777f9fe",
+  "line_start": 94,
+  "line_end": 125,
+  "child_ids": [
+    "68ce8debf44f8836"
+  ],
+  "parent_type": "soft_section"
+}

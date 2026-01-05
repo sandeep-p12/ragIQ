@@ -1,0 +1,30 @@
+{
+  "chunk_id": "b3e98d95269d0f10",
+  "doc_id": "tmpklidtxkm",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": "Key Trends",
+  "section_label": "Key Trends",
+  "element_type": "parent",
+  "raw_md_fragment": "### Key Trends\n\n## Industry at a Glance",
+  "text_for_embedding": "Document: tmpklidtxkm | Page: 10 | Section: Key Trends\n\n### Key Trends\n\nDocument: tmpklidtxkm | Page: 10 | Section: Industry at a Glance\n\n## Industry at a Glance",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Key Trends"
+  },
+  "parent_id": null,
+  "token_count": 49,
+  "node_id": "cd106727-5dbd-4903-940c-180322e300a6",
+  "line_start": 338,
+  "line_end": 384,
+  "child_ids": [
+    "b175867ea50d2d22"
+  ],
+  "parent_type": "soft_section"
+}

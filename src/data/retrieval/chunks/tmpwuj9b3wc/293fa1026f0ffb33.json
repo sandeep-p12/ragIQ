@@ -1,0 +1,34 @@
+{
+  "chunk_id": "293fa1026f0ffb33",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    9,
+    9
+  ],
+  "page_nos": [
+    9
+  ],
+  "header_path": "Industry Information",
+  "section_label": "Industry Information",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Industry Information\n\nThe following industry information has been derived from IBISWorld.com for NAICS – 531110; Apartment Rentals in the US:\n\nOperators in this industry act as lessors of buildings used as residences or dwellings. Industry participants are owner\u0002lessors of residential buildings and establishments that rent real estate and then act as lessors by subleasing it to others. In addition to apartments, the industry also rents single-family homes and town houses.\n\nIn addition to apartments, the industry also rents single-family homes and town houses.\n\nCOVID-19 Impact:\n\n• Revenue for the Apartment Rental industry is expected to rise marginally in 2020 and in 2021 as inflation pushes rent up. • Rising inflation is pushing up costs of operation and rent, further challenging consumer affordability.\n\n• Rising inflation is pushing up costs of operation and rent, further challenging consumer affordability. • Competition with homeownership has never been fiercer, with the COVID-19 (coronavirus) pandemic driving significant demographic change and urban flight, weakening industry revenue. The prospect of a rate increase by the Federal Reserve may curtail this home buying activity.",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 9 | Section: Industry Information\n\n# Industry Information\nThe following industry information has been derived from IBISWorld.com for NAICS – 531110; Apartment Rentals in the US:\nOperators in this industry act as lessors of buildings used as residences or dwellings. Industry participants are owner\u0002lessors of residential buildings and establishments that rent real estate and then act as lessors by subleasing it to others. In addition to apartments, the industry also rents single-family homes and town houses.\nIn addition to apartments, the industry also rents single-family homes and town houses.\nCOVID-19 Impact:\n• Revenue for the Apartment Rental industry is expected to rise marginally in 2020 and in 2021 as inflation pushes rent up. • Rising inflation is pushing up costs of operation and rent, further challenging consumer affordability.\n• Rising inflation is pushing up costs of operation and rent, further challenging consumer affordability. • Competition with homeownership has never been fiercer, with the COVID-19 (coronavirus) pandemic driving significant demographic change and urban flight, weakening industry revenue. The prospect of a rate increase by the Federal Reserve may curtail this home buying activity.",
+  "metadata": {
+    "element_count": 7,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 247,
+  "node_id": "0af9a370-f933-41be-bd45-8a276ed1f1ef",
+  "line_start": 121,
+  "line_end": 125
+}

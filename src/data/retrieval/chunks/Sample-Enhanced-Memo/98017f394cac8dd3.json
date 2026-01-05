@@ -21,21 +21,21 @@
       "listelement",
       "paragraph"
     ],
-    "structure_confidence": 0.5,
+    "structure_confidence": 0.9,
     "repair_applied": [
       {
         "repair_type": "list_repair",
         "location": [
-          728,
-          728
+          680,
+          680
         ],
         "reason": "Inconsistent list marker, normalized to '1.'"
       }
     ]
   },
-  "parent_id": "7cdb4de920799f5a",
+  "parent_id": "ce141c2517ae79b6",
   "token_count": 41,
-  "node_id": "880b1f84-4340-46ee-8c49-3f064ca203cf",
-  "line_start": 723,
-  "line_end": 729
+  "node_id": "ee396e50-53ce-4386-8966-42f5ab406f4f",
+  "line_start": 675,
+  "line_end": 681
 }

@@ -1,0 +1,30 @@
+{
+  "chunk_id": "7212b363645eee95",
+  "doc_id": "tmp29ulrc3l",
+  "page_span": [
+    2,
+    2
+  ],
+  "page_nos": [
+    2
+  ],
+  "header_path": "Collateral > Analysis",
+  "section_label": "Analysis",
+  "element_type": "parent",
+  "raw_md_fragment": "### Analysis\n\nThe subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.",
+  "text_for_embedding": "Document: tmp29ulrc3l | Page: 2 | Section: Collateral > Analysis\n\n### Analysis\nThe subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Analysis"
+  },
+  "parent_id": null,
+  "token_count": 183,
+  "node_id": "3c3979ff-a7c8-4257-8ef8-36be8b98d94b",
+  "line_start": 42,
+  "line_end": 74,
+  "child_ids": [
+    "90cf644f7ce743ef"
+  ],
+  "parent_type": "soft_section"
+}

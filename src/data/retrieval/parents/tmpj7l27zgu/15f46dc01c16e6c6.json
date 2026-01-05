@@ -1,0 +1,30 @@
+{
+  "chunk_id": "15f46dc01c16e6c6",
+  "doc_id": "tmpj7l27zgu",
+  "page_span": [
+    22,
+    22
+  ],
+  "page_nos": [
+    22
+  ],
+  "header_path": "BORROWER TREE:",
+  "section_label": "BORROWER TREE:",
+  "element_type": "parent",
+  "raw_md_fragment": "## BORROWER TREE:\n\nA.  Borrower-BORROWER\n\nNotes:",
+  "text_for_embedding": "Document: tmpj7l27zgu | Page: 22 | Section: BORROWER TREE:\n\n## BORROWER TREE:\nA.  Borrower-BORROWER\nNotes:",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "BORROWER TREE:"
+  },
+  "parent_id": null,
+  "token_count": 42,
+  "node_id": "75f905f1-acb3-4361-8c3a-0d5259693938",
+  "line_start": 735,
+  "line_end": 741,
+  "child_ids": [
+    "182241743ceff042"
+  ],
+  "parent_type": "soft_section"
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "067290f51ed18ccf",
+  "doc_id": "tmpz_i22pz6",
+  "page_span": [
+    2,
+    2
+  ],
+  "page_nos": [
+    2
+  ],
+  "header_path": "Sources of Repayment",
+  "section_label": "Sources of Repayment",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Sources of Repayment\n\n| Relationship | ☑ This document also serves as the annual reviews of the following relationship(s): |  |  |  |\n| --- | --- | --- | --- | --- |\n| Loan # | Borrower | Date | Original Balance | Current Balance |\n| 1-1-13281* | BORROWER | 12/30/2016 | $252,000 | $229,742 |\n| TBD | BORROWER | TBD | $514,500 | - |\n\n*To be refinanced with this request, therefore, loan amount was not included in the total exposure on page 1.\n\n*To be refinanced with this request, therefore, loan amount was not included in the total exposure on page 1.\n\n| Purpose | Payoff and close an existing CREDIT UNION LOAN, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.\n\n|  |  | | --- | --- | --- | --- | | Sources | Amount | Uses | Amount | | American Heritage FCU | $514,500 | Payoff CU LOAN #XXXXXX | $229,742 | |  |  | Cash out | $284,758 | | Total | $514,500 | Total | $514,500 |",
+  "text_for_embedding": "Document: tmpz_i22pz6 | Page: 2 | Section: Sources of Repayment\n\n## Sources of Repayment\nTable Header: Relationship | ☑ This document also serves as the annual reviews of the following relationship(s): |  |  | \nRow: Loan # | Borrower | Date | Original Balance | Current Balance\nRow: 1-1-13281* | BORROWER | 12/30/2016 | $252,000 | $229,742\nRow: TBD | BORROWER | TBD | $514,500 | -\n*To be refinanced with this request, therefore, loan amount was not included in the total exposure on page 1.\n| Purpose | Payoff and close an existing CREDIT UNION LOAN, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.\n|  |  | | --- | --- | --- | --- | | Sources | Amount | Uses | Amount | | American Heritage FCU | $514,500 | Payoff CU LOAN #XXXXXX | $229,742 | |  |  | Cash out | $284,758 | | Total | $514,500 | Total | $514,500 |",
+  "metadata": {
+    "element_count": 6,
+    "element_types": [
+      "heading",
+      "listelement",
+      "table",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "table_signature": "table_4x3",
+    "table_rows": 3,
+    "table_header": "Relationship | ☑ This document also serves as the annual reviews of the following relationship(s): |  |  | ",
+    "structure_confidence": 0.9
+  },
+  "parent_id": "ddeddf2ea76ad33f",
+  "token_count": 261,
+  "node_id": "9d1aa84b-1fca-469e-aabf-65bade05333b",
+  "line_start": 42,
+  "line_end": 74
+}

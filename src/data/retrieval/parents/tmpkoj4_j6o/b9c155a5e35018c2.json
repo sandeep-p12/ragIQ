@@ -1,0 +1,30 @@
+{
+  "chunk_id": "b9c155a5e35018c2",
+  "doc_id": "tmpkoj4_j6o",
+  "page_span": [
+    13,
+    13
+  ],
+  "page_nos": [
+    13
+  ],
+  "header_path": null,
+  "section_label": "Two images of the subject property showing the ext",
+  "element_type": "parent",
+  "raw_md_fragment": "## Transactional Analysis\n\nThe subject loan request will be secured by a 1st mortgage lien on the subject property located at COLLATRAL ADDRESS. The subject property is a two-story multifamily building with a finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\n**Site Visit:** Loan officer performed a site visit on April 1, 2022 and noted the property is in good condition with no signs of deferred maintenance.\n\n[IMAGE]\nTwo images of the subject property showing the exterior view of a two-story brick multifamily building with multiple windows and air conditioning units. The images capture the front view of the building with parked cars on the street.\n[/IMAGE]\n\n[IMAGE]\nTwo additional images of the subject property showing different angles of the exterior. The images depict the same two-story brick building with a clear view of the surrounding area, including parked cars and adjacent properties.\n[/IMAGE]",
+  "text_for_embedding": "Document: tmpkoj4_j6o | Page: 13 | Section: Two images of the subject property showing the ext\n\n[IMAGE]\nTwo images of the subject property showing the exterior view of a two-story brick multifamily building with multiple windows and air conditioning units. The images capture the front view of the building with parked cars on the street.\n[/IMAGE]\n\nDocument: tmpkoj4_j6o | Page: 14 | Section: Two additional images of the subject property show\n\n[IMAGE]\nTwo additional images of the subject property showing different angles of the exterior. The images depict the same two-story brick building with a clear view of the surrounding area, including parked cars and adjacent properties.\n[/IMAGE]",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Two images of the subject property showing the ext"
+  },
+  "parent_id": null,
+  "token_count": 146,
+  "node_id": "d69d78c9-87a4-4a97-9ed1-7bfd9a5b9f12",
+  "line_start": 553,
+  "line_end": 567,
+  "child_ids": [
+    "917f49189a6240d7"
+  ],
+  "parent_type": "soft_section"
+}

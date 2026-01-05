@@ -1,0 +1,33 @@
+{
+  "chunk_id": "d03df93a6b42d410",
+  "doc_id": "tmp7spl7no6",
+  "page_span": [
+    12,
+    12
+  ],
+  "page_nos": [
+    12
+  ],
+  "header_path": "Global Cash Flow Analysis",
+  "section_label": "Global Cash Flow Analysis",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Global Cash Flow Analysis\n\nBased upon the 2020 financial information provided for the borrower and individuals, the global DSCR is sufficient at 2.42x when compared to 2.87x in 2019. The global DSCR in 2021 is 1.59x when based upon the 2021 financial information provided by GUARANTOR 2 and the borrower, as well as, GUARANTOR 1’s 2021 W2 (as his 2021 tax returns were not available during underwriting). On a pro-forma the DSCR is 1.60x when based on the inclusion of the proposed mortgage, pro-forma cash flow of the guarantors, and inclusion of anticipated rental income for the subject property to be owned by the borrowing entity, less a 5% vacancy factor and historical operating expenses.\n\n# Global Cash Flow Analysis\n\nBased upon the 2020 financial information provided for the borrower and individuals, the global DSCR is sufficient at 2.42x when compared to 2.87x in 2019. The global DSCR in 2021 is 1.59x when based upon the 2021 financial information provided by GUARANTOR 2 and the borrower, as well as, GUARANTOR 1’s 2021 W2 (as his 2021 tax returns were not available during underwriting). On a pro-forma the DSCR is 1.60x when based on the inclusion of the proposed mortgage, pro-forma cash flow of the guarantors, and inclusion of anticipated rental income for the subject property to be owned by the borrowing entity, less a 5% vacancy factor and historical operating expenses.\n\n| Sources | Amount |\n| ------------------------ | ---------- |\n| Borrower Sub |  |\n| Data 1 |  |\n| Data 4 |  |\n| Data 7 |  |\n| Aggregate Relationship | $514,500 |\n| Estimated LTV | 70% |",
+  "text_for_embedding": "Document: tmp7spl7no6 | Page: 12 | Section: Global Cash Flow Analysis\n\n# Global Cash Flow Analysis\nBased upon the 2020 financial information provided for the borrower and individuals, the global DSCR is sufficient at 2.42x when compared to 2.87x in 2019. The global DSCR in 2021 is 1.59x when based upon the 2021 financial information provided by GUARANTOR 2 and the borrower, as well as, GUARANTOR 1’s 2021 W2 (as his 2021 tax returns were not available during underwriting). On a pro-forma the DSCR is 1.60x when based on the inclusion of the proposed mortgage, pro-forma cash flow of the guarantors, and inclusion of anticipated rental income for the subject property to be owned by the borrowing entity, less a 5% vacancy factor and historical operating expenses.\nTable Header: Sources | Amount\nRow: Borrower Sub | \nRow: Data 1 | \nRow: Data 4 | \nRow: Data 7 | \nRow: Aggregate Relationship | $514,500\nRow: Estimated LTV | 70%",
+  "metadata": {
+    "element_count": 3,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "table"
+    ],
+    "table_signature": "table_1x6",
+    "table_rows": 6,
+    "table_header": "Sources | Amount",
+    "structure_confidence": 1.0
+  },
+  "parent_id": "d2f80ec3e350b6c7",
+  "token_count": 252,
+  "node_id": "ac4d3a24-f161-48b0-bcdb-e8e7847b3b3b",
+  "line_start": 381,
+  "line_end": 392
+}

@@ -1,0 +1,30 @@
+{
+  "chunk_id": "eb3e3ff2538009b8",
+  "doc_id": "tmpadrsp4h8",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": "Major Players",
+  "section_label": "Major Players",
+  "element_type": "parent",
+  "raw_md_fragment": "## Major Players\n\n## SWOT",
+  "text_for_embedding": "Document: tmpadrsp4h8 | Page: 11 | Section: Major Players\n\n## Major Players\n\nDocument: tmpadrsp4h8 | Page: 11 | Section: SWOT\n\n## SWOT",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Major Players"
+  },
+  "parent_id": null,
+  "token_count": 45,
+  "node_id": "00b8c82b-8e86-4f8a-8955-7e2977a09e4d",
+  "line_start": 457,
+  "line_end": 463,
+  "child_ids": [
+    "b15f3d166c0091e1"
+  ],
+  "parent_type": "soft_section"
+}

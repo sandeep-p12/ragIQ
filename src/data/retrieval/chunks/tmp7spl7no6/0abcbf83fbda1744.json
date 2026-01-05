@@ -1,0 +1,33 @@
+{
+  "chunk_id": "0abcbf83fbda1744",
+  "doc_id": "tmp7spl7no6",
+  "page_span": [
+    8,
+    8
+  ],
+  "page_nos": [
+    8
+  ],
+  "header_path": "Balance Sheet",
+  "section_label": "Balance Sheet",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Balance Sheet\n\nThe 2021 balance sheet exhibits a net worth of $101,229 compared to $113,061 in 2020 and $116,021 in 2019.\n\nCapital for the period consisted solely of retained earnings. Assets have declined 7% from 2019 to 2021, totaling $361,318 in 2019, $352,525 in 2020 and $336,013 in 2021. The decline appears to be from a decline in cash accounts coupled with an increase in depreciation reported on net fixed assets. Current assets totaled $6,076 and was comprised solely in cash accounts.\n\nCurrent assets totaled $6,076 and was comprised solely in cash accounts. An account statement from the CU indicated $25 on deposit while the remaining liquidity was not verified by third party account statements. The CU should obtain and review account statements to verify the remaining liquidity position and ability to support the repayment of debt in the event of cash flow interruptions. The listed cash is sufficient to cover approximately 2.5 months of the entity’s annual debt service.\n\nNon-current assets totaled $329,937 and consisted of land valued at $32,686 and net fixed assets after accumulated depreciation of ($73,111). Liabilities have declined 4% from 2019 to 2021, totaling $245,297 in 2019, $239,464 in 2020 and $234,784 in 2021 as long-term debt has been paid down.\n\nCurrent liabilities totaled $3,800 and consisted solely of security deposits. Non-current liabilities consisted solely of long-term debt held by the CU.",
+  "text_for_embedding": "Document: tmp7spl7no6 | Page: 8 | Section: Balance Sheet\n\n# Balance Sheet\nThe 2021 balance sheet exhibits a net worth of $101,229 compared to $113,061 in 2020 and $116,021 in 2019.\nCapital for the period consisted solely of retained earnings. Assets have declined 7% from 2019 to 2021, totaling $361,318 in 2019, $352,525 in 2020 and $336,013 in 2021. The decline appears to be from a decline in cash accounts coupled with an increase in depreciation reported on net fixed assets. Current assets totaled $6,076 and was comprised solely in cash accounts.\nCurrent assets totaled $6,076 and was comprised solely in cash accounts. An account statement from the CU indicated $25 on deposit while the remaining liquidity was not verified by third party account statements. The CU should obtain and review account statements to verify the remaining liquidity position and ability to support the repayment of debt in the event of cash flow interruptions. The listed cash is sufficient to cover approximately 2.5 months of the entity’s annual debt service.\nNon-current assets totaled $329,937 and consisted of land valued at $32,686 and net fixed assets after accumulated depreciation of ($73,111). Liabilities have declined 4% from 2019 to 2021, totaling $245,297 in 2019, $239,464 in 2020 and $234,784 in 2021 as long-term debt has been paid down.\nCurrent liabilities totaled $3,800 and consisted solely of security deposits. Non-current liabilities consisted solely of long-term debt held by the CU.",
+  "metadata": {
+    "element_count": 6,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0
+  },
+  "parent_id": "d2f80ec3e350b6c7",
+  "token_count": 350,
+  "node_id": "657c7bcc-979d-4b92-9e84-55d728b8a7d5",
+  "line_start": 218,
+  "line_end": 222
+}

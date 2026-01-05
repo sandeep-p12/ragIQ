@@ -43,6 +43,10 @@ dependencies = [
     # UI
     "streamlit>=1.28.0",
     
+    # CrewAI for multi-agent system
+    "crewai>=0.80.0",
+    "crewai-tools>=1.0.0",  # Tools for CrewAI agents
+    
     # Layout detection
     "doclayout-yolo>=0.0.4",
     "opencv-python-headless>=4.8.0",

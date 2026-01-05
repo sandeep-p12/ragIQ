@@ -1,0 +1,35 @@
+{
+  "chunk_id": "4fbbcf9fb278b18a",
+  "doc_id": "tmpj7l27zgu",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": "Industry at a Glance > Key Statistics",
+  "section_label": "Key Statistics",
+  "element_type": "mixed",
+  "raw_md_fragment": "### Key Statistics\n\n[IMAGE]\n\n8%\n\n4%\n\n[/IMAGE]\n\n### Key External Drivers\n\n6pp**: National unemployment rate",
+  "text_for_embedding": "Document: tmpj7l27zgu | Page: 10 | Section: Industry at a Glance > Key Statistics\n\n### Key Statistics\n[IMAGE]\n8%\n4%\n[/IMAGE]\n\nDocument: tmpj7l27zgu | Page: 10 | Section: Industry at a Glance > Key External Drivers\n\n### Key External Drivers\n6pp**: National unemployment rate",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "heading",
+      "listelement",
+      "paragraph",
+      "listelement"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "558e1abc946fcb5f",
+      "d7aeae5fe7677318"
+    ]
+  },
+  "parent_id": "321914de017afa7b",
+  "token_count": 78,
+  "node_id": "f6ba3795-cbd9-439f-baa8-81ff41ba3a5d",
+  "line_start": 341,
+  "line_end": 361
+}

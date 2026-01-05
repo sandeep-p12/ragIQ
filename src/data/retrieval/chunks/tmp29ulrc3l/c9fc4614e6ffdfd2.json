@@ -1,0 +1,35 @@
+{
+  "chunk_id": "c9fc4614e6ffdfd2",
+  "doc_id": "tmp29ulrc3l",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": "Industry at a Glance > Industry Structure",
+  "section_label": "Industry Structure",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Industry Structure\n\nLife Cycle: Mature\n\n## Key Trends",
+  "text_for_embedding": "Document: tmp29ulrc3l | Page: 10 | Section: Industry at a Glance > Industry Structure\n\n## Industry Structure\nLife Cycle: Mature\n\nDocument: tmp29ulrc3l | Page: 10 | Section: Industry at a Glance > Key Trends\n\n## Key Trends",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "heading",
+      "listelement",
+      "listelement",
+      "listelement"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "ed26d705c81155d5",
+      "347d95301e13538c"
+    ]
+  },
+  "parent_id": "3dbe9bf8210db451",
+  "token_count": 62,
+  "node_id": "fd60a691-5c45-46fe-9347-f79ea9f0b766",
+  "line_start": 331,
+  "line_end": 353
+}

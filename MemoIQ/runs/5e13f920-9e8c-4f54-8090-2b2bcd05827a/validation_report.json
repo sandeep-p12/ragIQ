@@ -1,0 +1,11 @@
+[
+  {
+    "field_id": null,
+    "status": "warning",
+    "message": "No fields provided for validation.",
+    "suggestions": [
+      "Ensure fields are extracted before validation."
+    ],
+    "severity": 2
+  }
+]

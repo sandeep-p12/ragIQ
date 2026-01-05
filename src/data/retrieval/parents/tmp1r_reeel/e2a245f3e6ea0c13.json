@@ -1,0 +1,30 @@
+{
+  "chunk_id": "e2a245f3e6ea0c13",
+  "doc_id": "tmp1r_reeel",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": "Industry at a Glance > Industry Structure",
+  "section_label": "Industry Structure",
+  "element_type": "parent",
+  "raw_md_fragment": "### Industry Structure\n\nLow\n\n### Key Trends\n\nhigh.",
+  "text_for_embedding": "Document: tmp1r_reeel | Page: 10 | Section: Industry at a Glance > Industry Structure\n\n### Industry Structure\nLow\n\nDocument: tmp1r_reeel | Page: 10 | Section: Industry at a Glance > Key Trends\n\n### Key Trends\nhigh.",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Industry Structure"
+  },
+  "parent_id": null,
+  "token_count": 62,
+  "node_id": "ec709db5-95c6-4165-a776-78927f1e7c08",
+  "line_start": 340,
+  "line_end": 360,
+  "child_ids": [
+    "5a556360a52bfb5e"
+  ],
+  "parent_type": "soft_section"
+}

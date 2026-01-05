@@ -1,0 +1,33 @@
+{
+  "chunk_id": "754426053af61bab",
+  "doc_id": "tmpadrsp4h8",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": "SWOT > Opportunities",
+  "section_label": "SWOT > Opportunities",
+  "element_type": "mixed",
+  "raw_md_fragment": "### Opportunities\n\n### Threats",
+  "text_for_embedding": "Document: tmpadrsp4h8 | Page: 11 | Section: SWOT > Opportunities\n\n### Opportunities\n\nDocument: tmpadrsp4h8 | Page: 11 | Section: SWOT > Threats\n\n### Threats",
+  "metadata": {
+    "element_count": 2,
+    "element_types": [
+      "heading",
+      "listelement"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "e395256ee0a26c17",
+      "9e5a787135314401"
+    ]
+  },
+  "parent_id": "a3439d56d4599eac",
+  "token_count": 49,
+  "node_id": "8011d1db-7cb6-482a-9b03-600180846bd3",
+  "line_start": 471,
+  "line_end": 471
+}

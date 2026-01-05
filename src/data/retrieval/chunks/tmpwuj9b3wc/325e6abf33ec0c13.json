@@ -1,0 +1,34 @@
+{
+  "chunk_id": "325e6abf33ec0c13",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    19,
+    19
+  ],
+  "page_nos": [
+    19
+  ],
+  "header_path": null,
+  "section_label": "MBFS Analyst Notes",
+  "element_type": "mixed",
+  "raw_md_fragment": "| MBFS Analyst Notes |\n| --- |\n| • Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions |\n\n# MBFS Analyst Notes\n\n• Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.\n\n# MBFS Analyst Notes\n\n• Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.\n\n| MBFS Analyst Notes |\n| --- |\n| • Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions |\n\n# MBFS Analyst Notes\n\n• Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 19 | Section: MBFS Analyst Notes\n\nTable Header: MBFS Analyst Notes\nRow: • Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions\n# MBFS Analyst Notes\n• Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.\nTable Header: MBFS Analyst Notes\nRow: • Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "table",
+      "heading",
+      "paragraph",
+      "table"
+    ],
+    "table_signature": "table_0x1",
+    "table_rows": 1,
+    "table_header": "MBFS Analyst Notes",
+    "structure_confidence": 1.0
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 119,
+  "node_id": "1dd0c49a-fdbc-4c84-8767-b54b297dc2c4",
+  "line_start": 277,
+  "line_end": 283
+}

@@ -1,0 +1,32 @@
+{
+  "chunk_id": "be554eedd254b038",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    15,
+    15
+  ],
+  "page_nos": [
+    15
+  ],
+  "header_path": null,
+  "section_label": "Three images showing different angles of the multi",
+  "element_type": "mixed",
+  "raw_md_fragment": "[IMAGE]\nThree images showing different angles of the multifamily building. The first image shows the side of the building with a narrow alleyway. The second image shows the rear parking area with several cars. The third image focuses on the utility meters attached to the side of the building.\n[/IMAGE]\n\n[IMAGE]\nImage of a stairwell with brick walls and mailboxes on the right side. The stairwell has a carpeted floor and metal railings.\n[/IMAGE]\n\n[IMAGE]\nImage of a hallway with a wooden door and a painting on the wall. The floor is carpeted, and there is a metal railing.\n[/IMAGE]\n\n[IMAGE]\nImage of a brick building exterior with multiple windows and air conditioning units. There is a pathway leading to a double-door entrance with a red awning.\n[/IMAGE]\n\n[IMAGE]\nImage of a stairwell with a painting on the wall. The stairwell has carpeted steps and metal railings.\n[/IMAGE]",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 15 | Section: Three images showing different angles of the multi\n\n[IMAGE]\nThree images showing different angles of the multifamily building. The first image shows the side of the building with a narrow alleyway. The second image shows the rear parking area with several cars. The third image focuses on the utility meters attached to the side of the building.\n[/IMAGE]\n\nDocument: Sample-Enhanced-Memo | Page: 16 | Section: Image of a stairwell with brick walls and mailboxe\n\n[IMAGE]\nImage of a stairwell with brick walls and mailboxes on the right side. The stairwell has a carpeted floor and metal railings.\n[/IMAGE]",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "imageblockelement"
+    ],
+    "structure_confidence": 0.9,
+    "merged_from": [
+      "4c173057dd59b385",
+      "bd58a976f9d08631"
+    ]
+  },
+  "parent_id": "ed73c09dcf0ff49e",
+  "token_count": 148,
+  "node_id": "a36f2fb9-390f-44e1-9684-f40849c3a169",
+  "line_start": 541,
+  "line_end": 560
+}

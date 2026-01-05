@@ -34,6 +34,9 @@ pinecone>=3.0.0
 # UI
 streamlit>=1.28.0
 
+# AutoGen for multi-agent system
+pyautogen>=0.2.0
+
 # Layout detection
 doclayout-yolo>=0.0.4
 opencv-python-headless>=4.8.0

@@ -1,0 +1,30 @@
+{
+  "chunk_id": "9ad437866c54c78a",
+  "doc_id": "tmp1r_reeel",
+  "page_span": [
+    8,
+    8
+  ],
+  "page_nos": [
+    8
+  ],
+  "header_path": "Business Financial Analysis for BORROWER > Operating Statement",
+  "section_label": "Operating Statement",
+  "element_type": "parent",
+  "raw_md_fragment": "### Operating Statement\n\nDuring the three-year period of review, rents have fluctuated slightly from $51,647 in 2019 to $48,434 in 2020 to $51,547 in 2021.\n\nOperating expenses appear typical for a real estate holding company and totaled $17,885 in 2021 compared to $16,871 in 2020 and $16,736 in 2019. As a whole, operating expenses consisted of insurance, legal/professional, repairs, taxes, utilities and other related operating expenses.\n\nDepreciation and interest expense totaled $24,694 in 2021 compared to $30,559 in 2020 and $27,388 in 2019. The bottom line was net income of $8,968 in 2021 which is an improvement from a net income of $1,004 reported in 2020 and a net income of $7,523 reported in 2019.\n\nThe entity paid out distributions of $20,800 in 2021 compared to $12,340 in 2020 and $5,680 in 2019. The entity also received capital contributions of $8,376 from the owners in 2020.",
+  "text_for_embedding": "Document: tmp1r_reeel | Page: 8 | Section: Business Financial Analysis for BORROWER > Operating Statement\n\n### Operating Statement\nDuring the three-year period of review, rents have fluctuated slightly from $51,647 in 2019 to $48,434 in 2020 to $51,547 in 2021.\nOperating expenses appear typical for a real estate holding company and totaled $17,885 in 2021 compared to $16,871 in 2020 and $16,736 in 2019. As a whole, operating expenses consisted of insurance, legal/professional, repairs, taxes, utilities and other related operating expenses.\nDepreciation and interest expense totaled $24,694 in 2021 compared to $30,559 in 2020 and $27,388 in 2019. The bottom line was net income of $8,968 in 2021 which is an improvement from a net income of $1,004 reported in 2020 and a net income of $7,523 reported in 2019.\nThe entity paid out distributions of $20,800 in 2021 compared to $12,340 in 2020 and $5,680 in 2019. The entity also received capital contributions of $8,376 from the owners in 2020.",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Operating Statement"
+  },
+  "parent_id": null,
+  "token_count": 275,
+  "node_id": "b3d12174-730b-474a-afd2-d1c4ed38bf99",
+  "line_start": 295,
+  "line_end": 299,
+  "child_ids": [
+    "fdc447940045ec11"
+  ],
+  "parent_type": "soft_section"
+}

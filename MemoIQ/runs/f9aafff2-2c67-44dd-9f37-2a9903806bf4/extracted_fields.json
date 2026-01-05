@@ -1,0 +1,92 @@
+{
+  "field_0": {
+    "field_id": "field_0",
+    "value": "2023-10-01",
+    "confidence": 0.95,
+    "citations": [
+      {
+        "doc_id": "doc123",
+        "chunk_id": null,
+        "page_span": [
+          1,
+          1
+        ],
+        "section_label": "Introduction",
+        "header_path": null,
+        "citation_text": "The document was presented on October 1, 2023."
+      }
+    ],
+    "extraction_method": "covenant_extractor",
+    "raw_context": null,
+    "field_type": "underscore_line"
+  },
+  "field_1": {
+    "field_id": "field_1",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [
+      {
+        "doc_id": "<document_id>",
+        "chunk_id": null,
+        "page_span": [
+          0,
+          0
+        ],
+        "section_label": "<section_name>",
+        "header_path": null,
+        "citation_text": "<formatted_citation>"
+      }
+    ],
+    "extraction_method": "financial_extractor",
+    "raw_context": null,
+    "field_type": "underscore_line"
+  },
+  "field_2": {
+    "field_id": "field_2",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": "covenant_extractor",
+    "raw_context": null,
+    "field_type": "underscore_line"
+  },
+  "field_3": {
+    "field_id": "field_3",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": "covenant_extractor",
+    "raw_context": null,
+    "field_type": "underscore_line"
+  },
+  "field_4": {
+    "field_id": "field_4",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "underscore_line"
+  },
+  "field_5": {
+    "field_id": "field_5",
+    "value": "123 Example Street, Example City, EX 12345",
+    "confidence": 0.9,
+    "citations": [
+      {
+        "doc_id": "doc1234",
+        "chunk_id": null,
+        "page_span": [
+          2,
+          2
+        ],
+        "section_label": "Address Information",
+        "header_path": null,
+        "citation_text": "The address is listed as 123 Example Street, Example City, EX 12345 on page 2 under the Address Information section."
+      }
+    ],
+    "extraction_method": "covenant_extractor",
+    "raw_context": null,
+    "field_type": "underscore_line"
+  }
+}

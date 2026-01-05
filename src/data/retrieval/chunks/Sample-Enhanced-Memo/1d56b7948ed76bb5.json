@@ -23,11 +23,11 @@
     "table_signature": "table_4x20",
     "table_rows": 20,
     "table_header": " | 2019 | 2020 | 2021 | Projected",
-    "structure_confidence": 0.5
+    "structure_confidence": 0.9
   },
-  "parent_id": "47022e089c7418b5",
+  "parent_id": "ed73c09dcf0ff49e",
   "token_count": 734,
-  "node_id": "7d9bfcbb-1e71-493e-a8c7-ab91695b3606",
-  "line_start": 496,
-  "line_end": 522
+  "node_id": "185a850e-c110-4cf9-ad4b-3bada3ff29ce",
+  "line_start": 493,
+  "line_end": 519
 }

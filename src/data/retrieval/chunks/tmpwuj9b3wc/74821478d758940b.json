@@ -1,0 +1,36 @@
+{
+  "chunk_id": "74821478d758940b",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    19,
+    19
+  ],
+  "page_nos": [
+    19
+  ],
+  "header_path": "MBFS Analyst Notes",
+  "section_label": "MBFS Analyst Notes",
+  "element_type": "mixed",
+  "raw_md_fragment": "# MBFS Analyst Notes\n\n• Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.\n\n| MBFS Analyst Notes |\n| --- |\n| • Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions |\n\n# MBFS Analyst Notes\n\n• Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.\n\n# MBFS Analyst Notes\n\n• Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 19 | Section: MBFS Analyst Notes\n\n# MBFS Analyst Notes\n• Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.\nTable Header: MBFS Analyst Notes\nRow: • Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions\n\nDocument: tmpwuj9b3wc | Page: 19 | Section: MBFS Analyst Notes\n\n# MBFS Analyst Notes\n• Obtain account statements for GUARANTOR 2 to verify the remaining personal liquidity positions and ability to support the repayment of debt in the event of cash flow interruptions.",
+  "metadata": {
+    "element_count": 2,
+    "element_types": [
+      "heading",
+      "paragraph"
+    ],
+    "table_signature": "table_0x1",
+    "table_rows": 1,
+    "table_header": "MBFS Analyst Notes",
+    "structure_confidence": 1.0,
+    "merged_from": [
+      "5a54c553d834921f",
+      "32c660610e360207"
+    ]
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 153,
+  "node_id": "cb7acd21-b1ed-4d75-b253-50dc2c35194d",
+  "line_start": 277,
+  "line_end": 283
+}

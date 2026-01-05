@@ -1,0 +1,30 @@
+{
+  "chunk_id": "ae9e6611f3752ee6",
+  "doc_id": "tmpj7l27zgu",
+  "page_span": [
+    8,
+    8
+  ],
+  "page_nos": [
+    8
+  ],
+  "header_path": "Business Financial Analysis for BORROWER > Rent Roll",
+  "section_label": "Rent Roll",
+  "element_type": "parent",
+  "raw_md_fragment": "## Rent Roll\n\nAccording to the borrower, the subject property is a two-story multifamily building that is fully leased. A copy of a rent roll was not provided, however, leases are on file and indicated all six units are leased on a month-to-month basis. The oldest leases date back to 2017 for three units while the other three units recently commenced in 2020. According to the provided lease agreements, the property generates $4,450 in monthly rental income or $53,400 in gross annual rents. The entity anticipates a net operating income of $32,845, less a 5% vacancy factor, carryover of historical operating expenses, lease depreciation and interest expense, as well as, exclusion of distributions as future amounts are unknown and cannot be predicted.",
+  "text_for_embedding": "Document: tmpj7l27zgu | Page: 8 | Section: Business Financial Analysis for BORROWER > Rent Roll\n\n## Rent Roll\nAccording to the borrower, the subject property is a two-story multifamily building that is fully leased. A copy of a rent roll was not provided, however, leases are on file and indicated all six units are leased on a month-to-month basis. The oldest leases date back to 2017 for three units while the other three units recently commenced in 2020. According to the provided lease agreements, the property generates $4,450 in monthly rental income or $53,400 in gross annual rents. The entity anticipates a net operating income of $32,845, less a 5% vacancy factor, carryover of historical operating expenses, lease depreciation and interest expense, as well as, exclusion of distributions as future amounts are unknown and cannot be predicted.",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Rent Roll"
+  },
+  "parent_id": null,
+  "token_count": 187,
+  "node_id": "2066f0b6-106c-44a3-8724-abebfa93e957",
+  "line_start": 296,
+  "line_end": 314,
+  "child_ids": [
+    "10d186bc55e4ed75"
+  ],
+  "parent_type": "soft_section"
+}

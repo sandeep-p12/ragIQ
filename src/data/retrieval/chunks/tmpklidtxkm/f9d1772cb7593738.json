@@ -1,0 +1,38 @@
+{
+  "chunk_id": "f9d1772cb7593738",
+  "doc_id": "tmpklidtxkm",
+  "page_span": [
+    1,
+    1
+  ],
+  "page_nos": [
+    1
+  ],
+  "header_path": "RISK RATING CALCULATION",
+  "section_label": "RISK RATING CALCULATION",
+  "element_type": "mixed",
+  "raw_md_fragment": "[HEADER]RISK RATING CALCULATION[/HEADER]\n\nMBFS Logo\n\n# Credit Memorandum\n\n![MBFS Logo](#)\n\n# Credit Memorandum\n\n\n| Date: | April 14, 2022 |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n| Credit Union: | CREDIT UNION |  |  |  |  |  |\n| Relationship Manager: | RELATIONSHIP MANAGER |  |  |  |  |  |\n| Analyst: | ANALYST |  |  |  |  |  |\n| Borrower: | BORROWER |  |  |  |  |  |\n| Borrower Summary |  |  |  |  |  |  |\n| Address | Borrower’s Address | Credit Score | N/A |  |  |  |\n| NAICS Code | 531110 | MBFS Risk Rating | 4-Pass |  |  |  |\n| Aggregate Relationship | $514,500 | Avg. Deposits | $25.04 |  |  |  |\n| Borrower DSCR | 0.82x (2021) | Global DSCR | 1.59x (2021) |  |  |  |\n|  | 1.02x (pro-forma) |  | 1.60x (pro-forma) |  |  |  |\n| Guarantor(s) | Address | Credit Score | Ownership % |  |  |  |\n| GUARANTOR 1 | Guarantor’s Address | 734 | 50% |  |  |  |\n| GUARANTOR 2 | Guarantor’s Address | 775 | 50% |  |  |  |\n| Loan Type | Amount | Term | Amortization |  |  |  |\n| Real Estate Loan | $514,500 | 5 Years | 30 Years |  |  |  |\n| Rate | Rate Type | Adjusts Every | Index | Margin | Rate Floor | Rate Ceiling |\n| 4.75% | Fixed | - | 5 Year TCM | - | 4.75% | - |\n| Estimated Fees | Estimated Amounts |  |  |  |  |  |\n| Origination Fee | $5,145 |  |  |  |  |  |\n| Underwriting Fee | $1,000 |  |  |  |  |  |\n| Doc Prep Fee | TBD |  |  |  |  |  |\n| Collateral Type | Address/Description | Est. Value | Est. LTV |  |  |  |\n| Multifamily (5+ units) | COLLATERAL ADDRESS | $735,000 | 70% |  |  |  |\n\nMBFS Logo",
+  "text_for_embedding": "Document: tmpklidtxkm | Page: 1 | Section: RISK RATING CALCULATION\n\n[HEADER]RISK RATING CALCULATION[/HEADER]\n\nDocument: tmpklidtxkm | Page: 1 | Section: Credit Memorandum\n\nMBFS Logo\n# Credit Memorandum\nTable Header: Date: | April 14, 2022 |  |  |  |  | \nRow: Credit Union: | CREDIT UNION |  |  |  |  | \nRow: Relationship Manager: | RELATIONSHIP MANAGER |  |  |  |  | \nRow: Analyst: | ANALYST |  |  |  |  | \nRow: Borrower: | BORROWER |  |  |  |  | \nRow: Borrower Summary |  |  |  |  |  | \nRow: Address | Borrower’s Address | Credit Score | N/A |  |  | \nRow: NAICS Code | 531110 | MBFS Risk Rating | 4-Pass |  |  | \nRow: Aggregate Relationship | $514,500 | Avg. Deposits | $25.04 |  |  | \nRow: Borrower DSCR | 0.82x (2021) | Global DSCR | 1.59x (2021) |  |  | \nRow:  | 1.02x (pro-forma) |  | 1.60x (pro-forma) |  |  | \nRow: Guarantor(s) | Address | Credit Score | Ownership % |  |  | \nRow: GUARANTOR 1 | Guarantor’s Address | 734 | 50% |  |  | \nRow: GUARANTOR 2 | Guarantor’s Address | 775 | 50% |  |  | \nRow: Loan Type | Amount | Term | Amortization |  |  | \nRow: Real Estate Loan | $514,500 | 5 Years | 30 Years |  |  | \nRow: Rate | Rate Type | Adjusts Every | Index | Margin | Rate Floor | Rate Ceiling\nRow: 4.75% | Fixed | - | 5 Year TCM | - | 4.75% | -\nRow: Estimated Fees | Estimated Amounts |  |  |  |  | \nRow: Origination Fee | $5,145 |  |  |  |  | \nRow: Underwriting Fee | $1,000 |  |  |  |  | \nRow: Doc Prep Fee | TBD |  |  |  |  | \nRow: Collateral Type | Address/Description | Est. Value | Est. LTV |  |  | \nRow: Multifamily (5+ units) | COLLATERAL ADDRESS | $735,000 | 70% |  |  | \nMBFS Logo",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "paragraph",
+      "heading",
+      "table",
+      "paragraph"
+    ],
+    "structure_confidence": 0.5,
+    "table_signature": "table_6x23",
+    "table_rows": 23,
+    "table_header": "Date: | April 14, 2022 |  |  |  |  | ",
+    "merged_from": [
+      "c8dfbb64fe0d5c34",
+      "9363980e768c8ab0"
+    ]
+  },
+  "parent_id": "6db9caf22401b5c9",
+  "token_count": 612,
+  "node_id": "b307e740-dba2-4889-9ece-43a2df5067c2",
+  "line_start": 3,
+  "line_end": 38
+}

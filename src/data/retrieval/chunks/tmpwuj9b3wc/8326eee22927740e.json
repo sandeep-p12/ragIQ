@@ -1,0 +1,34 @@
+{
+  "chunk_id": "8326eee22927740e",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    21,
+    21
+  ],
+  "page_nos": [
+    21
+  ],
+  "header_path": "CREDIT UNION LOAN DECISION",
+  "section_label": "CREDIT UNION LOAN DECISION",
+  "element_type": "mixed",
+  "raw_md_fragment": "# CREDIT UNION LOAN DECISION\n\n# BORROWER TREE:\n\nA. Borrower-BORROWER\n\nA. Borrower-BORROWER 1. Owner/Guarantor- GUARANTOR 1 (50%) 2. Owner/Guarantor- GUARANTOR 2 (50%)",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 21 | Section: CREDIT UNION LOAN DECISION\n\n# CREDIT UNION LOAN DECISION\n\nDocument: tmpwuj9b3wc | Page: 22 | Section: BORROWER TREE:\n\n# BORROWER TREE:\nA. Borrower-BORROWER\nA. Borrower-BORROWER 1. Owner/Guarantor- GUARANTOR 1 (50%) 2. Owner/Guarantor- GUARANTOR 2 (50%)",
+  "metadata": {
+    "element_count": 3,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0,
+    "merged_from": [
+      "69634bd32350928f",
+      "5bfeb54adac6f292"
+    ]
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 115,
+  "node_id": "edf4e3ac-2bc1-423d-abb9-41a7b7f753a3",
+  "line_start": 289,
+  "line_end": 301
+}

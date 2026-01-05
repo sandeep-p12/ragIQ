@@ -1,0 +1,33 @@
+{
+  "chunk_id": "7e83146de5991a93",
+  "doc_id": "tmpj7l27zgu",
+  "page_span": [
+    2,
+    2
+  ],
+  "page_nos": [
+    2
+  ],
+  "header_path": "Collateral",
+  "section_label": "Collateral",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Collateral\n\n| Asset Type | Multifamily (5+ units) Property |\n| --- | --- |\n| Description | COLLATERAL ADDRESS |\n| Estimated Value | $735,000 |\n| Source of Value | Borrower Estimate |\n| Estimated LTV | 70% |\n| Advance Rate | 80% |\n| Purchase Price | $315,\n\n000 | | Purchase Date | 12/1/2016 | | Lien Position | 1st Lien Position | | Security | Property search | |  | Title Insurance | |  | Assign. of Rents/Leases |",
+  "text_for_embedding": "Document: tmpj7l27zgu | Page: 2 | Section: Collateral\n\n## Collateral\nTable Header: Asset Type | Multifamily (5+ units) Property\nRow: Description | COLLATERAL ADDRESS\nRow: Estimated Value | $735,000\nRow: Source of Value | Borrower Estimate\nRow: Estimated LTV | 70%\nRow: Advance Rate | 80%\nRow: Purchase Price | $315,\n000 | | Purchase Date | 12/1/2016 | | Lien Position | 1st Lien Position | | Security | Property search | |  | Title Insurance | |  | Assign. of Rents/Leases |",
+  "metadata": {
+    "element_count": 3,
+    "element_types": [
+      "heading",
+      "table",
+      "paragraph"
+    ],
+    "table_signature": "table_1x6",
+    "table_rows": 6,
+    "table_header": "Asset Type | Multifamily (5+ units) Property",
+    "structure_confidence": 0.5
+  },
+  "parent_id": "2214d725d3254157",
+  "token_count": 144,
+  "node_id": "7b13fa95-e95e-4ff8-a6eb-27411d7fcad3",
+  "line_start": 51,
+  "line_end": 56
+}

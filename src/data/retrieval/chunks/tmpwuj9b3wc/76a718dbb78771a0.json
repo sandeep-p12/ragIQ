@@ -1,0 +1,28 @@
+{
+  "chunk_id": "76a718dbb78771a0",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    22,
+    22
+  ],
+  "page_nos": [
+    22
+  ],
+  "header_path": "Notes:",
+  "section_label": "Notes:",
+  "element_type": "heading",
+  "raw_md_fragment": "# Notes:",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 22 | Section: Notes:\n\n# Notes:",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "heading"
+    ],
+    "structure_confidence": 1.0
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 22,
+  "node_id": "958c3d4c-c236-4e5a-ae84-4db84676377d",
+  "line_start": 295,
+  "line_end": 301
+}

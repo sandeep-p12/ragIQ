@@ -1,0 +1,34 @@
+{
+  "chunk_id": "9af4a5bbc92448dc",
+  "doc_id": "tmpj7l27zgu",
+  "page_span": [
+    2,
+    2
+  ],
+  "page_nos": [
+    2
+  ],
+  "header_path": "Sources of Repayment",
+  "section_label": "Sources of Repayment",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Sources of Repayment\n\n## Purpose\n\nPayoff and close an existing CREDIT UNION LOAN, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.\n\n\n| Sources | Amount | Uses | Amount |\n| --- | --- | --- | --- |\n| American Heritage FCU | $514,500 | Payoff CU LOAN #XXXXX | $229,742 |\n|  |  | Cash out | $284,758 |\n| Total | $514,500 | Total | $514,500 |\n\n## Collateral\n\n\n| Asset Type | Multifamily (5+ units) Property |\n| --- | --- |\n| Description | COLLATERAL ADDRESS |\n| Estimated Value | $735,000 |\n| Source of Value | Borrower Estimate |\n| Estimated LTV | 70% |\n| Advance Rate | 80% |\n| Purchase Price | $315,000 |\n| Purchase Date | 12/1/2016 |\n| Lien Position | 1st Lien Position |\n| Security | Property search |\n|  | Title Insurance |\n|  | Assign. of Rents/Leases |\n\n### Analysis\n\nThe subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\n## Sources of Repayment\n\n- **Primary**: Rental income from investment property\n\n- **Secondary**: Global cash flow\n\n- **Tertiary**: Liquidation of collateral\n\n\n| Relationship | This document also serves as the annual reviews of the following relationship(s): |  |  |  |\n| --- | --- | --- | --- | --- |\n| Loan # | Borrower | Date | Original Balance | Current Balance |\n| 1-1-13281* | BORROWER | 12/30/2016 | $252,000 | $229,742 |\n| TBD | BORROWER | TBD | $514,500 | - |\n\n*To be refinanced with this request, therefore, loan amount was not included in the total exposure on page 1.\n\n*To be refinanced with this request, therefore, loan amount was not included in the total exposure on page 1.",
+  "text_for_embedding": "Document: tmpj7l27zgu | Page: 2 | Section: Sources of Repayment\n\n## Sources of Repayment\nTable Header: Relationship | This document also serves as the annual reviews of the following relationship(s): |  |  | \nRow: Loan # | Borrower | Date | Original Balance | Current Balance\nRow: 1-1-13281* | BORROWER | 12/30/2016 | $252,000 | $229,742\nRow: TBD | BORROWER | TBD | $514,500 | -\n*To be refinanced with this request, therefore, loan amount was not included in the total exposure on page 1.",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "heading",
+      "listelement",
+      "table",
+      "paragraph"
+    ],
+    "table_signature": "table_4x3",
+    "table_rows": 3,
+    "table_header": "Relationship | This document also serves as the annual reviews of the following relationship(s): |  |  | ",
+    "structure_confidence": 0.5
+  },
+  "parent_id": "10834bc755dc64f0",
+  "token_count": 145,
+  "node_id": "420254ac-5256-442e-ab0d-e538a64ea97f",
+  "line_start": 47,
+  "line_end": 94
+}

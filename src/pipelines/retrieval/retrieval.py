@@ -1,7 +1,10 @@
 """High-level pipeline functions for retrieval subsystem."""
 
+import logging
 import time
 from typing import Any, Dict, List, Optional
+
+logger = logging.getLogger(__name__)
 
 from src.config.retrieval import RetrievalConfig
 from src.config.parsing import ParseForgeConfig
@@ -46,13 +49,17 @@ def ingest_from_chunking_outputs(
     
     try:
         # Load JSONL files
+        logger.info(f"Loading chunks from {children_jsonl_path} and {parents_jsonl_path}")
         children = load_jsonl(children_jsonl_path)
         parents = load_jsonl(parents_jsonl_path)
         
         stats["children_count"] = len(children)
         stats["parents_count"] = len(parents)
         
+        logger.info(f"Loaded {len(children)} children and {len(parents)} parents for doc_id: {doc_id}")
+        
         if not children:
+            logger.warning(f"No children chunks to index for doc_id: {doc_id}")
             return stats
         
         # Calculate avg tokens
@@ -60,12 +67,16 @@ def ingest_from_chunking_outputs(
         stats["avg_tokens"] = sum(token_counts) / len(token_counts) if token_counts else 0
         
         # Store chunks locally
+        logger.info(f"Storing {len(children)} children and {len(parents)} parents in LocalChunkStore")
         chunk_store = LocalChunkStore()
         chunk_store.put_chunks(children, parents)
+        logger.info("Chunks stored locally successfully")
         
         # Embed and upsert children
+        logger.info(f"Initializing embedding provider and vector store for doc_id: {doc_id}")
         embedding_provider = OpenAIEmbeddingProvider(cfg.embedding_config)
         vector_store = PineconeVectorStore(cfg.pinecone_config)
+        logger.info(f"Vector store initialized. Index: {cfg.pinecone_config.index_name}, Namespace: {cfg.pinecone_config.namespace}")
         
         # Prepare children for embedding
         start_time = time.time()
@@ -96,8 +107,17 @@ def ingest_from_chunking_outputs(
         
         # Upsert children
         start_time = time.time()
-        vector_store.upsert(children_vectors, namespace="children")
-        stats["upsert_time"] = time.time() - start_time
+        try:
+            logger.info(f"Upserting {len(children_vectors)} children vectors to Pinecone (namespace: children)")
+            vector_store.upsert(children_vectors, namespace="children")
+            stats["upsert_time"] = time.time() - start_time
+            logger.info(f"Successfully upserted {len(children_vectors)} children vectors in {stats['upsert_time']:.2f}s")
+        except Exception as e:
+            stats["upsert_time"] = time.time() - start_time
+            error_msg = f"Failed to upsert children vectors: {str(e)}"
+            logger.error(error_msg, exc_info=True)
+            stats["errors"].append(error_msg)
+            raise  # Re-raise to ensure error is visible
         
         # Optionally embed and upsert parents
         if parents:
@@ -125,9 +145,19 @@ def ingest_from_chunking_outputs(
                         metadata=metadata
                     ))
                 
+                logger.info(f"Upserting {len(parents_vectors)} parent vectors to Pinecone (namespace: parents)")
                 vector_store.upsert(parents_vectors, namespace="parents")
+                logger.info(f"Successfully upserted {len(parents_vectors)} parent vectors")
             except Exception as e:
-                stats["errors"].append(f"Failed to index parents: {str(e)}")
+                error_msg = f"Failed to index parents: {str(e)}"
+                logger.error(error_msg, exc_info=True)
+                stats["errors"].append(error_msg)
+        
+        # Log index health after ingestion to monitor record counts
+        try:
+            vector_store.log_index_health()
+        except Exception as e:
+            logger.debug(f"Could not log index health: {e}")
     
     except Exception as e:
         stats["errors"].append(f"Ingestion failed: {str(e)}")

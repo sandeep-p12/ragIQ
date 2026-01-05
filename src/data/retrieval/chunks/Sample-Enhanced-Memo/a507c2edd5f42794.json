@@ -1,0 +1,35 @@
+{
+  "chunk_id": "a507c2edd5f42794",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": "Industry at a Glance > Key External Drivers",
+  "section_label": "Key External Drivers",
+  "element_type": "mixed",
+  "raw_md_fragment": "### Key External Drivers\n\n### Industry Structure\n\nConcentration (Low), Industry Globalization (Low/Increasing)",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 10 | Section: Industry at a Glance > Key External Drivers\n\n### Key External Drivers\n\nDocument: Sample-Enhanced-Memo | Page: 10 | Section: Industry at a Glance > Industry Structure\n\n### Industry Structure\nConcentration (Low), Industry Globalization (Low/Increasing)",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "heading",
+      "listelement",
+      "paragraph",
+      "listelement"
+    ],
+    "structure_confidence": 0.9,
+    "merged_from": [
+      "7776e4541733b742",
+      "3cc2b34047f904db"
+    ]
+  },
+  "parent_id": "3f976aaa0aa3510e",
+  "token_count": 73,
+  "node_id": "a73e3d8e-676b-4211-8f84-9bc57cb86010",
+  "line_start": 350,
+  "line_end": 358
+}

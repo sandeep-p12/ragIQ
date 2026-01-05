@@ -1,0 +1,28 @@
+{
+  "chunk_id": "9f6a218965e1df07",
+  "doc_id": "tmp7spl7no6",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": null,
+  "section_label": "```markdown\n# Products & Services Segmentation\n\n\n## Major...",
+  "element_type": "paragraph",
+  "raw_md_fragment": "```markdown\n# Products & Services Segmentation\n\n\n## Major Players\n\nThere are no major players in this industry\n\n## SWOT\n\n\n| S | STRENGTHS |\n| --- | --- |\n|  | High & Steady Level of Assistance |\n|  | Low Volatility |\n|  | Low Imports |\n|  | High Profit vs. Sector Average |\n|  | Low Customer Class Concentration |\n|  | Low Product/Service Concentration |\n| W | WEAKNESSES |\n|  | High Competition |\n|  | Low Revenue per Employee |\n|  | High Capital Requirements |\n| O | OPPORTUNITIES |\n|  | High Revenue Growth (2016-2021) |\n|  | High Performance Drivers |\n|  | Rental vacancy rates |\n| T | THREATS |\n|  | Low Revenue Growth (2005-2021) |\n|  | Low Outlier Growth |\n|  | Low Revenue Growth (2021-2026) |\n|  | Urban population |\n\n---\n\nPage 11\n```",
+  "text_for_embedding": "Document: tmp7spl7no6 | Page: 11 | Section: ```markdown\n# Products & Services Segmentation\n\n\n## Major...\n\n```markdown\n# Products & Services Segmentation\n\n\n## Major Players\n\nThere are no major players in this industry\n\n## SWOT\n\n\n| S | STRENGTHS |\n| --- | --- |\n|  | High & Steady Level of Assistance |\n|  | Low Volatility |\n|  | Low Imports |\n|  | High Profit vs. Sector Average |\n|  | Low Customer Class Concentration |\n|  | Low Product/Service Concentration |\n| W | WEAKNESSES |\n|  | High Competition |\n|  | Low Revenue per Employee |\n|  | High Capital Requirements |\n| O | OPPORTUNITIES |\n|  | High Revenue Growth (2016-2021) |\n|  | High Performance Drivers |\n|  | Rental vacancy rates |\n| T | THREATS |\n|  | Low Revenue Growth (2005-2021) |\n|  | Low Outlier Growth |\n|  | Low Revenue Growth (2021-2026) |\n|  | Urban population |\n\n---\n\nPage 11\n```",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "paragraph"
+    ],
+    "structure_confidence": 1.0
+  },
+  "parent_id": "d2f80ec3e350b6c7",
+  "token_count": 242,
+  "node_id": "c2663320-bc97-41f3-a626-8d4b346b4a78",
+  "line_start": 341,
+  "line_end": 377
+}

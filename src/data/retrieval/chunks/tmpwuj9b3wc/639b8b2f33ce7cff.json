@@ -1,0 +1,37 @@
+{
+  "chunk_id": "639b8b2f33ce7cff",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    14,
+    14
+  ],
+  "page_nos": [
+    14
+  ],
+  "header_path": null,
+  "section_label": "[IMAGE_DESCRIPTION: Image]",
+  "element_type": "mixed",
+  "raw_md_fragment": "[IMAGE_DESCRIPTION: Image]\n\nImage\n\n[IMAGE_DESCRIPTION: Image]\n\nImage\n\n[IMAGE_DESCRIPTION: Image]\n\nImage\n\n[IMAGE_DESCRIPTION: Image]\n\nImage",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 14 | Section: [IMAGE_DESCRIPTION: Image]\n\n[IMAGE_DESCRIPTION: Image]\nImage\n\nDocument: tmpwuj9b3wc | Page: 15 | Section: [IMAGE_DESCRIPTION: Image]\n\n[IMAGE_DESCRIPTION: Image]\nImage\n[IMAGE_DESCRIPTION: Image]\nImage\n[IMAGE_DESCRIPTION: Image]\nImage",
+  "metadata": {
+    "element_count": 6,
+    "element_types": [
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0,
+    "merged_from": [
+      "6b01d488be1846d8",
+      "9b14029a06ea432d"
+    ]
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 77,
+  "node_id": "f51039b0-ae0c-46ce-8622-0d61254b6e99",
+  "line_start": 201,
+  "line_end": 219
+}

@@ -1,0 +1,32 @@
+{
+  "chunk_id": "b4be9b842689df3a",
+  "doc_id": "tmpklidtxkm",
+  "page_span": [
+    4,
+    4
+  ],
+  "page_nos": [
+    4
+  ],
+  "header_path": "FINANCIAL ANALYSIS",
+  "section_label": "FINANCIAL ANALYSIS",
+  "element_type": "mixed",
+  "raw_md_fragment": "# FINANCIAL ANALYSIS\n\n## Personal Financial Analysis for GUARANTOR 1:",
+  "text_for_embedding": "Document: tmpklidtxkm | Page: 4 | Section: FINANCIAL ANALYSIS\n\n# FINANCIAL ANALYSIS\n\nDocument: tmpklidtxkm | Page: 4 | Section: FINANCIAL ANALYSIS > Personal Financial Analysis for GUARANTOR 1:\n\n## Personal Financial Analysis for GUARANTOR 1:",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "heading"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "b8c857ab6f4d0adb",
+      "7b2bf704233dc1ee"
+    ]
+  },
+  "parent_id": "6618dc967e0401f6",
+  "token_count": 72,
+  "node_id": "9fe8bf45-54f9-43b0-9f07-ee23143a1e8d",
+  "line_start": 129,
+  "line_end": 135
+}

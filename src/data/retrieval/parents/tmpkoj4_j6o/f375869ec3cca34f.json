@@ -1,0 +1,30 @@
+{
+  "chunk_id": "f375869ec3cca34f",
+  "doc_id": "tmpkoj4_j6o",
+  "page_span": [
+    9,
+    9
+  ],
+  "page_nos": [
+    9
+  ],
+  "header_path": "Industry Information",
+  "section_label": "Industry Information",
+  "element_type": "parent",
+  "raw_md_fragment": "# Industry Information\n\nThe following industry information has been derived from IBISWorld.com for NAICS – 531110; Apartment Rentals in the US:\n\nOperators in this industry act as lessors of buildings used as residences or dwellings. Industry participants are owner-lessors of residential buildings and establishments that rent real estate and then act as lessors by subleasing it to others. In addition to apartments, the industry also rents single-family homes and town houses.\n\nIn addition to apartments, the industry also rents single-family homes and town houses.",
+  "text_for_embedding": "Document: tmpkoj4_j6o | Page: 9 | Section: Industry Information\n\n# Industry Information\nThe following industry information has been derived from IBISWorld.com for NAICS – 531110; Apartment Rentals in the US:\nOperators in this industry act as lessors of buildings used as residences or dwellings. Industry participants are owner-lessors of residential buildings and establishments that rent real estate and then act as lessors by subleasing it to others. In addition to apartments, the industry also rents single-family homes and town houses.\nIn addition to apartments, the industry also rents single-family homes and town houses.",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Industry Information"
+  },
+  "parent_id": null,
+  "token_count": 127,
+  "node_id": "e2a6cd9f-3b3e-4ef4-9388-33403a2fc355",
+  "line_start": 325,
+  "line_end": 331,
+  "child_ids": [
+    "8b6089809dfd4c5c"
+  ],
+  "parent_type": "soft_section"
+}

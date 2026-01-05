@@ -1,0 +1,36 @@
+{
+  "chunk_id": "3c8ddb98ada98b4a",
+  "doc_id": "tmp1r_reeel",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": "Products & Services Segmentation > Major Players",
+  "section_label": "Major Players",
+  "element_type": "mixed",
+  "raw_md_fragment": "### Major Players\n\n### SWOT\n\nSector Average",
+  "text_for_embedding": "Document: tmp1r_reeel | Page: 11 | Section: Products & Services Segmentation > Major Players\n\n### Major Players\n\nDocument: tmp1r_reeel | Page: 11 | Section: Products & Services Segmentation > SWOT\n\n### SWOT\nSector Average",
+  "metadata": {
+    "element_count": 5,
+    "element_types": [
+      "heading",
+      "listelement",
+      "paragraph",
+      "listelement",
+      "listelement"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "5f4b3bedf518d30e",
+      "738fbcd67d65381a"
+    ]
+  },
+  "parent_id": "bcb5c2f9eac3cb87",
+  "token_count": 60,
+  "node_id": "1618f9cb-6af9-4acd-816a-d2330a70a10d",
+  "line_start": 442,
+  "line_end": 462
+}

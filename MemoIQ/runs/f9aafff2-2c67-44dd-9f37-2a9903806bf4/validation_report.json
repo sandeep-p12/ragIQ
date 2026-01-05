@@ -1,0 +1,97 @@
+[
+  {
+    "field_id": "field_0",
+    "status": "pass",
+    "message": "The date format is correct.",
+    "suggestions": [],
+    "severity": 0
+  },
+  {
+    "field_id": "field_1",
+    "status": "warning",
+    "message": "Field is null. Expected a value.",
+    "suggestions": [
+      "Provide a value if applicable."
+    ],
+    "severity": 5
+  },
+  {
+    "field_id": "field_2",
+    "status": "warning",
+    "message": "Field is null. Expected a value.",
+    "suggestions": [
+      "Provide a value if applicable."
+    ],
+    "severity": 5
+  },
+  {
+    "field_id": "field_3",
+    "status": "warning",
+    "message": "Field is null. Expected a value.",
+    "suggestions": [
+      "Provide a value if applicable."
+    ],
+    "severity": 5
+  },
+  {
+    "field_id": "field_4",
+    "status": "warning",
+    "message": "Field is null. Expected a value.",
+    "suggestions": [
+      "Provide a value if applicable."
+    ],
+    "severity": 5
+  },
+  {
+    "field_id": "field_5",
+    "status": "pass",
+    "message": "The address format is correct.",
+    "suggestions": [],
+    "severity": 0
+  },
+  {
+    "field_id": "debt_to_ebitda",
+    "status": "error",
+    "message": "Debt to EBITDA ratio is missing.",
+    "suggestions": [
+      "Provide a valid Debt to EBITDA ratio."
+    ],
+    "severity": 10
+  },
+  {
+    "field_id": "loan_to_value",
+    "status": "error",
+    "message": "Loan to value ratio is missing.",
+    "suggestions": [
+      "Provide a valid Loan to value ratio."
+    ],
+    "severity": 10
+  },
+  {
+    "field_id": "debt_service_coverage_ratio",
+    "status": "error",
+    "message": "Debt service coverage ratio is missing.",
+    "suggestions": [
+      "Provide a valid Debt service coverage ratio."
+    ],
+    "severity": 10
+  },
+  {
+    "field_id": "loan_amount",
+    "status": "error",
+    "message": "Loan amount is missing.",
+    "suggestions": [
+      "Provide a positive Loan amount."
+    ],
+    "severity": 10
+  },
+  {
+    "field_id": "interest_rate",
+    "status": "error",
+    "message": "Interest rate is missing.",
+    "suggestions": [
+      "Provide an interest rate between 0% and 100%."
+    ],
+    "severity": 10
+  }
+]

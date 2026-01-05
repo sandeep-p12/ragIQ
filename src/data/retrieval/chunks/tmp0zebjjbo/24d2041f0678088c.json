@@ -1,0 +1,41 @@
+{
+  "chunk_id": "24d2041f0678088c",
+  "doc_id": "tmp0zebjjbo",
+  "page_span": [
+    22,
+    22
+  ],
+  "page_nos": [
+    22
+  ],
+  "header_path": "BORROWER TREE:",
+  "section_label": "BORROWER TREE:",
+  "element_type": "mixed",
+  "raw_md_fragment": "## BORROWER TREE:\n\nA.  Borrower-BORROWER\n\nNotes:",
+  "text_for_embedding": "Document: tmp0zebjjbo | Page: 22 | Section: BORROWER TREE:\n\n## BORROWER TREE:\nA.  Borrower-BORROWER\nNotes:",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "listelement",
+      "paragraph"
+    ],
+    "structure_confidence": 0.5,
+    "repair_applied": [
+      {
+        "repair_type": "list_repair",
+        "location": [
+          744,
+          744
+        ],
+        "reason": "Inconsistent list marker, normalized to '1.'"
+      }
+    ]
+  },
+  "parent_id": "ff5d5e7a40b89bd0",
+  "token_count": 41,
+  "node_id": "fb8d59c6-3e7c-44dc-91b2-fde0a5c50053",
+  "line_start": 739,
+  "line_end": 745
+}

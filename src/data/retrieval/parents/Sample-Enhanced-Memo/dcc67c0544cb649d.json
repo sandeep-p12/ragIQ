@@ -1,0 +1,30 @@
+{
+  "chunk_id": "dcc67c0544cb649d",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    18,
+    18
+  ],
+  "page_nos": [
+    18
+  ],
+  "header_path": "Market Information > Competitive Inventory, Household Formations, Absorption",
+  "section_label": "Competitive Inventory, Household Formations, Absorption",
+  "element_type": "parent",
+  "raw_md_fragment": "### Competitive Inventory, Household Formations, Absorption\n\nNet new fourth quarter household formations in the Philadelphia metropolitan area were 3,288. Of course, not all newly formed households immediately become apartment renters, but an analysis of longer-term economic and demographic trends can be useful in understanding the current quarter's level of demand. Since the beginning of Q1 2012, household formations in Philadelphia have averaged 0.5% per year, representing the average annual addition of 9,800 households. During February, net absorption totaled 101 units, while there was no new development; the net effect of absorption and completions caused the vacancy rate to drift downward by 10 basis points to 4.0%. Over the last 12 months, market absorption totaled 5,153 units, 45.6% greater than the average annual absorption rate of 3,538 units recorded since the beginning of Q1 2012. This vacancy rate matches exactly the metro's long-term average recorded since the beginning of Q1 2012.",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 18 | Section: Market Information > Competitive Inventory, Household Formations, Absorption\n\n### Competitive Inventory, Household Formations, Absorption\nNet new fourth quarter household formations in the Philadelphia metropolitan area were 3,288. Of course, not all newly formed households immediately become apartment renters, but an analysis of longer-term economic and demographic trends can be useful in understanding the current quarter's level of demand. Since the beginning of Q1 2012, household formations in Philadelphia have averaged 0.5% per year, representing the average annual addition of 9,800 households. During February, net absorption totaled 101 units, while there was no new development; the net effect of absorption and completions caused the vacancy rate to drift downward by 10 basis points to 4.0%. Over the last 12 months, market absorption totaled 5,153 units, 45.6% greater than the average annual absorption rate of 3,538 units recorded since the beginning of Q1 2012. This vacancy rate matches exactly the metro's long-term average recorded since the beginning of Q1 2012.",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "heading_based",
+    "section_label": "Competitive Inventory, Household Formations, Absorption"
+  },
+  "parent_id": null,
+  "token_count": 239,
+  "node_id": "28771936-15cd-440c-a109-fe28137c2016",
+  "line_start": 563,
+  "line_end": 581,
+  "child_ids": [
+    "f7b4c34f1f9b5926"
+  ],
+  "parent_type": "heading_based"
+}

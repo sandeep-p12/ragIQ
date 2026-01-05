@@ -1,0 +1,30 @@
+{
+  "chunk_id": "0b7927f3fd4a6ee0",
+  "doc_id": "tmpj7l27zgu",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": "Products & Services Segmentation > SWOT > Strengths",
+  "section_label": "Strengths",
+  "element_type": "parent",
+  "raw_md_fragment": "#### Strengths\n\nSector Average\n\n#### Weaknesses",
+  "text_for_embedding": "Document: tmpj7l27zgu | Page: 11 | Section: Products & Services Segmentation > SWOT > Strengths\n\n#### Strengths\nSector Average\n\nDocument: tmpj7l27zgu | Page: 11 | Section: Products & Services Segmentation > SWOT > Weaknesses\n\n#### Weaknesses",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Strengths"
+  },
+  "parent_id": null,
+  "token_count": 70,
+  "node_id": "cdbfc981-432a-4e8d-9924-299edc7a9683",
+  "line_start": 453,
+  "line_end": 467,
+  "child_ids": [
+    "0684d440ab0f0758"
+  ],
+  "parent_type": "soft_section"
+}

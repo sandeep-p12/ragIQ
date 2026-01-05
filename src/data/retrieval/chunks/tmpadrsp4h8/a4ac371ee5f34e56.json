@@ -1,0 +1,50 @@
+{
+  "chunk_id": "a4ac371ee5f34e56",
+  "doc_id": "tmpadrsp4h8",
+  "page_span": [
+    15,
+    15
+  ],
+  "page_nos": [
+    15
+  ],
+  "header_path": null,
+  "section_label": "Imageblockelement (page 15)",
+  "element_type": "mixed",
+  "raw_md_fragment": "[IMAGE]\nThree images showing different views of the property:\n1. Side view of the building with adjacent properties visible.\n1. Rear view showing parking area and neighboring buildings.\n1. Close-up of utility meters on the building's exterior wall.\n[/IMAGE]\n\n[IMAGE]\nImage of a stairwell with brick walls and mailboxes on the right side. The stairwell has a carpeted floor and metal railings.\n[/IMAGE]\n\n[IMAGE]\nImage of a door at the end of a hallway with a painting on the left wall. The hallway has a carpeted floor and white walls.\n[/IMAGE]\n\n[IMAGE]\nImage of a brick apartment building exterior with a red awning above the entrance. The building has multiple windows with air conditioning units.\n[/IMAGE]\n\n[IMAGE]\nImage of a stairwell with a painting on the wall. The stairwell has carpeted steps and metal railings.\n[/IMAGE]",
+  "text_for_embedding": "Document: tmpadrsp4h8 | Page: 15 | Section: Imageblockelement (page 15)\n\n[IMAGE]\nThree images showing different views of the property:\n1. Side view of the building with adjacent properties visible.\n1. Rear view showing parking area and neighboring buildings.\n1. Close-up of utility meters on the building's exterior wall.\n[/IMAGE]\n\nDocument: tmpadrsp4h8 | Page: 16 | Section: Imageblockelement (page 16)\n\n[IMAGE]\nImage of a stairwell with brick walls and mailboxes on the right side. The stairwell has a carpeted floor and metal railings.\n[/IMAGE]",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "imageblockelement"
+    ],
+    "structure_confidence": 0.5,
+    "repair_applied": [
+      {
+        "repair_type": "list_repair",
+        "location": [
+          561,
+          561
+        ],
+        "reason": "Inconsistent list marker, normalized to '1.'"
+      },
+      {
+        "repair_type": "list_repair",
+        "location": [
+          562,
+          562
+        ],
+        "reason": "Inconsistent list marker, normalized to '1.'"
+      }
+    ],
+    "merged_from": [
+      "fb6bc9fddc926fe7",
+      "0d5864044cad2f74"
+    ]
+  },
+  "parent_id": "f2d25a5830995bf9",
+  "token_count": 135,
+  "node_id": "025b1419-b01d-429a-ab20-87ece4ec0ce8",
+  "line_start": 557,
+  "line_end": 579
+}

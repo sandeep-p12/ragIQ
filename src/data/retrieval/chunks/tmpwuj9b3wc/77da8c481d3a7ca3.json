@@ -1,0 +1,32 @@
+{
+  "chunk_id": "77da8c481d3a7ca3",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    13,
+    13
+  ],
+  "page_nos": [
+    13
+  ],
+  "header_path": "Transactional Analysis",
+  "section_label": "Transactional Analysis",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Transactional Analysis\n\nThe subject loan request will be secured by a 1st mortgage lien on the subject property located at COLLATRAL ADDRESS. The subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\nSite Visit: Loan officer performed a site visit on April 1, 2022 and noted the property is in good condition with no signs of deferred maintenance.\n\n[IMAGE_DESCRIPTION: Image]\n\nImage",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 13 | Section: Transactional Analysis\n\n# Transactional Analysis\nThe subject loan request will be secured by a 1st mortgage lien on the subject property located at COLLATRAL ADDRESS. The subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\nSite Visit: Loan officer performed a site visit on April 1, 2022 and noted the property is in good condition with no signs of deferred maintenance.\n[IMAGE_DESCRIPTION: Image]\nImage",
+  "metadata": {
+    "element_count": 5,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 249,
+  "node_id": "0ec42db8-679d-4a98-8de4-1051e5d3f3cf",
+  "line_start": 187,
+  "line_end": 195
+}

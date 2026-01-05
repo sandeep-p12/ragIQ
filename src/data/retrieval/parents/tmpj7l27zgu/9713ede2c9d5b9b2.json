@@ -1,0 +1,30 @@
+{
+  "chunk_id": "9713ede2c9d5b9b2",
+  "doc_id": "tmpj7l27zgu",
+  "page_span": [
+    8,
+    8
+  ],
+  "page_nos": [
+    8
+  ],
+  "header_path": "Business Financial Analysis for BORROWER > Debt Service Ability",
+  "section_label": "Debt Service Ability",
+  "element_type": "parent",
+  "raw_md_fragment": "## Debt Service Ability\n\nIn 2021, the entity demonstrated cash available for debt service of $12,862 compared to $27,599 in 2020 and $29,231 in 2019.\n\nThe 2021 CAFDS was based upon the net income of $8,968 plus the add-back of depreciation of $13,596 and interest expense of $11,098, less distributions of $20,800 paid to the owners.\n\nDebt service totals $15,780, indicating a DSCR of 0.82x in 2021 compared to 1.75x in 2020 and 1.85x in 2019. It should be mentioned that the 2021 DSCR is below the CU recommended minimum and appears to be impacted by the distributions of $20,800 paid to the owners.\n\nOn a pro-forma basis (when considering the provided leases) cash available for debt service is $32,845 when based upon gross rents of $53,400, less a 5% vacancy factor and carryover of 2021 historical operating expenses. Debt service totals $32,208 after the existing CU mortgage is refinanced with the proposed mortgage, indicating a pro-forma DSCR of 1.02x.",
+  "text_for_embedding": "Document: tmpj7l27zgu | Page: 8 | Section: Business Financial Analysis for BORROWER > Debt Service Ability\n\n## Debt Service Ability\nIn 2021, the entity demonstrated cash available for debt service of $12,862 compared to $27,599 in 2020 and $29,231 in 2019.\nThe 2021 CAFDS was based upon the net income of $8,968 plus the add-back of depreciation of $13,596 and interest expense of $11,098, less distributions of $20,800 paid to the owners.\nDebt service totals $15,780, indicating a DSCR of 0.82x in 2021 compared to 1.75x in 2020 and 1.85x in 2019. It should be mentioned that the 2021 DSCR is below the CU recommended minimum and appears to be impacted by the distributions of $20,800 paid to the owners.\nOn a pro-forma basis (when considering the provided leases) cash available for debt service is $32,845 when based upon gross rents of $53,400, less a 5% vacancy factor and carryover of 2021 historical operating expenses. Debt service totals $32,208 after the existing CU mortgage is refinanced with the proposed mortgage, indicating a pro-forma DSCR of 1.02x.",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Debt Service Ability"
+  },
+  "parent_id": null,
+  "token_count": 289,
+  "node_id": "e9486ea6-0e60-45b1-a2f8-e9ff90a9bff3",
+  "line_start": 296,
+  "line_end": 300,
+  "child_ids": [
+    "d6f61a99b126d49f"
+  ],
+  "parent_type": "soft_section"
+}

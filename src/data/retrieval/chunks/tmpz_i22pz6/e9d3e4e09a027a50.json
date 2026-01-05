@@ -1,0 +1,34 @@
+{
+  "chunk_id": "e9d3e4e09a027a50",
+  "doc_id": "tmpz_i22pz6",
+  "page_span": [
+    18,
+    18
+  ],
+  "page_nos": [
+    18
+  ],
+  "header_path": "Market Information",
+  "section_label": "Market Information",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Market Information\n\nThe following market information has been derived from REIS.com for the Philadelphia market area:\n\n### Market Overview\n\nThe Philadelphia apartment market is comprised of 237,347 units in twenty-eight geographic concentrations ranging in size from the 26,254 unit Center City submarket to the Olney/Oak Lane submarket, which amounts to 2,870 units.\n\nIn the nine-year period beginning with Q1 2012, the Center City submarket has experienced the greatest introduction of new inventory, 10,901 units, amounting to 29.0% of all new market rate rentals added to the market.",
+  "text_for_embedding": "Document: tmpz_i22pz6 | Page: 18 | Section: Market Information\n\n## Market Information\nThe following market information has been derived from REIS.com for the Philadelphia market area:\n\nDocument: tmpz_i22pz6 | Page: 18 | Section: Market Information > Market Overview\n\n### Market Overview\nThe Philadelphia apartment market is comprised of 237,347 units in twenty-eight geographic concentrations ranging in size from the 26,254 unit Center City submarket to the Olney/Oak Lane submarket, which amounts to 2,870 units.\nIn the nine-year period beginning with Q1 2012, the Center City submarket has experienced the greatest introduction of new inventory, 10,901 units, amounting to 29.0% of all new market rate rentals added to the market.",
+  "metadata": {
+    "element_count": 3,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 0.9,
+    "merged_from": [
+      "de097629491828b1",
+      "cd5d01f779c9834e"
+    ]
+  },
+  "parent_id": "9005c72574cb4b6c",
+  "token_count": 168,
+  "node_id": "ac99c99e-2912-403c-b7af-6751462bfbec",
+  "line_start": 611,
+  "line_end": 617
+}

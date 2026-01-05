@@ -5,15 +5,29 @@ import logging
 import sys
 import tempfile
 import time
+import warnings
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import streamlit as st
 
+# Suppress CrewAI signal handler warnings (they occur because Streamlit runs in a different thread)
+# These are harmless warnings but clutter the logs
+warnings.filterwarnings("ignore", message=".*signal only works in main thread.*")
+warnings.filterwarnings("ignore", message=".*Cannot register.*handler.*")
+# Suppress CrewAI telemetry errors
+logging.getLogger("crewai.telemetry").setLevel(logging.ERROR)
+
 # Add project root to Python path
 _project_root = Path(__file__).parent.resolve()
 if str(_project_root) not in sys.path:
     sys.path.insert(0, str(_project_root))
+
+# Add user site-packages to path (for pyautogen)
+import site
+_user_site = site.getusersitepackages()
+if _user_site and _user_site not in sys.path:
+    sys.path.insert(0, _user_site)
 
 # Import from centralized modules
 from src.config.chunking import ChunkConfig
@@ -136,12 +150,13 @@ def main():
     st.markdown("Production-grade RAG system with parsing, chunking, indexing, and retrieval")
     
     # Main tabs
-    tab1, tab2, tab3, tab4, tab5 = st.tabs([
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
         "📄 Parse",
         "✂️ Chunk",
         "📊 Index",
         "🔍 Retrieve",
-        "🔄 Pipeline"
+        "🔄 Pipeline",
+        "📝 MemoIQ"
     ])
     
     with tab1:
@@ -158,6 +173,9 @@ def main():
     
     with tab5:
         render_pipeline_tab()
+    
+    with tab6:
+        render_memoiq_tab()
 
 
 def render_parse_tab():
@@ -167,30 +185,67 @@ def render_parse_tab():
     # Configuration sidebar
     with st.sidebar:
         st.header("⚙️ Parsing Configuration")
+        st.caption("These settings apply to all tabs (Parse, MemoIQ, etc.)")
         
         # Strategy
+        default_strategy = st.session_state.get("parsing_strategy", "auto")
         strategy_mode = st.selectbox(
             "Parsing Strategy",
             ["auto", "fast", "hi_res", "llm_full"],
-            index=0,
+            index=["auto", "fast", "hi_res", "llm_full"].index(default_strategy) if default_strategy in ["auto", "fast", "hi_res", "llm_full"] else 0,
+            key="parsing_strategy",
             help="AUTO: Automatically selects FAST or HI_RES per page. FAST: Native text extraction. HI_RES: OCR-based. LLM_FULL: Full document parsing using LLM vision."
         )
         
         # Device
-        device = st.selectbox("Device", ["cpu", "cuda", "mps", "coreml"], index=0)
+        default_device = st.session_state.get("parsing_device", "cpu")
+        device = st.selectbox(
+            "Device", 
+            ["cpu", "cuda", "mps", "coreml"], 
+            index=["cpu", "cuda", "mps", "coreml"].index(default_device) if default_device in ["cpu", "cuda", "mps", "coreml"] else 0,
+            key="parsing_device"
+        )
         
         # Processing
         with st.expander("Processing Settings", expanded=False):
-            batch_size = st.slider("Batch Size", 10, 100, 50, help="Number of pages to process in parallel")
-            page_threshold = st.slider("Page Threshold", 0.0, 1.0, 0.6, 0.1, help="IoU threshold for page-level strategy")
-            document_threshold = st.slider("Document Threshold", 0.0, 1.0, 0.2, 0.1, help="Threshold for document-level strategy")
+            batch_size = st.slider(
+                "Batch Size", 10, 100, 
+                st.session_state.get("parsing_batch_size", 50),
+                key="parsing_batch_size",
+                help="Number of pages to process in parallel"
+            )
+            page_threshold = st.slider(
+                "Page Threshold", 0.0, 1.0, 
+                st.session_state.get("parsing_page_threshold", 0.6), 0.1,
+                key="parsing_page_threshold",
+                help="IoU threshold for page-level strategy"
+            )
+            document_threshold = st.slider(
+                "Document Threshold", 0.0, 1.0, 
+                st.session_state.get("parsing_document_threshold", 0.2), 0.1,
+                key="parsing_document_threshold",
+                help="Threshold for document-level strategy"
+            )
         
         # Finance Mode
         with st.expander("Finance Mode", expanded=False):
-            finance_mode = st.checkbox("Enable Finance Mode", value=False, help="Stricter thresholds for financial documents")
+            finance_mode = st.checkbox(
+                "Enable Finance Mode", 
+                value=st.session_state.get("parsing_finance_mode", False),
+                key="parsing_finance_mode",
+                help="Stricter thresholds for financial documents"
+            )
             if finance_mode:
-                finance_page_threshold = st.slider("Finance Page Threshold", 0.0, 1.0, 0.7, 0.1)
-                finance_document_threshold = st.slider("Finance Document Threshold", 0.0, 1.0, 0.15, 0.1)
+                finance_page_threshold = st.slider(
+                    "Finance Page Threshold", 0.0, 1.0, 
+                    st.session_state.get("parsing_finance_page_threshold", 0.7), 0.1,
+                    key="parsing_finance_page_threshold"
+                )
+                finance_document_threshold = st.slider(
+                    "Finance Document Threshold", 0.0, 1.0, 
+                    st.session_state.get("parsing_finance_document_threshold", 0.15), 0.1,
+                    key="parsing_finance_document_threshold"
+                )
             else:
                 finance_page_threshold = 0.7
                 finance_document_threshold = 0.15
@@ -208,6 +263,7 @@ def render_parse_tab():
                 "LLM Provider", 
                 provider_options, 
                 index=default_index,
+                key="parsing_llm_provider",
                 help="Select provider. All other settings (endpoint, API key, etc.) are read from .env file"
             )
             
@@ -219,13 +275,32 @@ def render_parse_tab():
         
         # Page Range
         with st.expander("Page Range", expanded=False):
-            use_page_range = st.checkbox("Limit page range", value=False)
-            start_page = st.number_input("Start Page", min_value=0, value=0, disabled=not use_page_range)
-            end_page = st.number_input("End Page", min_value=1, value=100, disabled=not use_page_range)
+            use_page_range = st.checkbox(
+                "Limit page range", 
+                value=st.session_state.get("parsing_use_page_range", False),
+                key="parsing_use_page_range"
+            )
+            start_page = st.number_input(
+                "Start Page", min_value=0, 
+                value=st.session_state.get("parsing_start_page", 0),
+                disabled=not use_page_range,
+                key="parsing_start_page"
+            )
+            end_page = st.number_input(
+                "End Page", min_value=1, 
+                value=st.session_state.get("parsing_end_page", 100),
+                disabled=not use_page_range,
+                key="parsing_end_page"
+            )
         
         # Checkpoint
         with st.expander("Checkpoint Settings", expanded=False):
-            auto_resume = st.checkbox("Auto Resume", value=True, help="Automatically resume from checkpoints")
+            auto_resume = st.checkbox(
+                "Auto Resume", 
+                value=st.session_state.get("parsing_auto_resume", True),
+                key="parsing_auto_resume",
+                help="Automatically resume from checkpoints"
+            )
     
     # Main content
     uploaded_file = st.file_uploader(
@@ -238,17 +313,17 @@ def render_parse_tab():
             tmp_file.write(uploaded_file.getvalue())
             tmp_path = tmp_file.name
         
-        # Create config from .env, only override provider from UI
+        # Create config from .env, override with UI values from session state
         config = ParseForgeConfig(
-            device=device,
-            batch_size=batch_size,
-            page_threshold=page_threshold,
-            document_threshold=document_threshold,
-            finance_mode=finance_mode,
-            finance_page_threshold=finance_page_threshold if finance_mode else 0.7,
-            finance_document_threshold=finance_document_threshold if finance_mode else 0.15,
-            llm_provider=llm_provider,  # Only override provider from UI, rest from .env
-            auto_resume=auto_resume,
+            device=st.session_state.get("parsing_device", "cpu"),
+            batch_size=st.session_state.get("parsing_batch_size", 50),
+            page_threshold=st.session_state.get("parsing_page_threshold", 0.6),
+            document_threshold=st.session_state.get("parsing_document_threshold", 0.2),
+            finance_mode=st.session_state.get("parsing_finance_mode", False),
+            finance_page_threshold=st.session_state.get("parsing_finance_page_threshold", 0.7) if st.session_state.get("parsing_finance_mode", False) else 0.7,
+            finance_document_threshold=st.session_state.get("parsing_finance_document_threshold", 0.15) if st.session_state.get("parsing_finance_mode", False) else 0.15,
+            llm_provider=st.session_state.get("parsing_llm_provider", "openai"),  # Only override provider from UI, rest from .env
+            auto_resume=st.session_state.get("parsing_auto_resume", True),
         )
         
         if st.button("Parse Document", type="primary"):
@@ -262,7 +337,7 @@ def render_parse_tab():
                     "hi_res": StrategyEnum.HI_RES,
                     "llm_full": StrategyEnum.LLM_FULL,
                 }
-                strategy = strategy_map[strategy_mode]
+                strategy = strategy_map[st.session_state.get("parsing_strategy", "auto")]
                 
                 if strategy == StrategyEnum.LLM_FULL and (config.llm_provider == "none" or not config.llm_api_key):
                     st.warning("⚠️ LLM_FULL strategy requires LLM configuration. Please set PARSEFORGE_LLM_API_KEY in your .env file.")
@@ -1518,6 +1593,349 @@ def render_pipeline_tab():
     
     # Placeholder for full pipeline implementation
     st.write("Full pipeline implementation coming soon...")
+
+
+def render_memoiq_tab():
+    """Render MemoIQ tab."""
+    st.header("📝 MemoIQ - Credit Memo Drafting Automation")
+    st.markdown("Automated credit memo drafting using multi-agent system with RAG")
+    
+    # Initialize session state for MemoIQ
+    if "memoiq_run_dir" not in st.session_state:
+        st.session_state.memoiq_run_dir = None
+    if "memoiq_draft" not in st.session_state:
+        st.session_state.memoiq_draft = None
+    if "memoiq_validation" not in st.session_state:
+        st.session_state.memoiq_validation = None
+    if "memoiq_evidence" not in st.session_state:
+        st.session_state.memoiq_evidence = None
+    
+    # Upload section
+    st.subheader("📤 Upload Documents")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown("**Template File**")
+        template_file = st.file_uploader(
+            "Upload template (PDF or DOCX)",
+            type=["pdf", "docx"],
+            key="memoiq_template",
+            help="Credit memo template file without explicit placeholders"
+        )
+    
+    with col2:
+        st.markdown("**Reference Documents**")
+        reference_files = st.file_uploader(
+            "Upload reference documents",
+            type=["pdf", "docx", "xlsx", "csv", "md", "html", "txt"],
+            key="memoiq_references",
+            accept_multiple_files=True,
+            help="Documents containing information to extract"
+        )
+    
+    # Configuration
+    with st.expander("⚙️ Configuration", expanded=False):
+        from MemoIQ.config import MemoIQConfig
+        config = MemoIQConfig()
+        
+        # Show current settings from sidebar
+        current_strategy = st.session_state.get("parsing_strategy", "auto")
+        current_provider = st.session_state.get("parsing_llm_provider", "openai")
+        st.info(f"📋 **Current Parsing Strategy:** `{current_strategy}` (from sidebar settings)")
+        st.info(f"🤖 **Current LLM Provider:** `{current_provider}` (from sidebar settings)")
+        
+        st.json({
+            "runs_dir": str(config.runs_dir),
+            "agent_temperature": config.agent_temperature,
+            "agent_max_turns": config.agent_max_turns,
+            "parsing_strategy": current_strategy,
+            "llm_provider": current_provider,
+        })
+    
+    # Run button
+    has_files = template_file is not None and reference_files is not None and len(reference_files) > 0
+    if st.button("🚀 Run MemoIQ", type="primary", disabled=not has_files):
+        if not template_file:
+            st.error("Please upload a template file")
+            return
+        if not reference_files or len(reference_files) == 0:
+            st.error("Please upload at least one reference document")
+            return
+        
+        try:
+            import tempfile
+            # Path is already imported at top of file
+            from MemoIQ.agents.orchestrator import MemoIQOrchestrator
+            from MemoIQ.config import MemoIQConfig
+            from MemoIQ.utils.io import create_run_directory, save_reference_docs, save_template
+            
+            # Create config with selected LLM provider and parsing parameters from sidebar
+            # Get provider from sidebar (parsing_llm_provider) - MemoIQ uses the same provider as parsing
+            selected_provider = st.session_state.get("parsing_llm_provider", "openai")
+            
+            # Read API keys and settings from .env based on selected provider
+            from src.utils.env import (
+                get_openai_api_key,
+                get_azure_openai_api_key,
+                get_azure_openai_endpoint,
+                get_azure_openai_api_version,
+                load_env,
+            )
+            
+            env = load_env()
+            
+            # Prepare LLM config kwargs based on selected provider
+            llm_config_kwargs = {
+                "llm_provider": selected_provider,
+            }
+            
+            if selected_provider == "azure_openai":
+                # Use Azure OpenAI settings from .env
+                llm_config_kwargs["llm_api_key"] = get_azure_openai_api_key()
+                llm_config_kwargs["llm_azure_endpoint"] = get_azure_openai_endpoint()
+                llm_config_kwargs["llm_azure_api_version"] = get_azure_openai_api_version()
+                llm_config_kwargs["llm_azure_deployment_name"] = env.get("AZURE_OPENAI_DEPLOYMENT_NAME") or env.get("PARSEFORGE_LLM_AZURE_DEPLOYMENT_NAME")
+                # Check if Azure AD should be used
+                use_azure_ad_env = env.get("AZURE_OPENAI_USE_AZURE_AD", env.get("PARSEFORGE_LLM_USE_AZURE_AD", "true")).lower()
+                llm_config_kwargs["llm_use_azure_ad"] = use_azure_ad_env in ("true", "1", "yes")
+            elif selected_provider == "openai":
+                # Use OpenAI settings from .env
+                llm_config_kwargs["llm_api_key"] = get_openai_api_key()
+                # Explicitly set Azure settings to None to avoid using Azure settings from .env
+                llm_config_kwargs["llm_azure_endpoint"] = None
+                llm_config_kwargs["llm_azure_api_version"] = "2025-01-01-preview"  # Default, won't be used
+                llm_config_kwargs["llm_azure_deployment_name"] = None
+                llm_config_kwargs["llm_use_azure_ad"] = False
+            else:
+                # "none" provider
+                llm_config_kwargs["llm_api_key"] = None
+                llm_config_kwargs["llm_azure_endpoint"] = None
+                llm_config_kwargs["llm_azure_api_version"] = "2025-01-01-preview"
+                llm_config_kwargs["llm_azure_deployment_name"] = None
+                llm_config_kwargs["llm_use_azure_ad"] = False
+            
+            # Get model from .env or use default
+            llm_model = env.get("PARSEFORGE_LLM_MODEL") or env.get("OPENAI_MODEL_NAME") or "gpt-4o"
+            llm_config_kwargs["llm_model"] = llm_model
+            
+            # Create ParseForgeConfig with all sidebar parameters and explicit LLM settings
+            parsing_config = ParseForgeConfig(
+                device=st.session_state.get("parsing_device", "cpu"),
+                batch_size=st.session_state.get("parsing_batch_size", 50),
+                page_threshold=st.session_state.get("parsing_page_threshold", 0.6),
+                document_threshold=st.session_state.get("parsing_document_threshold", 0.2),
+                finance_mode=st.session_state.get("parsing_finance_mode", False),
+                finance_page_threshold=st.session_state.get("parsing_finance_page_threshold", 0.7) if st.session_state.get("parsing_finance_mode", False) else 0.7,
+                finance_document_threshold=st.session_state.get("parsing_finance_document_threshold", 0.15) if st.session_state.get("parsing_finance_mode", False) else 0.15,
+                auto_resume=st.session_state.get("parsing_auto_resume", True),
+                **llm_config_kwargs,  # Pass explicit LLM settings to override .env defaults
+            )
+            
+            # Create retrieval config with same provider as parsing config
+            # IMPORTANT: Ensure embedding uses the same provider as selected LLM provider
+            from src.config.retrieval import RetrievalConfig, EmbeddingConfig
+            
+            if selected_provider == "openai":
+                # Explicitly configure for OpenAI - no Azure
+                embedding_config = EmbeddingConfig(
+                    provider="openai",
+                    api_key=llm_config_kwargs.get("llm_api_key"),
+                    azure_endpoint=None,
+                    azure_deployment_name=None,
+                    azure_api_version="2025-01-01-preview",  # Won't be used
+                    use_azure_ad=False,  # CRITICAL: Disable Azure AD
+                )
+            elif selected_provider == "azure_openai":
+                # Configure for Azure OpenAI
+                embedding_config = EmbeddingConfig(
+                    provider="azure_openai",
+                    api_key=llm_config_kwargs.get("llm_api_key"),
+                    azure_endpoint=llm_config_kwargs.get("llm_azure_endpoint"),
+                    azure_api_version=llm_config_kwargs.get("llm_azure_api_version", "2025-01-01-preview"),
+                    azure_deployment_name=env.get("AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME") or llm_config_kwargs.get("llm_azure_deployment_name"),
+                    use_azure_ad=llm_config_kwargs.get("llm_use_azure_ad", False),
+                )
+            else:
+                # "none" provider - use defaults but disable Azure AD
+                embedding_config = EmbeddingConfig(
+                    provider="openai",
+                    use_azure_ad=False,
+                )
+            
+            retrieval_config = RetrievalConfig(
+                embedding_config=embedding_config
+            )
+            
+            # Create MemoIQConfig with the parsing config and retrieval config
+            config = MemoIQConfig(
+                llm_provider=selected_provider,
+                parsing_config=parsing_config,
+                agent_llm_config=parsing_config,  # Use same config for agents
+                retrieval_config=retrieval_config,  # Use configured retrieval config
+            )
+            run_dir = create_run_directory(config)
+            
+            # Map strategy string to StrategyEnum for passing to orchestrator
+            strategy_map = {
+                "auto": StrategyEnum.AUTO,
+                "fast": StrategyEnum.FAST,
+                "hi_res": StrategyEnum.HI_RES,
+                "llm_full": StrategyEnum.LLM_FULL,
+            }
+            strategy_string = st.session_state.get("parsing_strategy", "auto")
+            selected_strategy = strategy_map.get(strategy_string, StrategyEnum.AUTO)
+            
+            # Debug: Log the strategy and provider being used
+            logger.info(f"MemoIQ: Selected LLM provider: '{selected_provider}'")
+            logger.info(f"MemoIQ: Embedding provider: '{embedding_config.provider}' (use_azure_ad={embedding_config.use_azure_ad})")
+            logger.info(f"MemoIQ: Parsing config LLM provider: '{parsing_config.llm_provider}'")
+            logger.info(f"MemoIQ: Agent LLM provider: '{config.agent_llm_config.llm_provider}'")
+            logger.info(f"MemoIQ: Selected parsing strategy from session state: '{strategy_string}' -> {selected_strategy}")
+            logger.info(f"MemoIQ: LLM model: {parsing_config.llm_model}")
+            if selected_provider == "azure_openai":
+                logger.info(f"MemoIQ: Azure endpoint: {parsing_config.llm_azure_endpoint}")
+                logger.info(f"MemoIQ: Azure deployment: {parsing_config.llm_azure_deployment_name}")
+            elif selected_provider == "openai":
+                logger.info(f"MemoIQ: OpenAI API key set: {bool(parsing_config.llm_api_key)}")
+            
+            # Store strategy in config for orchestrator to use
+            config.parsing_strategy = selected_strategy
+            
+            # Save uploaded files
+            with tempfile.NamedTemporaryFile(delete=False, suffix=f".{template_file.name.split('.')[-1]}") as tmp_template:
+                tmp_template.write(template_file.getvalue())
+                template_path = tmp_template.name
+            
+            reference_paths = []
+            for ref_file in reference_files:
+                with tempfile.NamedTemporaryFile(delete=False, suffix=f".{ref_file.name.split('.')[-1]}") as tmp_ref:
+                    tmp_ref.write(ref_file.getvalue())
+                    reference_paths.append(tmp_ref.name)
+            
+            # Save to run directory
+            save_template(run_dir, template_path)
+            save_reference_docs(run_dir, reference_paths)
+            
+            # Run orchestrator with progress tracking
+            progress_bar = st.progress(0)
+            status_text = st.empty()
+            status_container = st.container()
+            
+            def progress_callback(stage: str, progress: float):
+                """Update Streamlit UI with progress."""
+                progress_bar.progress(min(1.0, max(0.0, progress)))
+                status_text.text(f"🔄 {stage} ({progress*100:.0f}%)")
+            
+            status_text.text("Initializing MemoIQ...")
+            progress_bar.progress(0.05)
+            
+            orchestrator = MemoIQOrchestrator(config)
+            
+            status_text.text("Running MemoIQ workflow...")
+            progress_bar.progress(0.1)
+            
+            # Run with progress callback
+            results = orchestrator.run(
+                template_path, 
+                reference_paths, 
+                run_dir,
+                progress_callback=progress_callback
+            )
+            
+            progress_bar.progress(1.0)
+            status_text.text("✅ Complete!")
+            
+            # Store results in session state
+            st.session_state.memoiq_run_dir = str(run_dir)
+            st.session_state.memoiq_draft = results["memo_draft"]
+            st.session_state.memoiq_validation = results["memo_draft"].validation_report
+            st.session_state.memoiq_evidence = results["memo_draft"].evidence_pack
+            
+            st.success("MemoIQ run complete!")
+            st.rerun()
+            
+        except Exception as e:
+            st.error(f"Error running MemoIQ: {e}")
+            logger.exception(e)
+    
+    # Results section
+    if st.session_state.memoiq_draft:
+        st.divider()
+        st.subheader("📊 Results")
+        
+        draft = st.session_state.memoiq_draft
+        
+        # Download draft
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            if Path(draft.draft_docx_path).exists():
+                with open(draft.draft_docx_path, "rb") as f:
+                    st.download_button(
+                        "📥 Download Draft (DOCX)",
+                        f.read(),
+                        file_name=f"credit_memo_draft_v{draft.draft_version}.docx",
+                        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    )
+        
+        with col2:
+            st.metric("Fields Extracted", len(draft.extracted_fields))
+        
+        with col3:
+            validation_score = sum(1 for v in draft.validation_report if v.status == "pass")
+            st.metric("Validations Passed", f"{validation_score}/{len(draft.validation_report)}")
+        
+        # Validation report
+        with st.expander("📋 Validation Report", expanded=False):
+            if draft.validation_report:
+                for record in draft.validation_report:
+                    status_icon = "✅" if record.status == "pass" else "⚠️" if record.status == "warning" else "❌"
+                    st.write(f"{status_icon} **{record.field_id or 'Global'}**: {record.message}")
+                    if record.suggestions:
+                        for suggestion in record.suggestions:
+                            st.write(f"  - {suggestion}")
+            else:
+                st.info("No validation issues found")
+        
+        # Evidence pack
+        with st.expander("📚 Evidence Pack", expanded=False):
+            for field_id, evidence in draft.evidence_pack.items():
+                st.write(f"**{field_id}**: {evidence.value}")
+                if evidence.citations:
+                    st.write("Citations:")
+                    for citation in evidence.citations[:3]:
+                        # Handle both Citation objects and dicts
+                        if isinstance(citation, dict):
+                            doc_id = citation.get("doc_id", "unknown")
+                            page_span = citation.get("page_span")
+                            citation_text_val = citation.get("citation_text")
+                        else:
+                            doc_id = getattr(citation, 'doc_id', 'unknown')
+                            page_span = getattr(citation, 'page_span', None)
+                            citation_text_val = getattr(citation, 'citation_text', None)
+                        
+                        if citation_text_val:
+                            citation_text = citation_text_val
+                        else:
+                            citation_text = f"Doc: {doc_id}"
+                            if page_span:
+                                if isinstance(page_span, (list, tuple)) and len(page_span) >= 2:
+                                    citation_text += f", Pages: {page_span[0]}-{page_span[1]}"
+                        st.write(f"  - {citation_text}")
+                st.divider()
+        
+        # Human feedback
+        st.subheader("👤 Human Review")
+        feedback = st.text_area(
+            "Provide feedback for revision",
+            height=100,
+            placeholder="Enter your feedback here...",
+            key="memoiq_feedback",
+        )
+        
+        if st.button("🔄 Revise Draft", disabled=not feedback):
+            st.info("Revision functionality will be implemented in future version")
+            # TODO: Implement revision workflow
 
 
 if __name__ == "__main__":

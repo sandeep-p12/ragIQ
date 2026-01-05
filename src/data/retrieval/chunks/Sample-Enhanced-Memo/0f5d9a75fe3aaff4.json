@@ -1,0 +1,35 @@
+{
+  "chunk_id": "0f5d9a75fe3aaff4",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": "Products & Services Segmentation > Major Players",
+  "section_label": "Major Players",
+  "element_type": "mixed",
+  "raw_md_fragment": "### Major Players\n\nThere are no major players in this industry.\n\n### SWOT\n\nSector Average, Low Customer Class Concentration, Low Product/Service Concentration",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 11 | Section: Products & Services Segmentation > Major Players\n\n### Major Players\nThere are no major players in this industry.\n\nDocument: Sample-Enhanced-Memo | Page: 11 | Section: Products & Services Segmentation > SWOT\n\n### SWOT\nSector Average, Low Customer Class Concentration, Low Product/Service Concentration",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "heading",
+      "listelement",
+      "paragraph",
+      "listelement"
+    ],
+    "structure_confidence": 0.9,
+    "merged_from": [
+      "f68519ca3039b023",
+      "0f358ce9cd640012"
+    ]
+  },
+  "parent_id": "eb69be99d53b3645",
+  "token_count": 82,
+  "node_id": "16a51e7e-98d1-4581-a0de-7a3084b5f98a",
+  "line_start": 420,
+  "line_end": 426
+}

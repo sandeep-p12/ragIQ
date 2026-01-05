@@ -1,0 +1,36 @@
+{
+  "chunk_id": "112d25fc6bab40ac",
+  "doc_id": "tmp0zebjjbo",
+  "page_span": [
+    9,
+    9
+  ],
+  "page_nos": [
+    9
+  ],
+  "header_path": "Industry Information > COVID-19 Impact:",
+  "section_label": "COVID-19 Impact:",
+  "element_type": "mixed",
+  "raw_md_fragment": "## COVID-19 Impact:\n\n## Executive Summary\n\nFor rent: An oversupply of rentals is expected to hamper industry revenue. Operators in the Apartment Rental industry have performed strongly over most of the five years to 2021; however, industry performance has decelerated in more recent years, showing signs of structural weakness. Since the subprime mortgage crisis, the industry has undergone structural change. Leading up to the crisis, most investment in real estate was carried out by institutional investors (those that own 10 properties or more); whereas today, most properties for rent are single-investor-owned and nonowner-occupied. Decreasing rental vacancy rates during the period enabled landlords to increase rents, aiding revenue and profit growth through most of the period. However, the global outbreak of COVID-19 (coronavirus) is expected to have severe, perplexing and long-reaching impacts on this industry. Industry revenue is expected to rise an annualized 2.7% to reach $193.9 billion over the five years to 2021, including a small bump of 0.3% in 2021.\n\nCurrently, the industry is also being affected by the global coronavirus outbreak.\n\nCurrently, the industry is also being affected by the global coronavirus outbreak. Trends in 2020 were less than favorable due to rising unemployment and urban flight, which caused significant decline in rents in some metro areas, while others in more suburban areas appreciated, yielding mixed performance amid a decline in vacancy. The consumer price index for all urban consumers: rent of shelter (US city average) via the St. Louis Federal and the National Apartment Rent Index, according to Apartment List, both show a trend of stagnation in 2020 and to date increases in 2021. However, in terms of inflation adjusted revenue returns to industry operators, it appears that inflation in excess of 5.0% for months has to diminished industry revenue gains despite the recent rebound in rents.\n\nOver the five years to 2026, industry revenue is expected to decline, falling an annualized 4.3% to $155.5 billion. This anticipated decline is likely a consequence of an oversupply of luxury units, with most current growth stemming from an undersupply of affordable units, causing supply crunch in the middle market. Moreover, with the September expiration of the eviction moratorium, vacancy is expected to spike over the next five years which is anticipated to restrain landlords’ pricing power and by extension, industry revenue and profit growth. Furthermore, competition with homeownership as a consequence of demographic shift is expected to drag on industry performance in line with rising vacancy and declining consumer affordability.",
+  "text_for_embedding": "Document: tmp0zebjjbo | Page: 9 | Section: Industry Information > COVID-19 Impact:\n\n## COVID-19 Impact:\n\nDocument: tmp0zebjjbo | Page: 9 | Section: Industry Information > Executive Summary\n\n## Executive Summary\nFor rent: An oversupply of rentals is expected to hamper industry revenue. Operators in the Apartment Rental industry have performed strongly over most of the five years to 2021; however, industry performance has decelerated in more recent years, showing signs of structural weakness. Since the subprime mortgage crisis, the industry has undergone structural change. Leading up to the crisis, most investment in real estate was carried out by institutional investors (those that own 10 properties or more); whereas today, most properties for rent are single-investor-owned and nonowner-occupied. Decreasing rental vacancy rates during the period enabled landlords to increase rents, aiding revenue and profit growth through most of the period. However, the global outbreak of COVID-19 (coronavirus) is expected to have severe, perplexing and long-reaching impacts on this industry. Industry revenue is expected to rise an annualized 2.7% to reach $193.9 billion over the five years to 2021, including a small bump of 0.3% in 2021.\nCurrently, the industry is also being affected by the global coronavirus outbreak.\nCurrently, the industry is also being affected by the global coronavirus outbreak. Trends in 2020 were less than favorable due to rising unemployment and urban flight, which caused significant decline in rents in some metro areas, while others in more suburban areas appreciated, yielding mixed performance amid a decline in vacancy. The consumer price index for all urban consumers: rent of shelter (US city average) via the St. Louis Federal and the National Apartment Rent Index, according to Apartment List, both show a trend of stagnation in 2020 and to date increases in 2021. However, in terms of inflation adjusted revenue returns to industry operators, it appears that inflation in excess of 5.0% for months has to diminished industry revenue gains despite the recent rebound in rents.\nOver the five years to 2026, industry revenue is expected to decline, falling an annualized 4.3% to $155.5 billion. This anticipated decline is likely a consequence of an oversupply of luxury units, with most current growth stemming from an undersupply of affordable units, causing supply crunch in the middle market. Moreover, with the September expiration of the eviction moratorium, vacancy is expected to spike over the next five years which is anticipated to restrain landlords’ pricing power and by extension, industry revenue and profit growth. Furthermore, competition with homeownership as a consequence of demographic shift is expected to drag on industry performance in line with rising vacancy and declining consumer affordability.",
+  "metadata": {
+    "element_count": 5,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "6b5dc95d1aebbc8e",
+      "33cd42e16b33b78c"
+    ]
+  },
+  "parent_id": "82ae8503dcbec6b1",
+  "token_count": 577,
+  "node_id": "45075d48-da81-419a-9352-17781a6484d4",
+  "line_start": 311,
+  "line_end": 329
+}

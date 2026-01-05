@@ -1,0 +1,31 @@
+{
+  "chunk_id": "5230938cef24f036",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    20,
+    20
+  ],
+  "page_nos": [
+    20
+  ],
+  "header_path": null,
+  "section_label": "TRANSACTIONAL/BORROWER | GRADE | WEIGHT | SCORE",
+  "element_type": "table",
+  "raw_md_fragment": "| TRANSACTIONAL/BORROWER | GRADE | WEIGHT | SCORE |\n| --- | --- | --- | --- |\n| Score: | 5 | 25% | 1.25 |\n| GLOBAL DSCR |  |  |  |\n| Score: | 3 | 20% | 0.60 |\n| RATIOS |  |  |  |\n| Score: | 3 | 10% | 0.30 |\n| Borrowers with enough global liquidity to cover at least 6 months of all debt service should be considered far above average |  |  |  |\n| HISTORICAL FINANCIAL PERFORMANCE |  |  |  |\n| Score: | 3 | 10% | 0.30 |\n| MANAGEMENT |  |  |  |\n| Score: | 3 | 10% | 0.30 |\n| COLLATERAL/TENANT STRENGTH |  |  |  |\n| Score: | 3 | 15% | 0.45 |\n| Cash secured loans should receive the highest quality score |  |  |  |\n| INDIVIDUAL |  |  |  |\n| Score: | 1 | 10% | 0.10 |\n| TOTAL SCORE: |  |  | 3.30 |\n| QUALITATIVE ADJUSTMENTS | Low Risk | High Risk | Score |\n| Outside Factors | -0.25 | +0.25 | 0.25 |\n| Construction Risk | 0.00 | +0.25 | 0.00 |\n| SBA Loans | -0.25 | +0.25 | 0.00 |\n| SCORED RISK RATING: | 3.55 |  |  |\n| RISK RATING: | 4 |  |  |\n| Scored Risk Rating | Risk Rating | Risk Category |  |\n| > 1.49 | 1 | Excellent |  |\n| 1.50-2.49 | 2 | Good |  |\n| 2.50-3.49 | 3 | Average |  |\n| 3.50-4.49 | 4 | Pass |  |\n| 4.50-5.49 | 5 | Watch |  |\n| 5.50-6.49 | 6 | Special Mention |  |\n| 6.50-7.49 | 7 | Substandard |  |\n| 7.50 < | 8 | Loss |  |",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 20 | Section: TRANSACTIONAL/BORROWER | GRADE | WEIGHT | SCORE\n\nTable Header: TRANSACTIONAL/BORROWER | GRADE | WEIGHT | SCORE\nRow: Score: | 5 | 25% | 1.25\nRow: GLOBAL DSCR |  |  | \nRow: Score: | 3 | 20% | 0.60\nRow: RATIOS |  |  | \nRow: Score: | 3 | 10% | 0.30\nRow: Borrowers with enough global liquidity to cover at least 6 months of all debt service should be considered far above average |  |  | \nRow: HISTORICAL FINANCIAL PERFORMANCE |  |  | \nRow: Score: | 3 | 10% | 0.30\nRow: MANAGEMENT |  |  | \nRow: Score: | 3 | 10% | 0.30\nRow: COLLATERAL/TENANT STRENGTH |  |  | \nRow: Score: | 3 | 15% | 0.45\nRow: Cash secured loans should receive the highest quality score |  |  | \nRow: INDIVIDUAL |  |  | \nRow: Score: | 1 | 10% | 0.10\nRow: TOTAL SCORE: |  |  | 3.30\nRow: QUALITATIVE ADJUSTMENTS | Low Risk | High Risk | Score\nRow: Outside Factors | -0.25 | +0.25 | 0.25\nRow: Construction Risk | 0.00 | +0.25 | 0.00\nRow: SBA Loans | -0.25 | +0.25 | 0.00\nRow: SCORED RISK RATING: | 3.55 |  | \nRow: RISK RATING: | 4 |  | \nRow: Scored Risk Rating | Risk Rating | Risk Category | \nRow: > 1.49 | 1 | Excellent | \nRow: 1.50-2.49 | 2 | Good | \nRow: 2.50-3.49 | 3 | Average | \nRow: 3.50-4.49 | 4 | Pass | \nRow: 4.50-5.49 | 5 | Watch | \nRow: 5.50-6.49 | 6 | Special Mention | \nRow: 6.50-7.49 | 7 | Substandard | \nRow: 7.50 < | 8 | Loss | ",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "table"
+    ],
+    "table_signature": "table_3x31",
+    "table_rows": 31,
+    "table_header": "TRANSACTIONAL/BORROWER | GRADE | WEIGHT | SCORE",
+    "structure_confidence": 0.9
+  },
+  "parent_id": "a24c84c728c9d2ca",
+  "token_count": 560,
+  "node_id": "57d87088-767f-432b-ba83-5a5408fa861b",
+  "line_start": 653,
+  "line_end": 685
+}

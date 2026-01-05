@@ -1,0 +1,40 @@
+{
+  "chunk_id": "fd6626992060984b",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    18,
+    18
+  ],
+  "page_nos": [
+    18
+  ],
+  "header_path": "Market Information",
+  "section_label": "Market Information",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Market Information\n\nThe following market information has been derived from REIS.com for the Philadelphia market area:\n\nMarket Overview\n\nThe Philadelphia apartment market is comprised of 237,347 units in twenty-eight geographic concentrations ranging in size from the 26,254 unit Center City submarket to the Olney/Oak Lane submarket, which amounts to 2,870 units.\n\nIn the nine-year period beginning with Q1 2012, the Center City submarket has experienced the greatest introduction of new inventory, 10,901 units, amounting to 29.0% of all new market rate rentals added to the market.\n\nAsking and Effective Rent\n\nDuring February, asking rents relinquished a portion of January's increase, declining by 0.1% to $1,632.\n\nMean unit prices in the metro are as follows: studios $1,256, one bedrooms $1,422, two bedrooms $1,763, and three bedrooms $2,292. Over the past twelve months, asking rents have increased a total of 12.7%, up from $1,448. Since the beginning of Q1 2012, the metro as a whole has recorded an annual average increase of 4.2%.\n\nEffective rents, which exclude the value of concessions offered to prospective tenants, also fell by 0.1% during February. The identical rates of change suggest that, although rents drifted downward, landlords have avoided increasing the relative value of incentives packages used to attract new renters. During the past 12 months, positive movement in asking rent was recorded in all twenty-eight of the metro's submarkets.\n\nCompetitive Inventory, Household Formations, Absorption\n\nNet new fourth quarter household formations in the Philadelphia metropolitan area were 3,288. Of course, not all newly formed households immediately become apartment renters, but an analysis of longer-term economic and demographic trends can be useful in understanding the current quarter's level of demand.\n\nSince the beginning of Q1 2012, household formations in Philadelphia have averaged 0.5% per year, representing the average annual addition of 9,800 households. During February, net absorption totaled 101 units, while there was no new development; the net effect of absorption and construction dynamics caused the vacancy rate to drift downward by 10 basis points to 4.0%.\n\nOver the last 12 months, market absorption totaled 5,153 units, 45.6% greater than the average annual absorption rate of 3,538 units recorded since the beginning of Q1 2012. This vacancy rate matches exactly the metro's long-term average recorded since the beginning of Q1 2012.",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 18 | Section: Market Information\n\n# Market Information\nThe following market information has been derived from REIS.com for the Philadelphia market area:\nMarket Overview\nThe Philadelphia apartment market is comprised of 237,347 units in twenty-eight geographic concentrations ranging in size from the 26,254 unit Center City submarket to the Olney/Oak Lane submarket, which amounts to 2,870 units.\nIn the nine-year period beginning with Q1 2012, the Center City submarket has experienced the greatest introduction of new inventory, 10,901 units, amounting to 29.0% of all new market rate rentals added to the market.\nAsking and Effective Rent\nDuring February, asking rents relinquished a portion of January's increase, declining by 0.1% to $1,632.\nMean unit prices in the metro are as follows: studios $1,256, one bedrooms $1,422, two bedrooms $1,763, and three bedrooms $2,292. Over the past twelve months, asking rents have increased a total of 12.7%, up from $1,448. Since the beginning of Q1 2012, the metro as a whole has recorded an annual average increase of 4.2%.\nEffective rents, which exclude the value of concessions offered to prospective tenants, also fell by 0.1% during February. The identical rates of change suggest that, although rents drifted downward, landlords have avoided increasing the relative value of incentives packages used to attract new renters. During the past 12 months, positive movement in asking rent was recorded in all twenty-eight of the metro's submarkets.\nCompetitive Inventory, Household Formations, Absorption\nNet new fourth quarter household formations in the Philadelphia metropolitan area were 3,288. Of course, not all newly formed households immediately become apartment renters, but an analysis of longer-term economic and demographic trends can be useful in understanding the current quarter's level of demand.\nSince the beginning of Q1 2012, household formations in Philadelphia have averaged 0.5% per year, representing the average annual addition of 9,800 households. During February, net absorption totaled 101 units, while there was no new development; the net effect of absorption and construction dynamics caused the vacancy rate to drift downward by 10 basis points to 4.0%.\nOver the last 12 months, market absorption totaled 5,153 units, 45.6% greater than the average annual absorption rate of 3,538 units recorded since the beginning of Q1 2012. This vacancy rate matches exactly the metro's long-term average recorded since the beginning of Q1 2012.",
+  "metadata": {
+    "element_count": 13,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 560,
+  "node_id": "f9fc7660-0e59-4f4f-90c6-b3f2d1d5fcbd",
+  "line_start": 253,
+  "line_end": 259
+}

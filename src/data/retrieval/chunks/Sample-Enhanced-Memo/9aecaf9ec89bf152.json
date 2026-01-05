@@ -26,11 +26,11 @@
     "table_signature": "table_1x4",
     "table_rows": 4,
     "table_header": "Strengths | Weaknesses",
-    "structure_confidence": 0.5
+    "structure_confidence": 0.9
   },
-  "parent_id": "ba140c246135c9bb",
+  "parent_id": "ce141c2517ae79b6",
   "token_count": 317,
-  "node_id": "b513828e-969f-47db-88bf-ebf07bf8a27e",
-  "line_start": 631,
-  "line_end": 649
+  "node_id": "9ac946c9-6df4-45e7-b588-4dab678558ff",
+  "line_start": 584,
+  "line_end": 602
 }

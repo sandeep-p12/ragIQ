@@ -1,0 +1,30 @@
+{
+  "chunk_id": "ebe7dc3594266933",
+  "doc_id": "tmpklidtxkm",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": "Industry at a Glance > Key Statistics",
+  "section_label": "Key Statistics",
+  "element_type": "parent",
+  "raw_md_fragment": "### Key Statistics\n\n[IMAGE]\n\n4bn\n\n6%\n\n7bn\n\n[/IMAGE]\n\n### Key External Drivers\n\n8%**: Urban population\n\n4pp**: Yield on 10-year Treasury note",
+  "text_for_embedding": "Document: tmpklidtxkm | Page: 10 | Section: Industry at a Glance > Key Statistics\n\n### Key Statistics\n[IMAGE]\n4bn\n6%\n7bn\n[/IMAGE]\n\nDocument: tmpklidtxkm | Page: 10 | Section: Industry at a Glance > Key External Drivers\n\n### Key External Drivers\n8%**: Urban population\n4pp**: Yield on 10-year Treasury note",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Key Statistics"
+  },
+  "parent_id": null,
+  "token_count": 88,
+  "node_id": "a31953c2-e4cb-45e4-90b7-c36d03a02c2b",
+  "line_start": 338,
+  "line_end": 360,
+  "child_ids": [
+    "4ffcf9d6872dff96"
+  ],
+  "parent_type": "soft_section"
+}

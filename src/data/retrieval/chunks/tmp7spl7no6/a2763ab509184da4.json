@@ -1,0 +1,43 @@
+{
+  "chunk_id": "a2763ab509184da4",
+  "doc_id": "tmp7spl7no6",
+  "page_span": [
+    16,
+    16
+  ],
+  "page_nos": [
+    16
+  ],
+  "header_path": "Transactional Cash Flow:",
+  "section_label": "Transactional Cash Flow:",
+  "element_type": "mixed",
+  "raw_md_fragment": "```markdown\n\n\n16\n```\n\n# Transactional Cash Flow:\n\nThe below transactional analysis demonstrates a DSCR of 1.02x based on the borrower submitted rental information with combined gross rents of $53,400/year, less a 5% vacancy rate and historical operating expenses for insurance, legal/professional, taxes, repairs/maintenance, utilities and other operating expenses. It should be mentioned that while the DSCR is sufficient, it is below the CU recommended minimum.\n\nst also performed an interest rate shock, which demonstrates the following changes in DSCRs\n\n• Increased interest rate by 1% to 5.75% DSCR decreases to 0.91x; • Increased interest rate by 2% to 6.75% DSCR decreases to 0.82x; and • Increased interest rate by 3% to 7.75% DSCR decreases to 0.74x.\n\n• Increased interest rate by 1% to 5.75% DSCR decreases to 0.91x; • Increased interest rate by 2% to 6.75% DSCR decreases to 0.82x; and • Increased interest rate by 3% to 7.75% DSCR decreases to 0.74x.\n\nIn order to maintain a minimum DSCR of 1.00x rents can decline by approximately 6% to $50,093.\n\nThe analyst also performed a vacancy rate shock indicating the following:\n\n• Increased vacancy rate to 10% (36 days vacant) DSCR decreases to 0.94x; and • Increased vacancy rate to 15% (54 days vacant) DSCR decreases to 0.85x.\n\n# Transactional Cash Flow:\n\nThe below transactional analysis demonstrates a DSCR of 1.02x based on the borrower submitted rental information with combined gross rents of $53,400/year, less a 5% vacancy rate and historical operating expenses for insurance, legal/professional, taxes, repairs/maintenance, utilities and other operating expenses. It should be mentioned that while the DSCR is sufficient, it is below the CU recommended minimum.\n\nst also performed an interest rate shock, which demonstrates the following changes in DSCRs\n\n• Increased interest rate by 1% to 5.75% DSCR decreases to 0.91x; • Increased interest rate by 2% to 6.75% DSCR decreases to 0.82x; and • Increased interest rate by 3% to 7.75% DSCR decreases to 0.74x.\n\n• Increased interest rate by 1% to 5.75% DSCR decreases to 0.91x; • Increased interest rate by 2% to 6.75% DSCR decreases to 0.82x; and • Increased interest rate by 3% to 7.75% DSCR decreases to 0.74x.\n\nIn order to maintain a minimum DSCR of 1.00x rents can decline by approximately 6% to $50,093.\n\nThe analyst also performed a vacancy rate shock indicating the following:\n\n• Increased vacancy rate to 10% (36 days vacant) DSCR decreases to 0.94x; and • Increased vacancy rate to 15% (54 days vacant) DSCR decreases to 0.85x.\n\n| Sources | Amount |\n| ------------------------ | ---------- |\n| Borrower Sub |  |\n| Data 1 |  |\n| Data 4 |  |\n| Data 7 |  |\n| Aggregate Relationship | $514,500 |\n| Estimated LTV | 70% |",
+  "text_for_embedding": "Document: tmp7spl7no6 | Page: 16 | Section: ``markdown\n\n\n16\n``\n\n```markdown\n\n\n16\n```\n\nDocument: tmp7spl7no6 | Page: 17 | Section: Transactional Cash Flow:\n\n# Transactional Cash Flow:\nThe below transactional analysis demonstrates a DSCR of 1.02x based on the borrower submitted rental information with combined gross rents of $53,400/year, less a 5% vacancy rate and historical operating expenses for insurance, legal/professional, taxes, repairs/maintenance, utilities and other operating expenses. It should be mentioned that while the DSCR is sufficient, it is below the CU recommended minimum.\nst also performed an interest rate shock, which demonstrates the following changes in DSCRs\n• Increased interest rate by 1% to 5.75% DSCR decreases to 0.91x; • Increased interest rate by 2% to 6.75% DSCR decreases to 0.82x; and • Increased interest rate by 3% to 7.75% DSCR decreases to 0.74x.\n• Increased interest rate by 1% to 5.75% DSCR decreases to 0.91x; • Increased interest rate by 2% to 6.75% DSCR decreases to 0.82x; and • Increased interest rate by 3% to 7.75% DSCR decreases to 0.74x.\nIn order to maintain a minimum DSCR of 1.00x rents can decline by approximately 6% to $50,093.\nThe analyst also performed a vacancy rate shock indicating the following:\n• Increased vacancy rate to 10% (36 days vacant) DSCR decreases to 0.94x; and • Increased vacancy rate to 15% (54 days vacant) DSCR decreases to 0.85x.\nTable Header: Sources | Amount\nRow: Borrower Sub | \nRow: Data 1 | \nRow: Data 4 | \nRow: Data 7 | \nRow: Aggregate Relationship | $514,500\nRow: Estimated LTV | 70%",
+  "metadata": {
+    "element_count": 9,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "table"
+    ],
+    "structure_confidence": 1.0,
+    "table_signature": "table_1x6",
+    "table_rows": 6,
+    "table_header": "Sources | Amount",
+    "merged_from": [
+      "c51af3967a263a7d",
+      "4433e12ef6c7d074"
+    ]
+  },
+  "parent_id": "d2f80ec3e350b6c7",
+  "token_count": 446,
+  "node_id": "b738a9c3-5517-48b4-af17-5d3ad7407c91",
+  "line_start": 427,
+  "line_end": 458
+}

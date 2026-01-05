@@ -1,0 +1,33 @@
+{
+  "chunk_id": "033cdf10e7b0e734",
+  "doc_id": "tmp7spl7no6",
+  "page_span": [
+    21,
+    21
+  ],
+  "page_nos": [
+    21
+  ],
+  "header_path": "CREDIT UNION LOAN DECISION",
+  "section_label": "CREDIT UNION LOAN DECISION",
+  "element_type": "mixed",
+  "raw_md_fragment": "# CREDIT UNION LOAN DECISION\n\n# CREDIT UNION LOAN DECISION\n\n| Sources | Amount |\n| ------------------------ | ---------- |\n| Borrower Sub |  |\n| Data 1 |  |\n| Data 4 |  |\n| Data 7 |  |\n| Aggregate Relationship | $514,500 |\n| Estimated LTV | 70% |\n\n| Sources | Amount |\n| ------------------------ | ---------- |\n| Borrower Sub |  |\n| Data 1 |  |\n| Data 4 |  |\n| Data 7 |  |\n| Aggregate Relationship | $514,500 |\n| Estimated LTV | 70% |\n\n# CREDIT UNION LOAN DECISION\n\n| Sources | Amount |\n| ------------------------ | ---------- |\n| Borrower Sub |  |\n| Data 1 |  |\n| Data 4 |  |\n| Data 7 |  |\n| Aggregate Relationship | $514,500 |\n| Estimated LTV | 70% |\n\n| Sources | Amount |\n| ------------------------ | ---------- |\n| Borrower Sub |  |\n| Data 1 |  |\n| Data 4 |  |\n| Data 7 |  |\n| Aggregate Relationship | $514,500 |\n| Estimated LTV | 70% |",
+  "text_for_embedding": "Document: tmp7spl7no6 | Page: 21 | Section: CREDIT UNION LOAN DECISION\n\n# CREDIT UNION LOAN DECISION\nTable Header: Sources | Amount\nRow: Borrower Sub | \nRow: Data 1 | \nRow: Data 4 | \nRow: Data 7 | \nRow: Aggregate Relationship | $514,500\nRow: Estimated LTV | 70%\nTable Header: Sources | Amount\nRow: Borrower Sub | \nRow: Data 1 | \nRow: Data 4 | \nRow: Data 7 | \nRow: Aggregate Relationship | $514,500\nRow: Estimated LTV | 70%",
+  "metadata": {
+    "element_count": 3,
+    "element_types": [
+      "heading",
+      "table",
+      "table"
+    ],
+    "table_signature": "table_1x6",
+    "table_rows": 6,
+    "table_header": "Sources | Amount",
+    "structure_confidence": 1.0
+  },
+  "parent_id": "d2f80ec3e350b6c7",
+  "token_count": 141,
+  "node_id": "7d353230-abdb-4290-83aa-3a08c721bcce",
+  "line_start": 536,
+  "line_end": 554
+}

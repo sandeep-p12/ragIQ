@@ -1,0 +1,29 @@
+{
+  "chunk_id": "e3b37103ab8e5c59",
+  "doc_id": "tmp7spl7no6",
+  "page_span": [
+    18,
+    18
+  ],
+  "page_nos": [
+    18
+  ],
+  "header_path": "Outlook",
+  "section_label": "Outlook",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Outlook\n\nDuring 2022 and 2023, 7,148 additional units are projected to be introduced to the metro inventory. Net new household formations at the metro level over the same period are anticipated to average 0.7% annually, enough to facilitate an absorption rate averaging 3,155 units per year. Because this amount does not exceed the forecasted new construction, the market vacancy rate will rise by 20 basis points to finish 2023 at 4.4%. On an annualized basis, asking and effective rents are expected to advance at a rate of 4.3% through year end 2023, reaching average rates of $1,743 and $1,675 per unit, respectively.",
+  "text_for_embedding": "Document: tmp7spl7no6 | Page: 18 | Section: Outlook\n\n# Outlook\nDuring 2022 and 2023, 7,148 additional units are projected to be introduced to the metro inventory. Net new household formations at the metro level over the same period are anticipated to average 0.7% annually, enough to facilitate an absorption rate averaging 3,155 units per year. Because this amount does not exceed the forecasted new construction, the market vacancy rate will rise by 20 basis points to finish 2023 at 4.4%. On an annualized basis, asking and effective rents are expected to advance at a rate of 4.3% through year end 2023, reaching average rates of $1,743 and $1,675 per unit, respectively.",
+  "metadata": {
+    "element_count": 2,
+    "element_types": [
+      "heading",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0
+  },
+  "parent_id": "d2f80ec3e350b6c7",
+  "token_count": 166,
+  "node_id": "b7954d83-a75f-447b-ad12-eebef53c69f3",
+  "line_start": 468,
+  "line_end": 468
+}

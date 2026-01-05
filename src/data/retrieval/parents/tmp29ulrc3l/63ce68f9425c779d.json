@@ -1,0 +1,30 @@
+{
+  "chunk_id": "63ce68f9425c779d",
+  "doc_id": "tmp29ulrc3l",
+  "page_span": [
+    3,
+    3
+  ],
+  "page_nos": [
+    3
+  ],
+  "header_path": "Financial Statements",
+  "section_label": "Financial Statements",
+  "element_type": "parent",
+  "raw_md_fragment": "## Financial Statements\n\n| Borrower(s): | BORROWER |\n| --- | --- |\n|  | - 2018-2021 Business tax returns |\n|  | - Lease agreements |\n|  | - Site visit dated 4/1/2022 |\n| Guarantors(s): | GUARANTOR 1: |\n|  | - 2018-2020 personal tax returns; 2021 W2 |\n|  | - Personal financial statement dated 12/26/2021 |\n|  | - Schedule of Real Estate |\n|  | - Personal credit report dated 3/26/2022 |\n|  | GUARANTOR 2: |\n|  | - 2018-2021 personal tax returns; |\n|  | - 2020-2021 K-1’s for related entity |\n|  | - Personal financial statement dated 12/28/2021 |\n|  | - Personal credit report dated 3/26/2022 |",
+  "text_for_embedding": "Document: tmp29ulrc3l | Page: 3 | Section: Financial Statements\n\n## Financial Statements\nTable Header: Borrower(s): | BORROWER\nRow:  | - 2018-2021 Business tax returns\nRow:  | - Lease agreements\nRow:  | - Site visit dated 4/1/2022\nRow: Guarantors(s): | GUARANTOR 1:\nRow:  | - 2018-2020 personal tax returns; 2021 W2\nRow:  | - Personal financial statement dated 12/26/2021\nRow:  | - Schedule of Real Estate\nRow:  | - Personal credit report dated 3/26/2022\nRow:  | GUARANTOR 2:\nRow:  | - 2018-2021 personal tax returns;\nRow:  | - 2020-2021 K-1’s for related entity\nRow:  | - Personal financial statement dated 12/28/2021\nRow:  | - Personal credit report dated 3/26/2022",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Financial Statements"
+  },
+  "parent_id": null,
+  "token_count": 233,
+  "node_id": "d1f75f90-8223-474d-a77a-12d779286d5d",
+  "line_start": 87,
+  "line_end": 101,
+  "child_ids": [
+    "9c6f3a7e805aa34e"
+  ],
+  "parent_type": "soft_section"
+}

@@ -1,0 +1,30 @@
+{
+  "chunk_id": "835e5454d114e59d",
+  "doc_id": "tmp29ulrc3l",
+  "page_span": [
+    2,
+    2
+  ],
+  "page_nos": [
+    2
+  ],
+  "header_path": "Sources of Repayment",
+  "section_label": "Sources of Repayment",
+  "element_type": "parent",
+  "raw_md_fragment": "## Sources of Repayment\n\n| Relationship | ☐ This document also serves as the annual reviews of the following relationship(s): |  |  |  |\n| --- | --- | --- | --- | --- |\n| Loan # | Borrower | Date | Original Balance | Current Balance |\n| 1-1-13281* | BORROWER | 12/30/2016 | $252,000 | $229,742 |\n| TBD | BORROWER | TBD | $514,\n\n000 | $229,742 | | TBD | BORROWER | TBD | $514,500 | - | | *To be refinanced with this request, therefore, loan amount was not included in the total exposure on page 1. |  |  |  |  |",
+  "text_for_embedding": "Document: tmp29ulrc3l | Page: 2 | Section: Sources of Repayment\n\n## Sources of Repayment\nTable Header: Relationship | ☐ This document also serves as the annual reviews of the following relationship(s): |  |  | \nRow: Loan # | Borrower | Date | Original Balance | Current Balance\nRow: 1-1-13281* | BORROWER | 12/30/2016 | $252,000 | $229,742\nRow: TBD | BORROWER | TBD | $514, | \n000 | $229,742 | | TBD | BORROWER | TBD | $514,500 | - | | *To be refinanced with this request, therefore, loan amount was not included in the total exposure on page 1. |  |  |  |  |",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Sources of Repayment"
+  },
+  "parent_id": null,
+  "token_count": 179,
+  "node_id": "bbc16c1d-917c-46de-93fa-c95c256b0148",
+  "line_start": 42,
+  "line_end": 50,
+  "child_ids": [
+    "84d44aaa9a288bf6"
+  ],
+  "parent_type": "soft_section"
+}

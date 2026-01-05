@@ -1,0 +1,34 @@
+{
+  "chunk_id": "49c8732048e793ef",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    22,
+    22
+  ],
+  "page_nos": [
+    22
+  ],
+  "header_path": "Notes:",
+  "section_label": "Notes:",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Notes:\n\n# BORROWER TREE:\n\nA. Borrower-BORROWER\n\nA. Borrower-BORROWER 1. Owner/Guarantor- GUARANTOR 1 (50%) 2. Owner/Guarantor- GUARANTOR 2 (50%)",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 22 | Section: Notes:\n\n# Notes:\n\nDocument: tmpwuj9b3wc | Page: 22 | Section: BORROWER TREE:\n\n# BORROWER TREE:\nA. Borrower-BORROWER\nA. Borrower-BORROWER 1. Owner/Guarantor- GUARANTOR 1 (50%) 2. Owner/Guarantor- GUARANTOR 2 (50%)",
+  "metadata": {
+    "element_count": 3,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0,
+    "merged_from": [
+      "76a718dbb78771a0",
+      "5bfeb54adac6f292"
+    ]
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 103,
+  "node_id": "dfe899a3-c135-4a6c-b37c-ff7740373e01",
+  "line_start": 295,
+  "line_end": 301
+}

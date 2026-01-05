@@ -1,0 +1,32 @@
+{
+  "chunk_id": "4584700e19bdd080",
+  "doc_id": "tmpz_i22pz6",
+  "page_span": [
+    13,
+    13
+  ],
+  "page_nos": [
+    13
+  ],
+  "header_path": null,
+  "section_label": "Two images showing the exterior of the multifamily",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Transactional Analysis\n\nThe subject loan request will be secured by a 1st mortgage lien on the subject property located at COLLATERAL ADDRESS. The subject property is a two-story multifamily building with a finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\n**Site Visit:** Loan officer performed a site visit on April 1, 2022 and noted the property is in good condition with no signs of deferred maintenance.\n\n[IMAGE]\nTwo images showing the exterior of the multifamily building. The first image shows the building from the street with cars parked in front. The second image provides a closer view of the building facade, highlighting the brickwork and windows.\n[/IMAGE]\n\n[IMAGE]\nTwo additional images of the multifamily building from different angles. The first image shows the building from a side view with a car parked in front. The second image captures a wider view of the building and surrounding area, including adjacent properties.\n[/IMAGE]",
+  "text_for_embedding": "Document: tmpz_i22pz6 | Page: 13 | Section: Two images showing the exterior of the multifamily\n\n[IMAGE]\nTwo images showing the exterior of the multifamily building. The first image shows the building from the street with cars parked in front. The second image provides a closer view of the building facade, highlighting the brickwork and windows.\n[/IMAGE]\n\nDocument: tmpz_i22pz6 | Page: 14 | Section: Two additional images of the multifamily building\n\n[IMAGE]\nTwo additional images of the multifamily building from different angles. The first image shows the building from a side view with a car parked in front. The second image captures a wider view of the building and surrounding area, including adjacent properties.\n[/IMAGE]",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "imageblockelement"
+    ],
+    "structure_confidence": 0.9,
+    "merged_from": [
+      "4137453ac28d4d39",
+      "c33a4c38fd707791"
+    ]
+  },
+  "parent_id": "5bf38af0abb628b0",
+  "token_count": 155,
+  "node_id": "16d08761-dcc6-4294-a21b-2fd2c59be88a",
+  "line_start": 525,
+  "line_end": 539
+}

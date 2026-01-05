@@ -1,0 +1,12 @@
+[
+  {
+    "field_id": null,
+    "status": "warning",
+    "message": "All fields have null values and NoneType. Ensure that this is the expected behavior.",
+    "suggestions": [
+      "Verify the source data to ensure fields should indeed be null.",
+      "Check if any data extraction errors occurred."
+    ],
+    "severity": 5
+  }
+]

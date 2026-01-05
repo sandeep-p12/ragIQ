@@ -1,0 +1,30 @@
+{
+  "chunk_id": "d57ec2e16fd7b579",
+  "doc_id": "tmp29ulrc3l",
+  "page_span": [
+    8,
+    8
+  ],
+  "page_nos": [
+    8
+  ],
+  "header_path": "Business Financial Analysis for BORROWER",
+  "section_label": "Business Financial Analysis for BORROWER",
+  "element_type": "parent",
+  "raw_md_fragment": "# Business Financial Analysis for BORROWER\n\nThe borrowing entity is a real estate holding company that was established in October 2016 for the sole purpose of acquiring and managing the subject property. The entity is jointly owned by guarantors GUARANTOR 1 (50%) and GUARANTOR 2 (50%). The borrower provided 2018-2021 business tax returns as prepared by Bob Reagh, CPA, located in Huntingdon Valley, PA 19006. The below analysis takes into account the three most recent years of financials.",
+  "text_for_embedding": "Document: tmp29ulrc3l | Page: 8 | Section: Business Financial Analysis for BORROWER\n\n# Business Financial Analysis for BORROWER\nThe borrowing entity is a real estate holding company that was established in October 2016 for the sole purpose of acquiring and managing the subject property. The entity is jointly owned by guarantors GUARANTOR 1 (50%) and GUARANTOR 2 (50%). The borrower provided 2018-2021 business tax returns as prepared by Bob Reagh, CPA, located in Huntingdon Valley, PA 19006. The below analysis takes into account the three most recent years of financials.",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Business Financial Analysis for BORROWER"
+  },
+  "parent_id": null,
+  "token_count": 139,
+  "node_id": "2476432a-bab6-479d-a16d-91a8fd160b81",
+  "line_start": 286,
+  "line_end": 296,
+  "child_ids": [
+    "44abb8a9aeeafc31"
+  ],
+  "parent_type": "soft_section"
+}

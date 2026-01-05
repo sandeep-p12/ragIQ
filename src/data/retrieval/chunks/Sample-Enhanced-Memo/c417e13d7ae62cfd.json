@@ -31,11 +31,11 @@
     "table_signature": "table_1x5",
     "table_rows": 5,
     "table_header": "ASSETS | 12/26/2021",
-    "structure_confidence": 0.5
+    "structure_confidence": 0.9
   },
-  "parent_id": "faa1578aa3bad1cf",
+  "parent_id": "18861b16e39c8cf3",
   "token_count": 748,
-  "node_id": "c680c457-84ad-446f-b950-17ab5ef3cd1e",
-  "line_start": 123,
-  "line_end": 130
+  "node_id": "80e7a84c-4f94-40f4-8a92-ef4f51ce87e4",
+  "line_start": 131,
+  "line_end": 138
 }

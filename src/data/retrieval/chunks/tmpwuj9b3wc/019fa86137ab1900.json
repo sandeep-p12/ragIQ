@@ -1,0 +1,35 @@
+{
+  "chunk_id": "019fa86137ab1900",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    4,
+    4
+  ],
+  "page_nos": [
+    4
+  ],
+  "header_path": "FINANCIAL ANALYSIS",
+  "section_label": "FINANCIAL ANALYSIS",
+  "element_type": "mixed",
+  "raw_md_fragment": "# FINANCIAL ANALYSIS\n\nPersonal Financial Analysis for GUARANTOR 1:\n\n# Net Worth\n\nIt should be noted that jointly held assets with a spouse, who is not a party in the transaction, may influence the capital capacity. Per the personal financial statement dated December 26, 2021, GUARANTOR 1 has a stated net worth of $3,689,440 based upon assets of $4,760,177 and liabilities of $1,070,737. When excluding closely held business interest valued at $425,000, GUARANTOR 1 has an adjusted net worth of $3,264,440. Liquid assets total $370,150 and consist solely of cash. The stated cash on hand can cover 12 months of personal debt service. Account statements were provided and verified the liquidity. GUARANTOR 1 indicated $659,527 in retirement accounts that were not added into the liquidity calculation as they are not readily available and carry significant penalties and taxes if withdrawn prematurely. Other assets consisted of automobiles/personal property valued at $5,500. Long-term assets consisted of primary real estate valued at $650,000 which secures $127,061 in mortgage debt and investment real estate valued at $2,650,000 which secures mortgage debt of $927,976. In addition to the already mentioned mortgage debt, GUARANTOR 1 disclosed revolving debt of $15,700.\n\nDebt to Outside Net Worth: 0.33 or 33%, which indicates a low level of outstanding debt owed, as compared to the total value of personal assets (less all liabilities).\n\nPer the credit report dated March 26, 2022, GUARANTOR 1 has a credit score of 734 with 22% open revolving availability. The credit report indicates all trades have been paid as agreed.",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 4 | Section: FINANCIAL ANALYSIS\n\n# FINANCIAL ANALYSIS\nPersonal Financial Analysis for GUARANTOR 1:\n\nDocument: tmpwuj9b3wc | Page: 4 | Section: Net Worth\n\n# Net Worth\nIt should be noted that jointly held assets with a spouse, who is not a party in the transaction, may influence the capital capacity. Per the personal financial statement dated December 26, 2021, GUARANTOR 1 has a stated net worth of $3,689,440 based upon assets of $4,760,177 and liabilities of $1,070,737. When excluding closely held business interest valued at $425,000, GUARANTOR 1 has an adjusted net worth of $3,264,440. Liquid assets total $370,150 and consist solely of cash. The stated cash on hand can cover 12 months of personal debt service. Account statements were provided and verified the liquidity. GUARANTOR 1 indicated $659,527 in retirement accounts that were not added into the liquidity calculation as they are not readily available and carry significant penalties and taxes if withdrawn prematurely. Other assets consisted of automobiles/personal property valued at $5,500. Long-term assets consisted of primary real estate valued at $650,000 which secures $127,061 in mortgage debt and investment real estate valued at $2,650,000 which secures mortgage debt of $927,976. In addition to the already mentioned mortgage debt, GUARANTOR 1 disclosed revolving debt of $15,700.\nDebt to Outside Net Worth: 0.33 or 33%, which indicates a low level of outstanding debt owed, as compared to the total value of personal assets (less all liabilities).\nPer the credit report dated March 26, 2022, GUARANTOR 1 has a credit score of 734 with 22% open revolving availability. The credit report indicates all trades have been paid as agreed.",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0,
+    "merged_from": [
+      "ef7df17dbe3db3ba",
+      "db3eb15cc9eb763c"
+    ]
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 422,
+  "node_id": "95cac46f-9cfd-4486-b890-4d5f95e10903",
+  "line_start": 33,
+  "line_end": 43
+}

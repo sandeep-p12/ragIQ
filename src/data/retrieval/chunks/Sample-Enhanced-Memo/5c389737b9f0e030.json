@@ -23,11 +23,11 @@
     "table_signature": "table_3x3",
     "table_rows": 3,
     "table_header": "Sources | Amount | Uses | Amount",
-    "structure_confidence": 0.5
+    "structure_confidence": 0.9
   },
-  "parent_id": "5835dd508adfef2c",
+  "parent_id": "15c43675f48e9b6a",
   "token_count": 123,
-  "node_id": "6f5847ef-a9b9-469a-9b31-9a5ea0bfda4e",
-  "line_start": 40,
-  "line_end": 46
+  "node_id": "e51f9269-5c93-4f0b-840c-9a97ba0f1035",
+  "line_start": 45,
+  "line_end": 51
 }

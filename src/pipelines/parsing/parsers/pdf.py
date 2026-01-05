@@ -90,8 +90,9 @@ class PDFParser:
         Returns:
             Document object
         """
-        # Handle LLM_FULL strategy separately
+        # Handle LLM_FULL strategy separately - bypass all normal parsing
         if strategy == StrategyEnum.LLM_FULL:
+            logger.info(f"Using LLM_FULL strategy - bypassing layout detection, OCR, and table extraction")
             return self._parse_with_llm_full(file_path, start_page, end_page)
         
         try:
@@ -582,23 +583,28 @@ class PDFParser:
 
             # Convert to Document structure
             # Create a single page with the full content as a text block
-            from src.schema.document import TextBlock, BBox
+            from src.schema.document import TextBlock, BBox, Page, Document
+            
+            # Ensure we have valid dimensions
+            page_width = page_dimensions[0][0] if page_dimensions and len(page_dimensions) > 0 else 800
+            page_height = page_dimensions[0][1] if page_dimensions and len(page_dimensions) > 0 else 1000
             
             # Create a text block covering the entire document
+            # Limit text length to avoid validation issues (store full content in metadata)
+            text_preview = processed_content[:1000] if len(processed_content) > 1000 else processed_content
             full_text_block = TextBlock(
                 block_type=BlockType.TEXT,
                 bbox=BBox(x0=0.0, y0=0.0, x1=1.0, y1=1.0),
                 page_index=0,
-                text=processed_content,
+                text=text_preview,  # Store preview in block, full content in metadata
             )
 
             # Create a single page containing the full document
             # Store the markdown in page metadata so to_markdown() can return it directly
-            from src.schema.document import Page
             page_obj = Page(
                 page_index=0,
-                width=page_dimensions[0][0] if page_dimensions else 800,
-                height=page_dimensions[0][1] if page_dimensions else 1000,
+                width=page_width,
+                height=page_height,
                 blocks=[full_text_block],  # Keep block for compatibility, but markdown is in metadata
                 metadata={
                     "llm_full_processed": True,
@@ -615,18 +621,47 @@ class PDFParser:
             # In 1-based, that's min(end_page, total_pages)
             actual_end_page = min(end_page, total_pages)  # 1-based (inclusive)
             
-            document = Document(
-                file_path=file_path,
-                file_name=Path(file_path).name,
-                pages=[page_obj],
-                total_pages=1,  # Single page object containing full document
-                metadata={
-                    "parsing_strategy": "llm_full",
-                    "llm_full_start_page": actual_start_page,  # 1-based
-                    "llm_full_end_page": actual_end_page,  # 1-based (inclusive)
-                    "llm_full_total_pages": actual_end_page - actual_start_page + 1,
-                },
-            )
+            # Create document with proper validation
+            # Use model_validate to ensure proper Pydantic validation
+            try:
+                document_dict = {
+                    "file_path": file_path,
+                    "file_name": Path(file_path).name,
+                    "pages": [page_obj.model_dump()],  # Convert to dict for validation
+                    "total_pages": 1,
+                    "metadata": {
+                        "parsing_strategy": "llm_full",
+                        "llm_full_start_page": actual_start_page,
+                        "llm_full_end_page": actual_end_page,
+                        "llm_full_total_pages": actual_end_page - actual_start_page + 1,
+                    },
+                }
+                document = Document.model_validate(document_dict)
+            except Exception as e:
+                logger.error(f"Error creating Document with model_validate: {e}")
+                # Fallback to direct instantiation
+                try:
+                    document = Document(
+                        file_path=file_path,
+                        file_name=Path(file_path).name,
+                        pages=[page_obj],
+                        total_pages=1,
+                        metadata={
+                            "parsing_strategy": "llm_full",
+                            "llm_full_start_page": actual_start_page,
+                            "llm_full_end_page": actual_end_page,
+                            "llm_full_total_pages": actual_end_page - actual_start_page + 1,
+                        },
+                    )
+                except Exception as e2:
+                    logger.error(f"Error creating Document with direct instantiation: {e2}")
+                    logger.error(f"Page object type: {type(page_obj)}")
+                    logger.error(f"Page object: {page_obj}")
+                    if hasattr(page_obj, 'blocks'):
+                        logger.error(f"Page blocks count: {len(page_obj.blocks)}")
+                        if page_obj.blocks:
+                            logger.error(f"First block type: {type(page_obj.blocks[0])}")
+                    raise ParserError(f"Failed to create Document object: {e2}") from e2
 
             if self.progress_callback:
                 self.progress_callback("LLM parsing complete", 1.0, {"total_chars": len(processed_content)})

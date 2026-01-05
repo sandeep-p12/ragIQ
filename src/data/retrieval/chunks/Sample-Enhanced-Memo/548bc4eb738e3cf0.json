@@ -24,11 +24,11 @@
     "table_signature": "table_4x3",
     "table_rows": 3,
     "table_header": "Relationship | This document also serves as the annual reviews of the following relationship(s): |  |  | ",
-    "structure_confidence": 0.5
+    "structure_confidence": 0.9
   },
-  "parent_id": "f95d37eebed12331",
+  "parent_id": "15c43675f48e9b6a",
   "token_count": 144,
-  "node_id": "f758ec8f-94eb-4c63-930e-44e9d2094296",
-  "line_start": 40,
-  "line_end": 76
+  "node_id": "e691d4e7-cc95-42f0-9e51-5d71d0d93524",
+  "line_start": 45,
+  "line_end": 84
 }

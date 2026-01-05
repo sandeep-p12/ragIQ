@@ -20,11 +20,11 @@
       "paragraph",
       "paragraph"
     ],
-    "structure_confidence": 0.5
+    "structure_confidence": 0.9
   },
-  "parent_id": "b7a92673835cabb3",
+  "parent_id": "094eb5ebe0603e65",
   "token_count": 239,
-  "node_id": "2e051e75-9595-4680-b632-ae694f038881",
-  "line_start": 621,
-  "line_end": 635
+  "node_id": "7e5e762d-3229-4ceb-a271-e190cb74c276",
+  "line_start": 563,
+  "line_end": 577
 }

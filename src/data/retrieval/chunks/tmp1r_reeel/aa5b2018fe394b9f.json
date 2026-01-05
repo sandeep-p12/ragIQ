@@ -1,0 +1,33 @@
+{
+  "chunk_id": "aa5b2018fe394b9f",
+  "doc_id": "tmp1r_reeel",
+  "page_span": [
+    12,
+    12
+  ],
+  "page_nos": [
+    12
+  ],
+  "header_path": "Global Cash Flow Analysis",
+  "section_label": "Global Cash Flow Analysis",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Global Cash Flow Analysis\n\nBased upon the 2020 financial information provided for the borrower and individuals, the global DSCR is sufficient at 2.42x when compared to 2.87x in 2019. The global DSCR in 2021 is 1.59x when based upon the 2021 financial information provided by GUARANTOR 2 and the borrower, as well as, GUARANTOR 1’s 2021 W2 (as his 2021 tax returns were not available during underwriting). On a pro-forma the DSCR is 1.60x when based on the inclusion of the proposed mortgage, pro-forma cash flow of the guarantors, and inclusion of anticipated rental income for the subject property to be owned by the borrowing entity, less a 5% vacancy factor and historical operating expenses.\n\n## Global Cash Flow Analysis\n\nBased upon the 2020 financial information provided for the borrower and individuals, the global DSCR is sufficient at 2.42x when compared to 2.87x in 2019. The global DSCR in 2021 is 1.59x when based upon the 2021 financial information provided by GUARANTOR 2 and the borrower, as well as, GUARANTOR 1’s 2021 W2 (as his 2021 tax returns were not available during underwriting). On a pro-forma the DSCR is 1.60x when based on the inclusion of the proposed mortgage, pro-forma cash flow of the guarantors, and inclusion of anticipated rental income for the subject property to be owned by the borrowing entity, less a 5% vacancy factor and historical operating expenses.\n\n\n|  | 2019 | 2020 | 2021 | Projected |\n| --- | --- | --- | --- | --- |\n| **BORROWER** |  |  |  |  |\n| Cash Available to Debt Service | $29,231 | $27,599 | $12,862 | $32,845 |\n| Total Debt Service | $15,780 | $15,780 | $15,780 | $32,208 |\n| BORROWER Excess Cash Flow | **$13,451** | **$11,819** | **($2,918)** | **$637** |\n| BORROWER Cash Flow Coverage | 1.85 | 1.75 | 0.82 | 1.02 |\n| **GUARANTOR 1** |  |  |  |  |\n| Cash Available to Debt Service | $83,795 | $111,831 | $165,081 | $165,081 |\n| Total Debt Service | $22,128 | $33,120 | $105,336 | $105,336 |\n| GUARANTOR 1 Excess Cash Flow | **$61,667** | **$78,711** | **$59,745** | **$59,745** |\n| GUARANTOR 1 Cash Flow Coverage | 3.79 | 3.38 | 1.57 | 1.57 |\n| **GUARANTOR 2** |  |  |  |  |\n| Cash Available to Debt Service | $76,474 | $76,639 | $78,366 | $87,261 |\n| Total Debt Service | $28,152 | $40,260 | $40,260 | $40,260 |\n| GUARANTOR 2 Excess Cash Flow | **$48,322** | **$36,379** | **$38,106** | **$47,001** |\n| GUARANTOR 2 Cash Flow Coverage | 2.72 | 1.90 | 1.95 | 2.17 |\n| **Combined** |  |  |  |  |\n| Total Combined Cash | $189,500 | $216,069 | $256,309 | $285,187 |\n| Total Combined Debt Service | $66,060 | $89,160 | $161,376 | $177,804 |\n| Global Excess Cash Flow | **$123,440** | **$126,909** | **$94,933** | **$107,383** |\n| Global Cash Flow Coverage | 2.87 | 2.42 | 1.59 | 1.60 |",
+  "text_for_embedding": "Document: tmp1r_reeel | Page: 12 | Section: Global Cash Flow Analysis\n\n## Global Cash Flow Analysis\nBased upon the 2020 financial information provided for the borrower and individuals, the global DSCR is sufficient at 2.42x when compared to 2.87x in 2019. The global DSCR in 2021 is 1.59x when based upon the 2021 financial information provided by GUARANTOR 2 and the borrower, as well as, GUARANTOR 1’s 2021 W2 (as his 2021 tax returns were not available during underwriting). On a pro-forma the DSCR is 1.60x when based on the inclusion of the proposed mortgage, pro-forma cash flow of the guarantors, and inclusion of anticipated rental income for the subject property to be owned by the borrowing entity, less a 5% vacancy factor and historical operating expenses.\nTable Header:  | 2019 | 2020 | 2021 | Projected\nRow: BORROWER |  |  |  | \nRow: Cash Available to Debt Service | $29,231 | $27,599 | $12,862 | $32,845\nRow: Total Debt Service | $15,780 | $15,780 | $15,780 | $32,208\nRow: BORROWER Excess Cash Flow | $13,451 | $11,819 | ($2,918) | $637\nRow: BORROWER Cash Flow Coverage | 1.85 | 1.75 | 0.82 | 1.02\nRow: GUARANTOR 1 |  |  |  | \nRow: Cash Available to Debt Service | $83,795 | $111,831 | $165,081 | $165,081\nRow: Total Debt Service | $22,128 | $33,120 | $105,336 | $105,336\nRow: GUARANTOR 1 Excess Cash Flow | $61,667 | $78,711 | $59,745 | $59,745\nRow: GUARANTOR 1 Cash Flow Coverage | 3.79 | 3.38 | 1.57 | 1.57\nRow: GUARANTOR 2 |  |  |  | \nRow: Cash Available to Debt Service | $76,474 | $76,639 | $78,366 | $87,261\nRow: Total Debt Service | $28,152 | $40,260 | $40,260 | $40,260\nRow: GUARANTOR 2 Excess Cash Flow | $48,322 | $36,379 | $38,106 | $47,001\nRow: GUARANTOR 2 Cash Flow Coverage | 2.72 | 1.90 | 1.95 | 2.17\nRow: Combined |  |  |  | \nRow: Total Combined Cash | $189,500 | $216,069 | $256,309 | $285,187\nRow: Total Combined Debt Service | $66,060 | $89,160 | $161,376 | $177,804\nRow: Global Excess Cash Flow | $123,440 | $126,909 | $94,933 | $107,383\nRow: Global Cash Flow Coverage | 2.87 | 2.42 | 1.59 | 1.60",
+  "metadata": {
+    "element_count": 3,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "table"
+    ],
+    "table_signature": "table_4x20",
+    "table_rows": 20,
+    "table_header": " | 2019 | 2020 | 2021 | Projected",
+    "structure_confidence": 0.5
+  },
+  "parent_id": "4cd809281e0fdad8",
+  "token_count": 734,
+  "node_id": "1280e091-5049-40ea-a13f-8b4ff893e6f6",
+  "line_start": 504,
+  "line_end": 530
+}

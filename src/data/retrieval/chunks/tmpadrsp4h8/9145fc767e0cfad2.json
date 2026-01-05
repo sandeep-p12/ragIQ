@@ -1,0 +1,41 @@
+{
+  "chunk_id": "9145fc767e0cfad2",
+  "doc_id": "tmpadrsp4h8",
+  "page_span": [
+    1,
+    1
+  ],
+  "page_nos": [
+    1
+  ],
+  "header_path": "Credit Memorandum",
+  "section_label": "Credit Memorandum",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Credit Memorandum\n\n![MBFS Logo](#)\n\n# Credit Memorandum\n\n\n| Date: | April 14, 2022 |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- |\n| Credit Union: | CREDIT UNION |  |  |  |  |  |\n| Relationship Manager: | RELATIONSHIP MANAGER |  |  |  |  |  |\n| Analyst: | ANALYST |  |\n\n|  |  |  |  |  | | Analyst: | ANALYST |  |  |  |  |  | | Borrower: | BORROWER |  |  |  |  |  | | Borrower Summary |  |  |  |  |  |  | | Address | Borrower’s Address |  |  |  |  |  | | NAICS Code | 531110 |  |  |  |\n\n|  |  | | NAICS Code | 531110 |  |  |  |  |  | | Aggregate Relationship | $514,500 |  |  |  |  |  | | Borrower DSCR | 0.82x (2021) |  |  |  |  |  | |  | 1.\n\n02x (pro-forma) |  |  |  |  |  | | Credit Score | N/A |  |  |  |  |  | | MBFS Risk Rating | 4-Pass |  |  |  |  |  | | Avg.\n\nDeposits | $25.04 |  |  |  |  |  | | Global DSCR | 1.59x (2021) |  |  |  |  |  | |  | 1.60x (pro-forma) |  |  |  |  |  | | Guarantor(s) | Address | Credit Score | Ownership % |  |  |  | | GUARANTOR 1 |\n\nCredit Score | Ownership % |  |  |  | | GUARANTOR 1 | Guarantor’s Address | 734 | 50% |  |  |  | | GUARANTOR 2 | Guarantor’s Address | 775 | 50% |  |  |  | | Loan Type | Amount | Term | Amortization |  |  |  | | Real Estate Loan | $514,\n\nTerm | Amortization |  |  |  | | Real Estate Loan | $514,500 | 5 Years | 30 Years |  |  |  | | Rate | Rate Type | Adjusts Every | Index | Margin | Rate Floor | Rate Ceiling | | 4.75% | Fixed | - | 5 Year TCM | - | 4.\n\n75% | Fixed | - | 5 Year TCM | - | 4.75% | - | | Estimated Fees | Estimated Amounts |  |  |  |  |  | | Origination Fee | $5,145 |  |  |  |  |  | | Underwriting Fee | $1,\n\n145 |  |  |  |  |  | | Underwriting Fee | $1,000 |  |  |  |  |  | | Doc Prep Fee | TBD |  |  |  |  |  | | Collateral Type | Address/Description | Est. Value | Est.\n\nValue | Est. LTV |  |  |  | | Multifamily (5+ units) Property | COLLATERAL ADDRESS | $735,000 | 70% |  |  |  |",
+  "text_for_embedding": "Document: tmpadrsp4h8 | Page: 1 | Section: Credit Memorandum\n\n# Credit Memorandum\nTable Header: Date: | April 14, 2022 |  |  |  |  | \nRow: Credit Union: | CREDIT UNION |  |  |  |  | \nRow: Relationship Manager: | RELATIONSHIP MANAGER |  |  |  |  | \nRow: Analyst: | ANALYST |  |  |  |  | \n|  |  |  |  |  | | Analyst: | ANALYST |  |  |  |  |  | | Borrower: | BORROWER |  |  |  |  |  | | Borrower Summary |  |  |  |  |  |  | | Address | Borrower’s Address |  |  |  |  |  | | NAICS Code | 531110 |  |  |  |\n|  |  | | NAICS Code | 531110 |  |  |  |  |  | | Aggregate Relationship | $514,500 |  |  |  |  |  | | Borrower DSCR | 0.82x (2021) |  |  |  |  |  | |  | 1.\n02x (pro-forma) |  |  |  |  |  | | Credit Score | N/A |  |  |  |  |  | | MBFS Risk Rating | 4-Pass |  |  |  |  |  | | Avg.\nDeposits | $25.04 |  |  |  |  |  | | Global DSCR | 1.59x (2021) |  |  |  |  |  | |  | 1.60x (pro-forma) |  |  |  |  |  | | Guarantor(s) | Address | Credit Score | Ownership % |  |  |  | | GUARANTOR 1 |\nCredit Score | Ownership % |  |  |  | | GUARANTOR 1 | Guarantor’s Address | 734 | 50% |  |  |  | | GUARANTOR 2 | Guarantor’s Address | 775 | 50% |  |  |  | | Loan Type | Amount | Term | Amortization |  |  |  | | Real Estate Loan | $514,\nTerm | Amortization |  |  |  | | Real Estate Loan | $514,500 | 5 Years | 30 Years |  |  |  | | Rate | Rate Type | Adjusts Every | Index | Margin | Rate Floor | Rate Ceiling | | 4.75% | Fixed | - | 5 Year TCM | - | 4.\n75% | Fixed | - | 5 Year TCM | - | 4.75% | - | | Estimated Fees | Estimated Amounts |  |  |  |  |  | | Origination Fee | $5,145 |  |  |  |  |  | | Underwriting Fee | $1,\n145 |  |  |  |  |  | | Underwriting Fee | $1,000 |  |  |  |  |  | | Doc Prep Fee | TBD |  |  |  |  |  | | Collateral Type | Address/Description | Est. Value | Est.\nValue | Est. LTV |  |  |  | | Multifamily (5+ units) Property | COLLATERAL ADDRESS | $735,000 | 70% |  |  |  |",
+  "metadata": {
+    "element_count": 11,
+    "element_types": [
+      "heading",
+      "table",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "table_signature": "table_6x3",
+    "table_rows": 3,
+    "table_header": "Date: | April 14, 2022 |  |  |  |  | ",
+    "structure_confidence": 0.5
+  },
+  "parent_id": "eb030d884f265a5d",
+  "token_count": 778,
+  "node_id": "9350d533-85df-4547-bee0-ba469cdcfed8",
+  "line_start": 9,
+  "line_end": 18
+}

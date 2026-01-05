@@ -1,0 +1,29 @@
+{
+  "chunk_id": "988dd9625f56577b",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    12,
+    12
+  ],
+  "page_nos": [
+    12
+  ],
+  "header_path": "Global Cash Flow Analysis",
+  "section_label": "Global Cash Flow Analysis",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Global Cash Flow Analysis\n\nBased upon the 2020 financial information provided for the borrower and individuals, the global DSCR is sufficient at 2.42x when compared to 2.87x in 2019. The global DSCR in 2021 is 1.59x when based upon the 2021 financial information provided by GUARANTOR 2 and the borrower, as well as, GUARANTOR 1’s 2021 W2 (as his 2021 tax returns were not available during underwriting). On a pro-forma the DSCR is 1.60x when based on the inclusion of the proposed mortgage, pro-forma cash flow of the guarantors, and inclusion of anticipated rental income for the subject property to be owned by the borrowing entity, less a 5% vacancy factor and historical operating expenses.",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 12 | Section: Global Cash Flow Analysis\n\n# Global Cash Flow Analysis\nBased upon the 2020 financial information provided for the borrower and individuals, the global DSCR is sufficient at 2.42x when compared to 2.87x in 2019. The global DSCR in 2021 is 1.59x when based upon the 2021 financial information provided by GUARANTOR 2 and the borrower, as well as, GUARANTOR 1’s 2021 W2 (as his 2021 tax returns were not available during underwriting). On a pro-forma the DSCR is 1.60x when based on the inclusion of the proposed mortgage, pro-forma cash flow of the guarantors, and inclusion of anticipated rental income for the subject property to be owned by the borrowing entity, less a 5% vacancy factor and historical operating expenses.",
+  "metadata": {
+    "element_count": 2,
+    "element_types": [
+      "heading",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 199,
+  "node_id": "f592e771-751c-4d34-a287-2fd22b7a434e",
+  "line_start": 179,
+  "line_end": 181
+}

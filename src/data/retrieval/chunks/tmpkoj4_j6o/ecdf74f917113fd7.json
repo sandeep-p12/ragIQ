@@ -1,0 +1,32 @@
+{
+  "chunk_id": "ecdf74f917113fd7",
+  "doc_id": "tmpkoj4_j6o",
+  "page_span": [
+    3,
+    3
+  ],
+  "page_nos": [
+    3
+  ],
+  "header_path": "Financial Statements",
+  "section_label": "Financial Statements",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Financial Statements\n\nBorrower(s):  BORROWER\n\nGuarantors(s):  GUARANTOR 1:\n\n2021 W2\n\nGUARANTOR 2:\n\n# FINANCIAL ANALYSIS",
+  "text_for_embedding": "Document: tmpkoj4_j6o | Page: 3 | Section: Financial Statements\n\n## Financial Statements\nBorrower(s):  BORROWER\nGuarantors(s):  GUARANTOR 1:\n2021 W2\nGUARANTOR 2:\n\nDocument: tmpkoj4_j6o | Page: 4 | Section: FINANCIAL ANALYSIS\n\n# FINANCIAL ANALYSIS",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "heading"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "f820002eac6b53d4",
+      "159e1a5bf87f701a"
+    ]
+  },
+  "parent_id": "49a031ae29284168",
+  "token_count": 90,
+  "node_id": "91e58a82-03c3-4b3e-b033-a1c62632f261",
+  "line_start": 94,
+  "line_end": 174
+}

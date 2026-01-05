@@ -1,0 +1,30 @@
+{
+  "chunk_id": "433c4e18a404e3bc",
+  "doc_id": "tmpklidtxkm",
+  "page_span": [
+    17,
+    17
+  ],
+  "page_nos": [
+    17
+  ],
+  "header_path": "Transactional Cash Flow:",
+  "section_label": "Transactional Cash Flow:",
+  "element_type": "parent",
+  "raw_md_fragment": "## Transactional Cash Flow:\n\nThe below transactional analysis demonstrates a DSCR of 1.02x based on the borrower submitted rental information with combined gross rents of $53,400/year, less a 5% vacancy rate and historical operating expenses for insurance, legal/professional, taxes, repairs/maintenance, utilities and other operating expenses. It should be mentioned that while the DSCR is sufficient, it is below the CU recommended minimum.\n\nThe analyst also performed an interest rate shock, which demonstrates the following changes in DSCRs:\n\nIn order to maintain a minimum DSCR of 1.00x rents can decline by approximately 6% to $50,093.\n\nThe analyst also performed a vacancy rate shock indicating the following:\n\n## Transactional Cash Flow:\n\nThe below transactional analysis demonstrates a DSCR of 1.02x based on the borrower submitted rental information with combined gross rents of $53,400/year, less a 5% vacancy rate and historical operating expenses for insurance, legal/professional, taxes, repairs/maintenance, utilities and other operating expenses. It should be mentioned that while the DSCR is sufficient, it is below the CU recommended minimum.\n\nThe analyst also performed an interest rate shock, which demonstrates the following changes in DSCRs:\n\n- Increased interest rate by 1% to 5.75% DSCR decreases to 0.91x;\n\n- Increased interest rate by 2% to 6.75% DSCR decreases to 0.82x; and\n\n- Increased interest rate by 3% to 7.75% DSCR decreases to 0.74x.\n\nIn order to maintain a minimum DSCR of 1.00x rents can decline by approximately 6% to $50,093.\n\nThe analyst also performed a vacancy rate shock indicating the following:\n\n- Increased vacancy rate to 10% (36 days vacant) DSCR decreases to 0.94x; and\n\n- Increased vacancy rate to 15% (54 days vacant) DSCR decreases to 0.85x.\n\n\n|  | 1200-26 E. Upsal St. | ^1% | ^2% | ^3% | Breakeven |\n| --- | --- | --- | --- | --- | --- |\n| Gross Rents | $53,400 | $53,400 | $53,400 | $53,400 | $50,093 |\n| Less: |  |  |  |  |  |\n| Vacancy Factor at 5% | $2,670 | $2,670 | $2,670 | $2,670 | $2,670 |\n| Net Rents | $50,730 | $50,730 | $50,730 | $50,730 | $50,093 |\n| Operating Expenses: |  |  |  |  |  |\n| Insurance | $3,054 | $3,054 | $3,054 | $3,054 | $3,054 |\n| Legal/Professional | $880 | $880 | $880 | $880 | $880 |\n| Repairs/Maintenance | $2,654 | $2,654 | $2,654 | $2,654 | $2,654 |\n| Taxes | $3,753 | $3,753 | $3,753 | $3,753 | $3,753 |\n| Utilities | $2,280 | $2,280 | $2,280 | $2,280 | $2,280 |\n| Other operating expenses | $5,264 | $5,264 | $5,264 | $5,264 | $5,264 |\n| Total Operating Expenses | $17,885 | $17,885 | $17,885 | $17,885 | $17,885 |\n| Available for Debt Service | $32,845 | $32,845 | $32,845 | $32,845 | $32,845 |\n| Proposed $514,500 CM | $32,208 | $36,024 | $40,044 | $44,232 | $32,208 |\n| Total Debt Service | $32,208 | $36,024 | $40,044 | $44,232 | $32,208 |\n| Excess/ (Deficit) | $637 | ($3,179) | ($7,199) | ($11,387) | $0 |\n| Coverage | 1.02 | 0.91 | 0.82 | 0.74 | 1.00 |\n| Vacancy @ 10% | 0.94 | 0.76 | 0.69 | 0.62 |  |\n| Vacancy @ 15% | 0.85 | 0.69 | 0.62 | 0.56 |  |",
+  "text_for_embedding": "Document: tmpklidtxkm | Page: 17 | Section: Transactional Cash Flow:\n\n## Transactional Cash Flow:\nThe below transactional analysis demonstrates a DSCR of 1.02x based on the borrower submitted rental information with combined gross rents of $53,400/year, less a 5% vacancy rate and historical operating expenses for insurance, legal/professional, taxes, repairs/maintenance, utilities and other operating expenses. It should be mentioned that while the DSCR is sufficient, it is below the CU recommended minimum.\nThe analyst also performed an interest rate shock, which demonstrates the following changes in DSCRs:\nIn order to maintain a minimum DSCR of 1.00x rents can decline by approximately 6% to $50,093.\nThe analyst also performed a vacancy rate shock indicating the following:\nTable Header:  | 1200-26 E. Upsal St. | ^1% | ^2% | ^3% | Breakeven\nRow: Gross Rents | $53,400 | $53,400 | $53,400 | $53,400 | $50,093\nRow: Less: |  |  |  |  | \nRow: Vacancy Factor at 5% | $2,670 | $2,670 | $2,670 | $2,670 | $2,670\nRow: Net Rents | $50,730 | $50,730 | $50,730 | $50,730 | $50,093\nRow: Operating Expenses: |  |  |  |  | \nRow: Insurance | $3,054 | $3,054 | $3,054 | $3,054 | $3,054\nRow: Legal/Professional | $880 | $880 | $880 | $880 | $880\nRow: Repairs/Maintenance | $2,654 | $2,654 | $2,654 | $2,654 | $2,654\nRow: Taxes | $3,753 | $3,753 | $3,753 | $3,753 | $3,753\nRow: Utilities | $2,280 | $2,280 | $2,280 | $2,280 | $2,280\nRow: Other operating expenses | $5,264 | $5,264 | $5,264 | $5,264 | $5,264\nRow: Total Operating Expenses | $17,885 | $17,885 | $17,885 | $17,885 | $17,885\nRow: Available for Debt Service | $32,845 | $32,845 | $32,845 | $32,845 | $32,845\nRow: Proposed $514,500 CM | $32,208 | $36,024 | $40,044 | $44,232 | $32,208\nRow: Total Debt Service | $32,208 | $36,024 | $40,044 | $44,232 | $32,208\nRow: Excess/ (Deficit) | $637 | ($3,179) | ($7,199) | ($11,387) | $0\nRow: Coverage | 1.02 | 0.91 | 0.82 | 0.74 | 1.00\nRow: Vacancy @ 10% | 0.94 | 0.76 | 0.69 | 0.62 | \nRow: Vacancy @ 15% | 0.85 | 0.69 | 0.62 | 0.56 | ",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Transactional Cash Flow:"
+  },
+  "parent_id": null,
+  "token_count": 750,
+  "node_id": "fa28670b-3c1e-49c6-911d-a564f753c399",
+  "line_start": 590,
+  "line_end": 631,
+  "child_ids": [
+    "c96a7676a15cd720"
+  ],
+  "parent_type": "soft_section"
+}

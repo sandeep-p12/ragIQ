@@ -1,0 +1,30 @@
+{
+  "chunk_id": "02bcf203be6313bf",
+  "doc_id": "tmpkoj4_j6o",
+  "page_span": [
+    2,
+    2
+  ],
+  "page_nos": [
+    2
+  ],
+  "header_path": "Purpose",
+  "section_label": "Purpose",
+  "element_type": "parent",
+  "raw_md_fragment": "## Purpose\n\nPayoff and close an existing CREDIT UNION LOAN, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.\n\n## Purpose\n\nPayoff and close an existing CREDIT UNION LOAN, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.\n\n\n| Sources | Amount | Uses | Amount |\n| --- | --- | --- | --- |\n| American Heritage FCU | $514,500 | Payoff CU LOAN #XXXXX | $229,742 |\n|  |  | Cash out | $284,758 |\n| Total | $514,500 | Total | $514,500 |\n\n## Collateral\n\n\n| Asset Type | Multifamily (5+ units) Property |\n| --- | --- |\n| Description | COLLATERAL ADDRESS |\n| Estimated Value | $735,000 |\n| Estimated LTV | 70% |\n| Purchase Price | $315,000 |\n| Lien Position | ☑ 1st Lien Position |\n|  | ☐ 2nd Lien Position |\n| Security | ☑ Property search |\n|  | ☑ Title Insurance |\n|  | ☑ Assign. of Rents/Leases |\n\n### Analysis\n\nThe subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\n## Sources of Repayment\n\n- **Primary**: Rental income from investment property\n\n- **Secondary**: Global cash flow\n\n- **Tertiary**: Liquidation of collateral",
+  "text_for_embedding": "Document: tmpkoj4_j6o | Page: 2 | Section: Purpose\n\n## Purpose\nPayoff and close an existing CREDIT UNION LOAN, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.\nTable Header: Sources | Amount | Uses | Amount\nRow: American Heritage FCU | $514,500 | Payoff CU LOAN #XXXXX | $229,742\nRow:  |  | Cash out | $284,758\nRow: Total | $514,500 | Total | $514,500",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Purpose"
+  },
+  "parent_id": null,
+  "token_count": 124,
+  "node_id": "68e63079-9765-4b72-9a65-180c4c5ded5f",
+  "line_start": 45,
+  "line_end": 81,
+  "child_ids": [
+    "07af236e8c99314d"
+  ],
+  "parent_type": "soft_section"
+}

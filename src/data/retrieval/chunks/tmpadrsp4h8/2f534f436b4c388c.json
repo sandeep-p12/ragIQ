@@ -1,0 +1,35 @@
+{
+  "chunk_id": "2f534f436b4c388c",
+  "doc_id": "tmpadrsp4h8",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": "Industry at a Glance > Key Statistics",
+  "section_label": "Industry at a Glance > Key Statistics",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Key Statistics\n\n[IMAGE]\n\n4bn\n\n6%\n\n7bn\n\n[/IMAGE]\n\n## Key External Drivers\n\n8%**: Urban population",
+  "text_for_embedding": "Document: tmpadrsp4h8 | Page: 10 | Section: Industry at a Glance > Key Statistics\n\n## Key Statistics\n[IMAGE]\n4bn\n6%\n7bn\n[/IMAGE]\n\nDocument: tmpadrsp4h8 | Page: 10 | Section: Industry at a Glance > Key External Drivers\n\n## Key External Drivers\n8%**: Urban population",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "heading",
+      "listelement",
+      "paragraph",
+      "listelement"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "b627ac13c7d7ad67",
+      "62a4f20afb0b6b53"
+    ]
+  },
+  "parent_id": "637d8eb6fa3774f2",
+  "token_count": 79,
+  "node_id": "5020e2a1-b19f-4f52-bbee-5709304a7cfd",
+  "line_start": 339,
+  "line_end": 361
+}

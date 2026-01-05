@@ -1,0 +1,36 @@
+{
+  "chunk_id": "9e5f174a588331bb",
+  "doc_id": "tmpklidtxkm",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": "Major Players",
+  "section_label": "Major Players",
+  "element_type": "mixed",
+  "raw_md_fragment": "### Major Players\n\n### SWOT\n\nSector Average",
+  "text_for_embedding": "Document: tmpklidtxkm | Page: 11 | Section: Major Players\n\n### Major Players\n\nDocument: tmpklidtxkm | Page: 11 | Section: SWOT\n\n### SWOT\nSector Average",
+  "metadata": {
+    "element_count": 5,
+    "element_types": [
+      "heading",
+      "listelement",
+      "paragraph",
+      "listelement",
+      "listelement"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "4deb00a8de4b4808",
+      "640f70c3147c0ab7"
+    ]
+  },
+  "parent_id": "632264a24916f4af",
+  "token_count": 46,
+  "node_id": "305b0a46-c501-431f-8abd-1cb76155b51f",
+  "line_start": 454,
+  "line_end": 474
+}

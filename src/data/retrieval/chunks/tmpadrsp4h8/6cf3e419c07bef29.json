@@ -1,0 +1,39 @@
+{
+  "chunk_id": "6cf3e419c07bef29",
+  "doc_id": "tmpadrsp4h8",
+  "page_span": [
+    6,
+    6
+  ],
+  "page_nos": [
+    6
+  ],
+  "header_path": "Personal Financial Analysis for GUARANTOR 2:",
+  "section_label": "Personal Financial Analysis for GUARANTOR 2:",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Personal Financial Analysis for GUARANTOR 2:\n\n### Net Worth\n\nIt should be noted that jointly held assets with a spouse, who is not a party in the transaction, may influence the capital capacity. Per the personal financial statement dated December 28, 2021, GUARANTOR 2 has a stated net worth of $890,300 based upon assets of $1,546,440 and liabilities of $656,140. Liquid assets total $89,440 and consist of $79,965 in cash and $9,475 in marketable securities. The stated cash on hand is more than sufficient to cover 12 months of personal debt service. Account statements from Citizens Bank, Capital One and USAA verified $67,269 in liquidity while the remaining liquidity was not verified by third party account statements. It should be mentioned that the statements were dated from October, November and December 2021. The CU should obtain updated account statements to verify the liquidity. Other assets consisted of automobiles valued at $27,000. Long-term assets consisted of primary real estate valued at $415,000 which secures mortgage debt of $295,439 and investment real estate valued at $1,015,000 which secures mortgage debt of $358,701. In addition to the already mentioned mortgage debt, GUARANTOR 2 disclosed revolving debt of $2,000.\n\nDebt to Net Worth: 0.74 or 74%, which indicates a high level of outstanding debt owed, as compared to the total value of personal assets (less all liabilities).\n\nPer the credit report dated March 26, 2022, GUARANTOR 2 has a credit score of 775 with 75% open revolving availability. The credit report indicates all trades have been paid as agreed.\n\n## Personal Financial Analysis for GUARANTOR 2:\n\n### Net Worth\n\nIt should be noted that jointly held assets with a spouse, who is not a party in the transaction, may influence the capital capacity. Per the personal financial statement dated December 28, 2021, GUARANTOR 2 has a stated net worth of $890,300 based upon assets of $1,546,440 and liabilities of $656,140. Liquid assets total $89,440 and consist of $79,965 in cash and $9,475 in marketable securities. The stated cash on hand is more than sufficient to cover 12 months of personal debt service. Account statements from Citizens Bank, Capital One and USAA verified $67,269 in liquidity while the remaining liquidity was not verified by third party account statements. It should be mentioned that the statements were dated from October, November and December 2021. The CU should obtain updated account statements to verify the liquidity. Other assets consisted of automobiles valued at $27,000. Long-term assets consisted of primary real estate valued at $415,000 which secures mortgage debt of $295,439 and investment real estate valued at $1,015,000 which secures mortgage debt of $358,701. In addition to the already mentioned mortgage debt, GUARANTOR 2 disclosed revolving debt of $2,000.\n\nDebt to Net Worth: 0.74 or 74%, which indicates a high level of outstanding debt owed, as compared to the total value of personal assets (less all liabilities).\n\nPer the credit report dated March 26, 2022, GUARANTOR 2 has a credit score of 775 with 75% open revolving availability. The credit report indicates all trades have been paid as agreed.\n\n\n| ASSETS | 12/28/2021 |\n| --- | --- |\n| Cash - savings accounts | $79,965 |\n| Securities - stocks / bonds / mutual funds | $9,475 |\n| Personal Property (autos, jewelry, etc.) | $27,000 |\n| Real Estate (market value) | $415,000 |\n| Investment Real Estate | $1,015,000 |\n| **Total Assets** | **$1,546,440** |\n| **LIABILITIES** |  |\n| Current Debt (Credit cards, Accounts) | $2,000 |\n| Real Estate Mortgages | $295,439 |\n| DS Investment Real Estate | $358,701 |\n| **Total Liabilities** | **$656,140** |\n| **STATED NET WORTH (SUBTOTAL)** |  |\n| Total Stated Net Worth (subT) | $890,300 |\n| Ratio. Debt: Worth | 0.74 |",
+  "text_for_embedding": "Document: tmpadrsp4h8 | Page: 6 | Section: Personal Financial Analysis for GUARANTOR 2:\n\n## Personal Financial Analysis for GUARANTOR 2:\n\nDocument: tmpadrsp4h8 | Page: 6 | Section: Personal Financial Analysis for GUARANTOR 2: > Net Worth\n\n### Net Worth\nIt should be noted that jointly held assets with a spouse, who is not a party in the transaction, may influence the capital capacity. Per the personal financial statement dated December 28, 2021, GUARANTOR 2 has a stated net worth of $890,300 based upon assets of $1,546,440 and liabilities of $656,140. Liquid assets total $89,440 and consist of $79,965 in cash and $9,475 in marketable securities. The stated cash on hand is more than sufficient to cover 12 months of personal debt service. Account statements from Citizens Bank, Capital One and USAA verified $67,269 in liquidity while the remaining liquidity was not verified by third party account statements. It should be mentioned that the statements were dated from October, November and December 2021. The CU should obtain updated account statements to verify the liquidity. Other assets consisted of automobiles valued at $27,000. Long-term assets consisted of primary real estate valued at $415,000 which secures mortgage debt of $295,439 and investment real estate valued at $1,015,000 which secures mortgage debt of $358,701. In addition to the already mentioned mortgage debt, GUARANTOR 2 disclosed revolving debt of $2,000.\nDebt to Net Worth: 0.74 or 74%, which indicates a high level of outstanding debt owed, as compared to the total value of personal assets (less all liabilities).\nPer the credit report dated March 26, 2022, GUARANTOR 2 has a credit score of 775 with 75% open revolving availability. The credit report indicates all trades have been paid as agreed.\nTable Header: ASSETS | 12/28/2021\nRow: Cash - savings accounts | $79,965\nRow: Securities - stocks / bonds / mutual funds | $9,475\nRow: Personal Property (autos, jewelry, etc.) | $27,000\nRow: Real Estate (market value) | $415,000\nRow: Investment Real Estate | $1,015,000\nRow: Total Assets | $1,546,440\nRow: LIABILITIES | \nRow: Current Debt (Credit cards, Accounts) | $2,000\nRow: Real Estate Mortgages | $295,439\nRow: DS Investment Real Estate | $358,701\nRow: Total Liabilities | $656,140\nRow: STATED NET WORTH (SUBTOTAL) | \nRow: Total Stated Net Worth (subT) | $890,300\nRow: Ratio. Debt: Worth | 0.74",
+  "metadata": {
+    "element_count": 5,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "table"
+    ],
+    "structure_confidence": 0.5,
+    "table_signature": "table_1x14",
+    "table_rows": 14,
+    "table_header": "ASSETS | 12/28/2021",
+    "merged_from": [
+      "5be393e2c17897af",
+      "9652c48ad4bae969"
+    ]
+  },
+  "parent_id": "0eef1b585240e756",
+  "token_count": 621,
+  "node_id": "bef3487e-6046-4241-a13a-897b006947a6",
+  "line_start": 220,
+  "line_end": 246
+}

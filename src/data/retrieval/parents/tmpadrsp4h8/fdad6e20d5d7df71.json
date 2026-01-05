@@ -1,0 +1,30 @@
+{
+  "chunk_id": "fdad6e20d5d7df71",
+  "doc_id": "tmpadrsp4h8",
+  "page_span": [
+    3,
+    3
+  ],
+  "page_nos": [
+    3
+  ],
+  "header_path": "Background on Borrower, Guarantors, and Loan Request > Purpose of Loan:",
+  "section_label": "Background on Borrower, Guarantors, and Loan Request > Purpose of Loan:",
+  "element_type": "parent",
+  "raw_md_fragment": "### Purpose of Loan:\n\nPayoff and close an existing American Heritage loan #1-1-13281, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.\n\n## Financial Statements\n\n| Borrower(s): | BORROWER |\n| --- | --- |\n|  | - 2018-2021 Business tax returns |\n|  | - Lease agreements |\n|  | - Site visit dated 4/1/2022 |\n| Guarantors(s): | GUARANTOR 1: |\n|  | - 2018-2020 personal tax returns; 2021 W2 |\n|  | - Personal financial statement dated 12/26/2021 |\n|  | - Schedule of Real Estate |\n|  | - Personal credit report dated 3/26/2022 |\n| GUARANTOR 2: | - 2018-2021 personal tax returns; |\n|  | - 2020-2021 K-1’s for related entity |\n|  | - Personal financial statement dated 12/28/2021 |\n|  | - Personal credit report dated 3/26/2022 |",
+  "text_for_embedding": "Document: tmpadrsp4h8 | Page: 3 | Section: Background on Borrower, Guarantors, and Loan Request > Purpose of Loan:\n\n### Purpose of Loan:\nPayoff and close an existing American Heritage loan #1-1-13281, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.\n\nDocument: tmpadrsp4h8 | Page: 3 | Section: Financial Statements\n\n## Financial Statements\nTable Header: Borrower(s): | BORROWER\nRow:  | - 2018-2021 Business tax returns\nRow:  | - Lease agreements\nRow:  | - Site visit dated 4/1/2022\nRow: Guarantors(s): | GUARANTOR 1:\nRow:  | - 2018-2020 personal tax returns; 2021 W2\nRow:  | - Personal financial statement dated 12/26/2021\nRow:  | - Schedule of Real Estate\nRow:  | - Personal credit report dated 3/26/2022\nRow: GUARANTOR 2: | - 2018-2021 personal tax returns;\nRow:  | - 2020-2021 K-1’s for related entity\nRow:  | - Personal financial statement dated 12/28/2021\nRow:  | - Personal credit report dated 3/26/2022",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Background on Borrower, Guarantors, and Loan Request > Purpose of Loan:"
+  },
+  "parent_id": null,
+  "token_count": 307,
+  "node_id": "fdf680bb-644d-4d9d-b905-6e1b158f4522",
+  "line_start": 96,
+  "line_end": 110,
+  "child_ids": [
+    "8843f31462b9f9f0"
+  ],
+  "parent_type": "soft_section"
+}

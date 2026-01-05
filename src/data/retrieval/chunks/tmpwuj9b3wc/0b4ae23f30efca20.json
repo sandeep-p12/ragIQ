@@ -1,0 +1,32 @@
+{
+  "chunk_id": "0b4ae23f30efca20",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    1,
+    1
+  ],
+  "page_nos": [
+    1
+  ],
+  "header_path": "Credit Memorandum",
+  "section_label": "Credit Memorandum",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Credit Memorandum\n\nnced with this request, therefore, loan amount was not included in the total exposure on page",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 1 | Section: Credit Memorandum\n\n# Credit Memorandum\n\nDocument: tmpwuj9b3wc | Page: 2 | Section: nced with this request, therefore, loan amount was not in...\n\nnced with this request, therefore, loan amount was not included in the total exposure on page",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "paragraph"
+    ],
+    "structure_confidence": 1.0,
+    "merged_from": [
+      "c67cb6572f67ee0e",
+      "bace2167c041b800"
+    ]
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 76,
+  "node_id": "b038cfa6-be26-4ba9-a256-fa2db457476f",
+  "line_start": 3,
+  "line_end": 9
+}

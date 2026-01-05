@@ -1,0 +1,41 @@
+{
+  "chunk_id": "fbd98ff5980d7758",
+  "doc_id": "tmpadrsp4h8",
+  "page_span": [
+    4,
+    4
+  ],
+  "page_nos": [
+    4
+  ],
+  "header_path": "FINANCIAL ANALYSIS > Personal Financial Analysis for GUARANTOR 1: > Net Worth",
+  "section_label": "FINANCIAL ANALYSIS > Personal Financial Analysis for GUARANTOR 1: > Net Worth",
+  "element_type": "mixed",
+  "raw_md_fragment": "### Net Worth\n\nIt should be noted that jointly held assets with a spouse, who is not a party in the transaction, may influence the capital capacity.\n\nPer the personal financial statement dated December 26, 2021, GUARANTOR 1 has a stated net worth of $3,689,440 based upon assets of $4,760,177 and liabilities of $1,070,737. When excluding closely held business interest valued at $425,000, GUARANTOR 1 has an adjusted net worth of $3,264,440.\n\nLiquid assets total $370,150 and consist solely of cash. The stated cash on hand can cover 12 months of personal debt service. Account statements were provided and verified the liquidity. GUARANTOR 1 indicated $659,527 in retirement accounts that were not added into the liquidity calculation as they are not readily available and carry significant penalties and taxes if withdrawn prematurely. Other assets consisted of automobiles/personal property valued at $5,500.\n\nOther assets consisted of automobiles/personal property valued at $5,500. Long-term assets consisted of primary real estate valued at $650,000 which secures $127,061 in mortgage debt and investment real estate valued at $2,650,000 which secures mortgage debt of $927,976. In addition to the already mentioned mortgage debt, GUARANTOR 1 disclosed revolving debt of $15,700.\n\nDebt to Outside Net Worth: 0.33 or 33%, which indicates a low level of outstanding debt owed, as compared to the total value of personal assets (less all liabilities).\n\nPer the credit report dated March 26, 2022, GUARANTOR 1 has a credit score of 734 with 22% open revolving availability. The credit report indicates all trades have been paid as agreed.\n\n| ASSETS | 12/26/2021 |\n| --- | --- |\n| Cash - savings accounts | $370,150 |\n| Personal Property (autos, jewelry, etc.) | $5,500 |\n| Retirement funds (eg. IRAs, 401k) | $659,527 |\n| Real Estate (market value) | $650,000 |\n| Value Closely Held Business Entity | $425,\n\n000 | | Value Closely Held Business Entity | $425,000 | | Investment Real Estate | $2,650,000 | |  Total Assets  |  $4,760,177  | |  LIABILITIES  |  | | Current Debt (Credit cards, Accounts) | $15,700 | | Real Estate Mortgages | $127,061 | | DS Investment Real Estate | $927,\n\n061 | | DS Investment Real Estate | $927,976 | |  Total Liabilities  |  $1,070,737  | |  STATED NET WORTH (SUBTOTAL)  |  | | Total Stated Net Worth (subT) | $3,689,440 | | Ratio.\n\n689,440 | | Ratio. Debt: Worth | 0.29 | |  Total Adjusted Net Worth  |  | | Assets | $4,760,177 | | (Liabilities) | -$1,070,737 | | Adjustments to Net Worth | -$425,000 | |  Total Adjusted Net Worth  |  $3,264,440  | | Ratio. D:ANW | 0.33 |",
+  "text_for_embedding": "Document: tmpadrsp4h8 | Page: 4 | Section: FINANCIAL ANALYSIS > Personal Financial Analysis for GUARANTOR 1: > Net Worth\n\n### Net Worth\nIt should be noted that jointly held assets with a spouse, who is not a party in the transaction, may influence the capital capacity.\nPer the personal financial statement dated December 26, 2021, GUARANTOR 1 has a stated net worth of $3,689,440 based upon assets of $4,760,177 and liabilities of $1,070,737. When excluding closely held business interest valued at $425,000, GUARANTOR 1 has an adjusted net worth of $3,264,440.\nLiquid assets total $370,150 and consist solely of cash. The stated cash on hand can cover 12 months of personal debt service. Account statements were provided and verified the liquidity. GUARANTOR 1 indicated $659,527 in retirement accounts that were not added into the liquidity calculation as they are not readily available and carry significant penalties and taxes if withdrawn prematurely. Other assets consisted of automobiles/personal property valued at $5,500.\nOther assets consisted of automobiles/personal property valued at $5,500. Long-term assets consisted of primary real estate valued at $650,000 which secures $127,061 in mortgage debt and investment real estate valued at $2,650,000 which secures mortgage debt of $927,976. In addition to the already mentioned mortgage debt, GUARANTOR 1 disclosed revolving debt of $15,700.\nDebt to Outside Net Worth: 0.33 or 33%, which indicates a low level of outstanding debt owed, as compared to the total value of personal assets (less all liabilities).\nPer the credit report dated March 26, 2022, GUARANTOR 1 has a credit score of 734 with 22% open revolving availability. The credit report indicates all trades have been paid as agreed.\nTable Header: ASSETS | 12/26/2021\nRow: Cash - savings accounts | $370,150\nRow: Personal Property (autos, jewelry, etc.) | $5,500\nRow: Retirement funds (eg. IRAs, 401k) | $659,527\nRow: Real Estate (market value) | $650,000\nRow: Value Closely Held Business Entity | $425,\n000 | | Value Closely Held Business Entity | $425,000 | | Investment Real Estate | $2,650,000 | |  Total Assets  |  $4,760,177  | |  LIABILITIES  |  | | Current Debt (Credit cards, Accounts) | $15,700 | | Real Estate Mortgages | $127,061 | | DS Investment Real Estate | $927,\n061 | | DS Investment Real Estate | $927,976 | |  Total Liabilities  |  $1,070,737  | |  STATED NET WORTH (SUBTOTAL)  |  | | Total Stated Net Worth (subT) | $3,689,440 | | Ratio.\n689,440 | | Ratio. Debt: Worth | 0.29 | |  Total Adjusted Net Worth  |  | | Assets | $4,760,177 | | (Liabilities) | -$1,070,737 | | Adjustments to Net Worth | -$425,000 | |  Total Adjusted Net Worth  |  $3,264,440  | | Ratio. D:ANW | 0.33 |",
+  "metadata": {
+    "element_count": 11,
+    "element_types": [
+      "heading",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "table",
+      "paragraph",
+      "paragraph",
+      "paragraph"
+    ],
+    "table_signature": "table_1x5",
+    "table_rows": 5,
+    "table_header": "ASSETS | 12/26/2021",
+    "structure_confidence": 0.5
+  },
+  "parent_id": "117de2ece179dafd",
+  "token_count": 748,
+  "node_id": "aa36e317-4c07-4ec9-b19d-ce7926b80369",
+  "line_start": 130,
+  "line_end": 137
+}

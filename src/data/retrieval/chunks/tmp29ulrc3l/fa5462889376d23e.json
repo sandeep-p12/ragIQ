@@ -1,0 +1,32 @@
+{
+  "chunk_id": "fa5462889376d23e",
+  "doc_id": "tmp29ulrc3l",
+  "page_span": [
+    13,
+    13
+  ],
+  "page_nos": [
+    13
+  ],
+  "header_path": null,
+  "section_label": "Two images showing the exterior of a two-story bri",
+  "element_type": "mixed",
+  "raw_md_fragment": "## Transactional Analysis\n\nThe subject loan request will be secured by a 1st mortgage lien on the subject property located at COLLATERAL ADDRESS. The subject property is a two-story multifamily building with a finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\n**Site Visit:** Loan officer performed a site visit on April 1, 2022 and noted the property is in good condition with no signs of deferred maintenance.\n\n[IMAGE]\nTwo images showing the exterior of a two-story brick multifamily building. The building has multiple windows with air conditioning units visible. Cars are parked on the street in front of the building. The surrounding area appears to be a residential neighborhood.\n[/IMAGE]\n\n[IMAGE]\nTwo additional images of the same multifamily building from different angles. The building is consistent in appearance with the previous images, showing the same brick facade and window arrangement. Vehicles are parked along the street, and the area continues to appear residential.\n[/IMAGE]",
+  "text_for_embedding": "Document: tmp29ulrc3l | Page: 13 | Section: Two images showing the exterior of a two-story bri\n\n[IMAGE]\nTwo images showing the exterior of a two-story brick multifamily building. The building has multiple windows with air conditioning units visible. Cars are parked on the street in front of the building. The surrounding area appears to be a residential neighborhood.\n[/IMAGE]\n\nDocument: tmp29ulrc3l | Page: 14 | Section: Two additional images of the same multifamily buil\n\n[IMAGE]\nTwo additional images of the same multifamily building from different angles. The building is consistent in appearance with the previous images, showing the same brick facade and window arrangement. Vehicles are parked along the street, and the area continues to appear residential.\n[/IMAGE]",
+  "metadata": {
+    "element_count": 1,
+    "element_types": [
+      "imageblockelement"
+    ],
+    "structure_confidence": 0.5,
+    "merged_from": [
+      "9cbed6650bec4433",
+      "25aec456df546369"
+    ]
+  },
+  "parent_id": "70ad732559010a7c",
+  "token_count": 161,
+  "node_id": "3a58b4f1-9f3a-4039-8d4d-5a928ed528f6",
+  "line_start": 531,
+  "line_end": 545
+}

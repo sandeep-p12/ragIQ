@@ -22,7 +22,7 @@
       "paragraph",
       "table"
     ],
-    "structure_confidence": 0.5,
+    "structure_confidence": 0.9,
     "table_signature": "table_1x14",
     "table_rows": 14,
     "table_header": "ASSETS | 12/28/2021",
@@ -31,9 +31,9 @@
       "c407ef1c266f8461"
     ]
   },
-  "parent_id": "5051fb324263564a",
+  "parent_id": "18861b16e39c8cf3",
   "token_count": 621,
-  "node_id": "5d4ea3a2-a6db-43bc-ad4b-380f6e148e2d",
-  "line_start": 213,
-  "line_end": 228
+  "node_id": "bc29b020-4364-440c-b7b0-ee4b4fc5aee5",
+  "line_start": 221,
+  "line_end": 236
 }

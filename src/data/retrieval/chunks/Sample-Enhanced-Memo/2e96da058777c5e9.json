@@ -1,0 +1,35 @@
+{
+  "chunk_id": "2e96da058777c5e9",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": "Industry at a Glance > Key Statistics",
+  "section_label": "Key Statistics",
+  "element_type": "mixed",
+  "raw_md_fragment": "### Key Statistics\n\n[IMAGE]\n\n8%\n\n7bn\n\n[/IMAGE]\n\n### Key External Drivers\n\n2%\n\n[/IMAGE]",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 10 | Section: Industry at a Glance > Key Statistics\n\n### Key Statistics\n[IMAGE]\n8%\n7bn\n[/IMAGE]\n\nDocument: Sample-Enhanced-Memo | Page: 10 | Section: Industry at a Glance > Key External Drivers\n\n### Key External Drivers\n2%\n[/IMAGE]",
+  "metadata": {
+    "element_count": 4,
+    "element_types": [
+      "heading",
+      "listelement",
+      "paragraph",
+      "paragraph"
+    ],
+    "structure_confidence": 0.9,
+    "merged_from": [
+      "4855f041067ff7c5",
+      "270fb272a65dc4c2"
+    ]
+  },
+  "parent_id": "dbdca7ca0de80006",
+  "token_count": 76,
+  "node_id": "e19956c1-f4ca-4712-b155-ef4e659cc5a0",
+  "line_start": 340,
+  "line_end": 358
+}

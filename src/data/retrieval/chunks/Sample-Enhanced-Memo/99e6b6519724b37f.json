@@ -1,0 +1,39 @@
+{
+  "chunk_id": "99e6b6519724b37f",
+  "doc_id": "Sample-Enhanced-Memo",
+  "page_span": [
+    10,
+    10
+  ],
+  "page_nos": [
+    10
+  ],
+  "header_path": "Industry at a Glance > Key Trends",
+  "section_label": "Key Trends",
+  "element_type": "mixed",
+  "raw_md_fragment": "### Key Trends\n\n## Products & Services Segmentation\n\n[IMAGE]\n\n- **33.8%**: Rental of one-unit structures\n\n- **17.5%**: Rental of two-to-four unit structures\n\n- **12.2%**: Rental of five-to-nine unit structures\n\n- **10.6%**: Rental of 10-to-19 unit structures\n\n- **9.5%**: Rental of 20-to-49 unit structures\n\n- **12.6%**: Rental of 50 or more unit structures\n\n[/IMAGE]\n\n### Major Players\n\nThere are no major players in this industry.\n\n### SWOT\n\n- **Strengths**: High & Steady Level of Assistance, Low Volatility, Low Imports, High Profit vs. Sector Average, Low Customer Class Concentration, Low Product/Service Concentration\n\n- **Weaknesses**: High Competition, Low Revenue per Employee, High Capital Requirements\n\n- **Opportunities**: High Revenue Growth (2016-2021), High Performance Drivers, Rental vacancy rates\n\n- **Threats**: Low Revenue Growth (2005-2021), Low Outlier Growth, Low Revenue Growth (2021-2026), Urban population\n\n## Products & Services Segmentation\n\n[IMAGE]\n\n- **33.8%**: Rental of one-unit structures\n\n- **17.5%**: Rental of two-to-four unit structures\n\n- **12.2%**: Rental of five-to-nine unit structures\n\n- **10.6%**: Rental of 10-to-19 unit structures\n\n- **9.5%**: Rental of 20-to-49 unit structures\n\n- **12.6%**: Rental of 50 or more unit structures\n\n[/IMAGE]\n\n### Major Players\n\nThere are no major players in this industry.\n\n### SWOT\n\n- **Strengths**: High & Steady Level of Assistance, Low Volatility, Low Imports, High Profit vs. Sector Average, Low Customer Class Concentration, Low Product/Service Concentration\n\n- **Weaknesses**: High Competition, Low Revenue per Employee, High Capital Requirements\n\n- **Opportunities**: High Revenue Growth (2016-2021), High Performance Drivers, Rental vacancy rates\n\n- **Threats**: Low Revenue Growth (2005-2021), Low Outlier Growth, Low Revenue Growth (2021-2026), Urban population\n\n## Products & Services Segmentation\n\n[IMAGE]\n\n5%**: Rental of 20-to-49 unit structures\n\n[/IMAGE]",
+  "text_for_embedding": "Document: Sample-Enhanced-Memo | Page: 10 | Section: Industry at a Glance > Key Trends\n\n### Key Trends\n\nDocument: Sample-Enhanced-Memo | Page: 11 | Section: Products & Services Segmentation\n\n[IMAGE]\n- **33.8%**: Rental of one-unit structures\n\n- **17.5%**: Rental of two-to-four unit structures\n\n- **12.2%**: Rental of five-to-nine unit structures\n\n- **10.6%**: Rental of 10-to-19 unit structures\n\n- **9.5%**: Rental of 20-to-49 unit structures\n\n- **12.6%**: Rental of 50 or more unit structures\n[/IMAGE]\n[IMAGE]\n- **33.8%**: Rental of one-unit structures\n\n- **17.5%**: Rental of two-to-four unit structures\n\n- **12.2%**: Rental of five-to-nine unit structures\n\n- **10.6%**: Rental of 10-to-19 unit structures\n\n- **9.5%**: Rental of 20-to-49 unit structures\n\n- **12.6%**: Rental of 50 or more unit structures\n[/IMAGE]\n## Products & Services Segmentation\n[IMAGE]\n5%**: Rental of 20-to-49 unit structures\n[/IMAGE]",
+  "metadata": {
+    "element_count": 8,
+    "element_types": [
+      "imageblockelement",
+      "imageblockelement",
+      "heading",
+      "paragraph",
+      "listelement",
+      "paragraph",
+      "listelement",
+      "paragraph"
+    ],
+    "structure_confidence": 0.9,
+    "merged_from": [
+      "4122894a503eb548",
+      "784eb419b90f70ce"
+    ]
+  },
+  "parent_id": "a91dba44bb9b2ad1",
+  "token_count": 275,
+  "node_id": "313a1bcd-3cca-4283-a889-58feec8fcdd8",
+  "line_start": 342,
+  "line_end": 444
+}

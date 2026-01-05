@@ -1,0 +1,30 @@
+{
+  "chunk_id": "4ee92b64341d1b61",
+  "doc_id": "tmpadrsp4h8",
+  "page_span": [
+    11,
+    11
+  ],
+  "page_nos": [
+    11
+  ],
+  "header_path": "SWOT > Strengths",
+  "section_label": "SWOT > Strengths",
+  "element_type": "parent",
+  "raw_md_fragment": "### Strengths\n\nSector Average\n\n### Weaknesses",
+  "text_for_embedding": "Document: tmpadrsp4h8 | Page: 11 | Section: SWOT > Strengths\n\n### Strengths\nSector Average\n\nDocument: tmpadrsp4h8 | Page: 11 | Section: SWOT > Weaknesses\n\n### Weaknesses",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "SWOT > Strengths"
+  },
+  "parent_id": null,
+  "token_count": 56,
+  "node_id": "00b8c82b-8e86-4f8a-8955-7e2977a09e4d",
+  "line_start": 457,
+  "line_end": 471,
+  "child_ids": [
+    "f4c2b9cf292a2bc0"
+  ],
+  "parent_type": "soft_section"
+}

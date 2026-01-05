@@ -1,0 +1,57 @@
+[
+  {
+    "field_id": null,
+    "status": "warning",
+    "message": "No fields provided for validation.",
+    "suggestions": [
+      "Ensure that fields are extracted before validation.",
+      "Check the data source for completeness."
+    ],
+    "severity": 5
+  },
+  {
+    "field_id": "debt_to_ebitda",
+    "status": "error",
+    "message": "Debt to EBITDA ratio exceeds maximum threshold",
+    "suggestions": [
+      "Ensure that the debt_to_ebitda value is provided and re-evaluate against the policy."
+    ],
+    "severity": 10
+  },
+  {
+    "field_id": "loan_to_value",
+    "status": "error",
+    "message": "Loan to value ratio exceeds maximum threshold",
+    "suggestions": [
+      "Ensure that the loan_to_value value is provided and re-evaluate against the policy."
+    ],
+    "severity": 10
+  },
+  {
+    "field_id": "debt_service_coverage_ratio",
+    "status": "error",
+    "message": "Debt service coverage ratio below minimum threshold",
+    "suggestions": [
+      "Ensure that the debt_service_coverage_ratio value is provided and re-evaluate against the policy."
+    ],
+    "severity": 10
+  },
+  {
+    "field_id": "loan_amount",
+    "status": "error",
+    "message": "Loan amount must be positive",
+    "suggestions": [
+      "Ensure that the loan_amount value is provided and re-evaluate against the policy."
+    ],
+    "severity": 10
+  },
+  {
+    "field_id": "interest_rate",
+    "status": "warning",
+    "message": "Interest rate should be between 0% and 100%",
+    "suggestions": [
+      "Ensure that the interest_rate value is provided and re-evaluate against the policy."
+    ],
+    "severity": 5
+  }
+]

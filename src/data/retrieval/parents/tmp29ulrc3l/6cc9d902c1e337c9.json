@@ -1,0 +1,30 @@
+{
+  "chunk_id": "6cc9d902c1e337c9",
+  "doc_id": "tmp29ulrc3l",
+  "page_span": [
+    2,
+    2
+  ],
+  "page_nos": [
+    2
+  ],
+  "header_path": "Sources of Repayment",
+  "section_label": "Sources of Repayment",
+  "element_type": "parent",
+  "raw_md_fragment": "## Sources of Repayment\n\n| Purpose | Payoff and close an existing CREDIT UNION LOAN, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects. |  |  |\n| --- | --- | --- | --- |\n| Sources | Amount | Uses | Amount |\n| American Heritage FCU | $514,500 | Payoff CU LOAN #XXXXXX | $229,742 |\n|  |  | Cash out | $284,758 |\n| Total | $514,500 | Total | $514,500 |\n\n## Collateral\n\n\n| Asset Type | Multifamily (5+ units) Property |\n| --- | --- |\n| Description | COLLATERAL ADDRESS |\n| Estimated Value | $735,000 |\n| Estimated LTV | 70% |\n| Purchase Price | $315,000 |\n| Lien Position | ☒ 1st Lien Position |\n|  | ☐ 2nd Lien Position |\n| Security | ☒ Property search |\n|  | ☒ Title Insurance |\n| Method | ☒ Assign. of Rents/Leases |\n\n### Analysis\n\nThe subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\n## Sources of Repayment\n\n- **Primary**: Rental income from investment property\n\n- **Secondary**: Global cash flow\n\n- **Tertiary**: Liquidation of collateral\n\n\n| Relationship | ☐ This document also serves as the annual reviews of the following relationship(s): |  |  |  |\n| --- | --- | --- | --- | --- |\n| Loan # | Borrower | Date | Original Balance | Current Balance |\n| 1-1-13281* | BORROWER | 12/30/2016 | $252,000 | $229,742 |\n| TBD | BORROWER | TBD | $514,500 | - |\n| *To be refinanced with this request, therefore, loan amount was not included in the total exposure on page 1. |  |  |  |  |\n\n| Purpose | Payoff and close an existing CREDIT UNION LOAN, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects. |  |  |\n| --- | --- | --- | --- |\n| Sources | Amount | Uses | Amount |\n| American Heritage FCU | $514,500 | Payoff CU LOAN #XXXXXX | $229,742 |\n|  |  | Cash out | $284,758 |\n| Total | $514,500 | Total | $514,500 |\n\n## Collateral\n\n\n| Asset Type | Multifamily (5+ units) Property |\n| --- | --- |\n| Description | COLLATERAL ADDRESS |\n| Estimated Value | $735,000 |\n| Estimated LTV | 70% |\n| Purchase Price | $315,000 |\n| Lien Position | ☒ 1st Lien Position |\n|  | ☐ 2nd Lien Position |\n| Security | ☒ Property search |\n|  | ☒ Title Insurance |\n| Method | ☒ Assign. of Rents/Leases |\n\n### Analysis\n\nThe subject property is a two-story multifamily building with finished basement that contains a total of 6, 1-bedroom, 1-bathroom apartment units. The gross building area is approximately 4,800+/- square feet including the finished basement. The property was originally built in 1960 with average rental upgrades over the years. It is currently 100% occupied. Provided leases are month to month and leased as follows: Unit #1 is leased for $800, unit #2 is leased for $650, unit #3 is leased for $650, unit #4 is leased for $800, unit #5 is leased for $750 and unit #6 is leased for $800. Total annual rents equal $4,450/month or $53,400 in gross rents.\n\n## Sources of Repayment\n\n- **Primary**: Rental income from investment property\n\n- **Secondary**: Global cash flow\n\n- **Tertiary**: Liquidation of collateral",
+  "text_for_embedding": "Document: tmp29ulrc3l | Page: 2 | Section: Sources of Repayment\n\n## Sources of Repayment\nTable Header: Relationship | ☐ This document also serves as the annual reviews of the following relationship(s): |  |  | \nRow: Loan # | Borrower | Date | Original Balance | Current Balance\nRow: 1-1-13281* | BORROWER | 12/30/2016 | $252,000 | $229,742\nRow: TBD | BORROWER | TBD | $514,500 | -\nRow: *To be refinanced with this request, therefore, loan amount was not included in the total exposure on page 1. |  |  |  | \nTable Header: Purpose | Payoff and close an existing CREDIT UNION LOAN, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects. |  | \nRow: Sources | Amount | Uses | Amount\nRow: American Heritage FCU | $514,500 | Payoff CU LOAN #XXXXXX | $229,742\nRow:  |  | Cash out | $284,758\nRow: Total | $514,500 | Total | $514,500",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Sources of Repayment"
+  },
+  "parent_id": null,
+  "token_count": 266,
+  "node_id": "25f06424-1628-4e5a-ad32-7899634356ee",
+  "line_start": 42,
+  "line_end": 82,
+  "child_ids": [
+    "a58e965a4dfdc47e"
+  ],
+  "parent_type": "soft_section"
+}

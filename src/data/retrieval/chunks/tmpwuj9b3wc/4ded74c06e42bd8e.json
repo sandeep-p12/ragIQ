@@ -1,0 +1,29 @@
+{
+  "chunk_id": "4ded74c06e42bd8e",
+  "doc_id": "tmpwuj9b3wc",
+  "page_span": [
+    8,
+    8
+  ],
+  "page_nos": [
+    8
+  ],
+  "header_path": "Operating Statement",
+  "section_label": "Operating Statement",
+  "element_type": "mixed",
+  "raw_md_fragment": "# Operating Statement\n\nDuring the three year period of review, rents have fluctuated slightly from $51,647 in 2019 to $48,434 in 2020 to $51,547 in 2021. Operating expenses appear typical for a real estate holding company and totaled $17,885 in 2021 compared to $16,871 in 2020 and $16,736 in 2019. As a whole, operating expenses consisted of insurance, legal/professional, repairs, taxes, utilities and other related operating expenses. Depreciation and interest expense totaled $24,694 in 2021 compared to $30,559 in 2020 and $27,388 in 2019. The bottom line was net income of $8,968 in 2021 which is an improvement from a net income of $1,004 reported in 2020 and a net income of $7,523 reported in 2019. The entity paid out distributions of $20,800 in 2021 compared to $12,340 in 2020 and $5,680 in 2019. The entity also received capital contributions of $8,376 from the owners in 2020.",
+  "text_for_embedding": "Document: tmpwuj9b3wc | Page: 8 | Section: Operating Statement\n\n# Operating Statement\nDuring the three year period of review, rents have fluctuated slightly from $51,647 in 2019 to $48,434 in 2020 to $51,547 in 2021. Operating expenses appear typical for a real estate holding company and totaled $17,885 in 2021 compared to $16,871 in 2020 and $16,736 in 2019. As a whole, operating expenses consisted of insurance, legal/professional, repairs, taxes, utilities and other related operating expenses. Depreciation and interest expense totaled $24,694 in 2021 compared to $30,559 in 2020 and $27,388 in 2019. The bottom line was net income of $8,968 in 2021 which is an improvement from a net income of $1,004 reported in 2020 and a net income of $7,523 reported in 2019. The entity paid out distributions of $20,800 in 2021 compared to $12,340 in 2020 and $5,680 in 2019. The entity also received capital contributions of $8,376 from the owners in 2020.",
+  "metadata": {
+    "element_count": 2,
+    "element_types": [
+      "heading",
+      "paragraph"
+    ],
+    "structure_confidence": 1.0
+  },
+  "parent_id": "9d9ddc10bce6d236",
+  "token_count": 267,
+  "node_id": "04d004fb-a558-4690-b040-86d93f49b7c5",
+  "line_start": 97,
+  "line_end": 107
+}

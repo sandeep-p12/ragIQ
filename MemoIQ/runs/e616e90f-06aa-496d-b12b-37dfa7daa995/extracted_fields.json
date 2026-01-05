@@ -1,0 +1,383 @@
+{
+  "field_0": {
+    "field_id": "field_0",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [
+      {
+        "doc_id": "unknown_document_id",
+        "chunk_id": null,
+        "page_span": [
+          0,
+          0
+        ],
+        "section_label": "unknown_section",
+        "header_path": null,
+        "citation_text": "No contact name and title found in the provided context."
+      }
+    ],
+    "extraction_method": "covenant_extractor",
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_1": {
+    "field_id": "field_1",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_2": {
+    "field_id": "field_2",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": "covenant_extractor",
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_3": {
+    "field_id": "field_3",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_4": {
+    "field_id": "field_4",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_5": {
+    "field_id": "field_5",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_6": {
+    "field_id": "field_6",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_7": {
+    "field_id": "field_7",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_8": {
+    "field_id": "field_8",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_9": {
+    "field_id": "field_9",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_10": {
+    "field_id": "field_10",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_11": {
+    "field_id": "field_11",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_12": {
+    "field_id": "field_12",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_13": {
+    "field_id": "field_13",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_14": {
+    "field_id": "field_14",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_15": {
+    "field_id": "field_15",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_16": {
+    "field_id": "field_16",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_17": {
+    "field_id": "field_17",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_18": {
+    "field_id": "field_18",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_19": {
+    "field_id": "field_19",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_20": {
+    "field_id": "field_20",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_21": {
+    "field_id": "field_21",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_22": {
+    "field_id": "field_22",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_23": {
+    "field_id": "field_23",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_24": {
+    "field_id": "field_24",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_25": {
+    "field_id": "field_25",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_26": {
+    "field_id": "field_26",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_27": {
+    "field_id": "field_27",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_28": {
+    "field_id": "field_28",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_29": {
+    "field_id": "field_29",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_30": {
+    "field_id": "field_30",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_31": {
+    "field_id": "field_31",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_32": {
+    "field_id": "field_32",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_33": {
+    "field_id": "field_33",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_34": {
+    "field_id": "field_34",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_35": {
+    "field_id": "field_35",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_36": {
+    "field_id": "field_36",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_37": {
+    "field_id": "field_37",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_38": {
+    "field_id": "field_38",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_39": {
+    "field_id": "field_39",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  },
+  "field_40": {
+    "field_id": "field_40",
+    "value": null,
+    "confidence": 0.0,
+    "citations": [],
+    "extraction_method": null,
+    "raw_context": null,
+    "field_type": "empty_cell"
+  }
+}

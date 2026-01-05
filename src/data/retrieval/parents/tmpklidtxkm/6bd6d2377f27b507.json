@@ -1,0 +1,30 @@
+{
+  "chunk_id": "6bd6d2377f27b507",
+  "doc_id": "tmpklidtxkm",
+  "page_span": [
+    2,
+    2
+  ],
+  "page_nos": [
+    2
+  ],
+  "header_path": "Purpose",
+  "section_label": "Purpose",
+  "element_type": "parent",
+  "raw_md_fragment": "## Purpose\n\nPayoff and close an existing CREDIT UNION LOAN, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.\n\n| Sources | Amount | Uses | Amount |\n| --- | --- | --- | --- |\n| American Heritage FCU | $514,500 | Payoff CU LOAN #XXXXX | $229,742 |\n|  |  | Cash out | $284,758 |\n| Total | $514,500 | Total | $514,500 |\n\n## Collateral",
+  "text_for_embedding": "Document: tmpklidtxkm | Page: 2 | Section: Purpose\n\n## Purpose\nPayoff and close an existing CREDIT UNION LOAN, as well as, recapture a small portion of equity that will be reinvested into future real estate investment projects.\nTable Header: Sources | Amount | Uses | Amount\nRow: American Heritage FCU | $514,500 | Payoff CU LOAN #XXXXX | $229,742\nRow:  |  | Cash out | $284,758\nRow: Total | $514,500 | Total | $514,500",
+  "metadata": {
+    "child_count": 1,
+    "parent_type": "soft_section",
+    "section_label": "Purpose"
+  },
+  "parent_id": null,
+  "token_count": 122,
+  "node_id": "ad79db06-21ca-4f18-8029-6b0e36ab342f",
+  "line_start": 42,
+  "line_end": 48,
+  "child_ids": [
+    "815325c2e1fc999e"
+  ],
+  "parent_type": "soft_section"
+}

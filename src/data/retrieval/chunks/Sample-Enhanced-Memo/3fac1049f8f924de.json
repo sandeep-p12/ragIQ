@@ -22,11 +22,11 @@
     "table_signature": "table_1x12",
     "table_rows": 12,
     "table_header": "Borrower(s): | BORROWER",
-    "structure_confidence": 0.5
+    "structure_confidence": 0.9
   },
-  "parent_id": "e6968b88113bd540",
+  "parent_id": "430d90fb55117205",
   "token_count": 228,
-  "node_id": "793b8785-f30f-4523-82e5-30923f77564a",
-  "line_start": 89,
-  "line_end": 119
+  "node_id": "8466b10d-a5cd-48f2-a2d2-3d1a1113991c",
+  "line_start": 96,
+  "line_end": 126
 }

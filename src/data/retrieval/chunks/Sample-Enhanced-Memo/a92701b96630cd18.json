@@ -27,15 +27,15 @@
       "paragraph",
       "paragraph"
     ],
-    "structure_confidence": 0.5,
+    "structure_confidence": 0.9,
     "merged_from": [
       "d1a21c2e4a3185ae",
       "92e11281117e0b80"
     ]
   },
-  "parent_id": "81d5919195e33cbd",
+  "parent_id": "bfcfa9b39cc7ec27",
   "token_count": 591,
-  "node_id": "e7392fed-742f-4345-8f89-4ec143a33e4d",
-  "line_start": 309,
-  "line_end": 315
+  "node_id": "d481156d-8a16-46f4-81da-fb12e13eb307",
+  "line_start": 317,
+  "line_end": 323
 }

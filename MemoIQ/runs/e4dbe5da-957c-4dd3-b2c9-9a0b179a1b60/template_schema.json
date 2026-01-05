@@ -1,0 +1,769 @@
+{
+  "template_path": "/Users/sandeep/Documents/projects/ragIQ/Exhibit-B.-Credit-Memo-Template.pdf",
+  "template_format": "pdf",
+  "sections": [
+    {
+      "title": "Credit Memo",
+      "level": 1,
+      "fields": []
+    },
+    {
+      "title": "1. MHTF INFORMATION",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "2. APPLICANT INFORMATION",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "3. PROJECT INFORMATION",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "4. ACTIVITY TYPE",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "5. UNIT TYPE",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "6. HOUSING UNITS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "7. MHTF FINANCED HOUSING UNITS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "8. LOAN DESCRIPTION",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "9. SOURCE OF FUNDS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "10. USES OF FUNDS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "11. COLLATERAL",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "12. GUARANTORS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "13. PROJECTED IMPACT",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "14. STRENGTHS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "15. WEAKNESSES",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "16. CREDIT POLICY EXCEPTIONS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "17. RECOMMENDED CONDITIONS TO CLOSING",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "18. ADDITIONAL TERMS AND CONDITIONS",
+      "level": 2,
+      "fields": []
+    },
+    {
+      "title": "REQUIRED SIGNATURES",
+      "level": 2,
+      "fields": []
+    }
+  ],
+  "field_definitions": {
+    "field_0": {
+      "field_id": "field_0",
+      "name": "Contact Name And Title:",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 2, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 2,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Contact Name And Title:",
+      "placeholder_text": ""
+    },
+    "field_1": {
+      "field_id": "field_1",
+      "name": "Table Field 2",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 2, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 2,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "",
+      "placeholder_text": ""
+    },
+    "field_2": {
+      "field_id": "field_2",
+      "name": "Street Address:",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 3, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 3,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Street Address:",
+      "placeholder_text": ""
+    },
+    "field_3": {
+      "field_id": "field_3",
+      "name": "Table Field 4",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 3, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 3,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "",
+      "placeholder_text": ""
+    },
+    "field_4": {
+      "field_id": "field_4",
+      "name": "City And State:",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 4, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 4,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: City And State:",
+      "placeholder_text": ""
+    },
+    "field_5": {
+      "field_id": "field_5",
+      "name": "Table Field 6",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 4, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 4,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "",
+      "placeholder_text": ""
+    },
+    "field_6": {
+      "field_id": "field_6",
+      "name": "Zip Code:",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 5, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 5,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Zip Code:",
+      "placeholder_text": ""
+    },
+    "field_7": {
+      "field_id": "field_7",
+      "name": "Table Field 8",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 5, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 5,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "",
+      "placeholder_text": ""
+    },
+    "field_8": {
+      "field_id": "field_8",
+      "name": "Telephone Number:",
+      "type": "number",
+      "required": true,
+      "description": "Empty cell in table 1, row 6, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 6,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Telephone Number:",
+      "placeholder_text": ""
+    },
+    "field_9": {
+      "field_id": "field_9",
+      "name": "Table Field 10",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 6, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 6,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "",
+      "placeholder_text": ""
+    },
+    "field_10": {
+      "field_id": "field_10",
+      "name": "Fax Number:",
+      "type": "number",
+      "required": true,
+      "description": "Empty cell in table 1, row 7, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 7,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Fax Number:",
+      "placeholder_text": ""
+    },
+    "field_11": {
+      "field_id": "field_11",
+      "name": "Table Field 12",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 7, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 7,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "",
+      "placeholder_text": ""
+    },
+    "field_12": {
+      "field_id": "field_12",
+      "name": "Email Address:",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 8, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 8,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Email Address:",
+      "placeholder_text": ""
+    },
+    "field_13": {
+      "field_id": "field_13",
+      "name": "Table Field 14",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 8, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 8,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "",
+      "placeholder_text": ""
+    },
+    "field_14": {
+      "field_id": "field_14",
+      "name": "Non-Profit ☐ For Profit ☐ Government Entity ☐ Joint Venture ☐ Limited Dividend Entity ☐ Other ☐",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 1, row 10, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 1,
+        "row": 10,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Non-Profit ☐ For Profit ☐ Government Entity ☐ Joint Venture ☐ Limited Dividend Entity ☐ Other ☐",
+      "placeholder_text": ""
+    },
+    "field_15": {
+      "field_id": "field_15",
+      "name": "Street Address:",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 2, row 2, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 2,
+        "row": 2,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Street Address:",
+      "placeholder_text": ""
+    },
+    "field_16": {
+      "field_id": "field_16",
+      "name": "City and State:",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 2, row 3, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 2,
+        "row": 3,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: City and State:",
+      "placeholder_text": ""
+    },
+    "field_17": {
+      "field_id": "field_17",
+      "name": "Zip Code:",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 2, row 4, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 2,
+        "row": 4,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Zip Code:",
+      "placeholder_text": ""
+    },
+    "field_18": {
+      "field_id": "field_18",
+      "name": "County:",
+      "type": "number",
+      "required": true,
+      "description": "Empty cell in table 2, row 5, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 2,
+        "row": 5,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: County:",
+      "placeholder_text": ""
+    },
+    "field_19": {
+      "field_id": "field_19",
+      "name": "Anticipated Construction Start Date",
+      "type": "date",
+      "required": true,
+      "description": "Empty cell in table 2, row 6, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 2,
+        "row": 6,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Anticipated Construction Start Date",
+      "placeholder_text": ""
+    },
+    "field_20": {
+      "field_id": "field_20",
+      "name": "Anticipated Occupancy Date",
+      "type": "date",
+      "required": true,
+      "description": "Empty cell in table 2, row 7, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 2,
+        "row": 7,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Anticipated Occupancy Date",
+      "placeholder_text": ""
+    },
+    "field_21": {
+      "field_id": "field_21",
+      "name": "Select All that Apply:",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 3, row 2, col 0",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 3,
+        "row": 2,
+        "col": 0
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Select All that Apply:",
+      "placeholder_text": ""
+    },
+    "field_22": {
+      "field_id": "field_22",
+      "name": "Select All that Apply:",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 4, row 2, col 0",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 4,
+        "row": 2,
+        "col": 0
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Select All that Apply:",
+      "placeholder_text": ""
+    },
+    "field_23": {
+      "field_id": "field_23",
+      "name": "Source(s) of Funds",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 8, row 6, col 0",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 8,
+        "row": 6,
+        "col": 0
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Source(s) of Funds",
+      "placeholder_text": ""
+    },
+    "field_24": {
+      "field_id": "field_24",
+      "name": "Committed ☐",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 8, row 6, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 8,
+        "row": 6,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Committed ☐ | Previous: Total Sources: $",
+      "placeholder_text": ""
+    },
+    "field_25": {
+      "field_id": "field_25",
+      "name": "Anticipated ☐",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 8, row 6, col 3",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 8,
+        "row": 6,
+        "col": 3
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Anticipated ☐",
+      "placeholder_text": ""
+    },
+    "field_26": {
+      "field_id": "field_26",
+      "name": "Use(s) of Funds",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 9, row 6, col 0",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 9,
+        "row": 6,
+        "col": 0
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Use(s) of Funds",
+      "placeholder_text": ""
+    },
+    "field_27": {
+      "field_id": "field_27",
+      "name": "Valuation",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 10, row 2, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 2,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Valuation | Previous: (1)",
+      "placeholder_text": ""
+    },
+    "field_28": {
+      "field_id": "field_28",
+      "name": "Less: Priors Lien(s)",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 10, row 2, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 2,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Less: Priors Lien(s)",
+      "placeholder_text": ""
+    },
+    "field_29": {
+      "field_id": "field_29",
+      "name": "Discounted Value",
+      "type": "number",
+      "required": true,
+      "description": "Empty cell in table 10, row 2, col 3",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 2,
+        "col": 3
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Discounted Value",
+      "placeholder_text": ""
+    },
+    "field_30": {
+      "field_id": "field_30",
+      "name": "Valuation",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 10, row 3, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 3,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Valuation | Previous: (2)",
+      "placeholder_text": ""
+    },
+    "field_31": {
+      "field_id": "field_31",
+      "name": "Less: Priors Lien(s)",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 10, row 3, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 3,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Less: Priors Lien(s)",
+      "placeholder_text": ""
+    },
+    "field_32": {
+      "field_id": "field_32",
+      "name": "Discounted Value",
+      "type": "number",
+      "required": true,
+      "description": "Empty cell in table 10, row 3, col 3",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 3,
+        "col": 3
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Discounted Value",
+      "placeholder_text": ""
+    },
+    "field_33": {
+      "field_id": "field_33",
+      "name": "Valuation",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 10, row 4, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 4,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Valuation | Previous: (3)",
+      "placeholder_text": ""
+    },
+    "field_34": {
+      "field_id": "field_34",
+      "name": "Less: Priors Lien(s)",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 10, row 4, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 4,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Less: Priors Lien(s)",
+      "placeholder_text": ""
+    },
+    "field_35": {
+      "field_id": "field_35",
+      "name": "Discounted Value",
+      "type": "number",
+      "required": true,
+      "description": "Empty cell in table 10, row 4, col 3",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 4,
+        "col": 3
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Discounted Value",
+      "placeholder_text": ""
+    },
+    "field_36": {
+      "field_id": "field_36",
+      "name": "Valuation",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 10, row 5, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 5,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Valuation | Previous: (4)",
+      "placeholder_text": ""
+    },
+    "field_37": {
+      "field_id": "field_37",
+      "name": "Less: Priors Lien(s)",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 10, row 5, col 2",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 5,
+        "col": 2
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Less: Priors Lien(s)",
+      "placeholder_text": ""
+    },
+    "field_38": {
+      "field_id": "field_38",
+      "name": "Discounted Value",
+      "type": "number",
+      "required": true,
+      "description": "Empty cell in table 10, row 5, col 3",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 10,
+        "row": 5,
+        "col": 3
+      },
+      "field_type": "empty_cell",
+      "context": "Column header: Discounted Value",
+      "placeholder_text": ""
+    },
+    "field_39": {
+      "field_id": "field_39",
+      "name": "Other Social Impacts",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 12, row 2, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 12,
+        "row": 2,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: Other Social Impacts",
+      "placeholder_text": ""
+    },
+    "field_40": {
+      "field_id": "field_40",
+      "name": "IF BOARD OF DIRECTORS APPROVAL IS REQUIRED",
+      "type": "text",
+      "required": true,
+      "description": "Empty cell in table 13, row 3, col 1",
+      "location": {
+        "type": "markdown_table",
+        "table_idx": 13,
+        "row": 3,
+        "col": 1
+      },
+      "field_type": "empty_cell",
+      "context": "| Previous: IF BOARD OF DIRECTORS APPROVAL IS REQUIRED",
+      "placeholder_text": ""
+    }
+  },
+  "structure_map": {
+    "markdown": "\n\n--- Page 1 ---\n\n[HEADER]\nExhibit B. Credit Memo Template\n[/HEADER]\n\n--- Page 1 ---\n\nThe following Credit Memo form will be printed on MHTF’s letterhead.\n\n# Credit Memo\n\n## 1. MHTF INFORMATION\n\n\n| Date Presented: | Loan Rating: |\n| --- | --- |\n| Lending Staff: | Referral Source: |\n\n## 2. APPLICANT INFORMATION\n\n\n| Applicant Name: |  |  |\n| --- | --- | --- |\n| Contact Name And Title: |  |  |\n| Street Address: |  |  |\n| City And State: |  |  |\n| Zip Code: |  |  |\n| Telephone Number: |  |  |\n| Fax Number: |  |  |\n| Email Address: |  |  |\n| Officers/Principals: | Name | Address |\n| Applicant Status: | Non-Profit ☐ For Profit ☐ Government Entity ☐ Joint Venture ☐ Limited Dividend Entity ☐ Other ☐ |  |\n\n## 3. PROJECT INFORMATION\n\n\n| Project Name: |  |\n| --- | --- |\n| Street Address: |  |\n| City and State: |  |\n| Zip Code: |  |\n| County: |  |\n| Anticipated Construction Start Date |  |\n| Anticipated Occupancy Date |  |\n\n## 4. ACTIVITY TYPE\n\n\n| Select All that Apply: | Acquisition ☐ | Predevelopment ☐ | Infrastructure ☐ |\n| --- | --- | --- | --- |\n|  | Construction ☐ | Rehab ☐ | Mortgage Buy down ☐ |\n\n## 5. UNIT TYPE\n\n\n| Select All that Apply: | Homeownership ☐ | Rental ☐ | Mixed Use (includes commercial) ☐ |\n| --- | --- | --- | --- |\n|  | Single Family ☐ | Multi Family ☐ | Transitional ☐ |\n\n--- Page 2 ---\n\n## 6. HOUSING UNITS\n\n\n| The Recipient shall create (number) | housing units, |\n| --- | --- |\n| of which (number) | will be affordable to very low income households, (50% of median and below) |\n| (number) | will be affordable to low income households, (51% to 80% of median) |\n| (number) | will be affordable to moderate income households, (81% to 120% of median) |\n| and (number) | will be market rate. (121% and above) |\n\n## 7. MHTF FINANCED HOUSING UNITS\n\n\n| MHTF will finance (number) | very-low income units, (50% of median and below) |\n| --- | --- |\n| (number) | low-income units, (51% to 80% of median) |\n| (number) | moderate-income units, (81% to 120% of median) |\n\n## 8. LOAN DESCRIPTION\n\n\n| Loan Type: |  |\n| --- | --- |\n| Loan Amount: | Amortization Schedule Attached ☐ YES ☐ NO |\n| Interest Rate: | Debt Service Coverage Ratio: |\n| Fees: | Source of Repayment: |\n| Other Charges: | Secondary Source: |\n\n## 9. SOURCE OF FUNDS\n\n\n| Source(s) of Funds | Amount $ | Committed ☐ | Anticipated ☐ |\n| --- | --- | --- | --- |\n| Source | Amount $ | Committed ☐ | Anticipated ☐ |\n| Source | Amount $ | Committed ☐ | Anticipated ☐ |\n| Source | Amount $ | Committed ☐ | Anticipated ☐ |\n| Source | Amount $ | Committed ☐ | Anticipated ☐ |\n|  | Total Sources: $ |  |  |\n\n## 10. USES OF FUNDS\n\n\n| Use(s) of Funds | Amount $ |\n| --- | --- |\n| Use | Amount $ |\n| Use | Amount $ |\n| Use | Amount $ |\n| Use | Amount $ |\n|  | Total Uses: $ |\n\n## 11. COLLATERAL\n\n\n| Description and Lien Position | Valuation | Less: Priors Lien(s) | Discounted Value |\n| --- | --- | --- | --- |\n| (1) |  |  |  |\n| (2) |  |  |  |\n| (3) |  |  |  |\n| (4) |  |  |  |\n\n## 12. GUARANTORS\n\n\n| Name | Address | Amount and Comments |\n| --- | --- | --- |\n\n## 13. PROJECTED IMPACT\n\n\n| Leveraged Funds |  |\n| --- | --- |\n| Other Social Impacts |  |\n\n## 14. STRENGTHS\n\n1.\n2.\n3.\n4.\n\n--- Page 3 ---\n\n## 15. WEAKNESSES\n\n1.\n2.\n3.\n4.\n\n## 16. CREDIT POLICY EXCEPTIONS\n\n1.\n2.\n3.\n4.\n\n## 17. RECOMMENDED CONDITIONS TO CLOSING\n\n1.\n2.\n3.\n4.\n\n## 18. ADDITIONAL TERMS AND CONDITIONS\n\n\n| IF LOAN COMMITTEE APPROVAL IS REQUIRED |  |\n| --- | --- |\n| Members Voting | ☐ Approve ☐ Deny |\n| IF BOARD OF DIRECTORS APPROVAL IS REQUIRED |  |\n| Members Voting | ☐ Approve ☐ Deny |\n\n## REQUIRED SIGNATURES\n\n\n| Signature | Title | Date |\n| --- | --- | --- |\n\n",
+    "tables": [],
+    "sections": []
+  }
+}
